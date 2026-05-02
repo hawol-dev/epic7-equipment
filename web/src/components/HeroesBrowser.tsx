@@ -4,9 +4,29 @@ import { useMemo, useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Chip } from "./Chip";
 import { HeroGrid } from "./HeroGrid";
-import { SearchInput } from "./SearchInput";
-import { heroes, enums } from "@/lib/data";
+import { HeroAutocomplete } from "./HeroAutocomplete";
+import { SortSelect } from "./SortSelect";
+import { heroes, enums, sortHeroes, type HeroSortKey } from "@/lib/data";
 import type { ElementId, ClassId, HeroType } from "@/lib/types";
+import { useT, useLang } from "@/i18n/LangProvider";
+import { enumLabel } from "@/i18n/display";
+import type { MessageKey } from "@/i18n/messages";
+
+const SORT_KEYS: Array<{ value: HeroSortKey; msg: MessageKey }> = [
+  { value: "rarity", msg: "sort_rarity" },
+  { value: "name",   msg: "sort_name" },
+  { value: "speed",  msg: "sort_speed" },
+  { value: "atk",    msg: "sort_atk" },
+  { value: "hp",     msg: "sort_hp" },
+  { value: "def",    msg: "sort_def" },
+];
+
+const TYPE_GROUP_KEYS: Array<{ id: string; msg: MessageKey }> = [
+  { id: "covenant",  msg: "type_covenant" },
+  { id: "moonlight", msg: "type_moonlight" },
+  { id: "limited",   msg: "type_limited" },
+  { id: "specialty", msg: "type_specialty" },
+];
 
 // 24의 배수 — 그리드 컬럼 수 (모바일 3, sm 4, md 6, lg 8) 모두에서 마지막 줄까지 꽉 참
 const PAGE_SIZE = 72;
@@ -58,6 +78,9 @@ export function HeroesBrowser() {
   const router = useRouter();
   const params = useSearchParams();
   const [visible, setVisible] = useState(PAGE_SIZE);
+  const t = useT();
+  const { lang } = useLang();
+  const SORT_OPTIONS = SORT_KEYS.map((o) => ({ value: o.value, label: t(o.msg) }));
 
   const allElements = Object.keys(enums.elements) as ElementId[];
   const allClasses = Object.keys(enums.classes) as ClassId[];
@@ -72,6 +95,9 @@ export function HeroesBrowser() {
     .filter((n) => allRarities.includes(n));
   const selectedTypeGroups = parseList(params.get("type"), allTypeGroups);
   const query = (params.get("q") || "").trim();
+  const sortKey: HeroSortKey =
+    (SORT_OPTIONS.find((o) => o.value === params.get("sort"))?.value as HeroSortKey)
+    ?? "rarity";
 
   const updateParam = (key: string, value: string | null) => {
     const next = new URLSearchParams(params.toString());
@@ -102,7 +128,7 @@ export function HeroesBrowser() {
       if (g) allowedCategories.add(g.category);
     }
 
-    return heroes
+    const filteredList = heroes
       .filter((h) => {
         if (selectedElements.length && (!h.element || !selectedElements.includes(h.element))) return false;
         if (selectedClasses.length && (!h.class || !selectedClasses.includes(h.class))) return false;
@@ -122,19 +148,15 @@ export function HeroesBrowser() {
           if (!ko.includes(q) && !en.includes(q)) return false;
         }
         return true;
-      })
-      .sort((a, b) => {
-        const ar = a.rarity ?? 0;
-        const br = b.rarity ?? 0;
-        if (ar !== br) return br - ar;
-        return a.names.ko.localeCompare(b.names.ko, "ko");
       });
+    return sortHeroes(filteredList, sortKey);
   }, [
     selectedElements.join(","),
     selectedClasses.join(","),
     selectedRarities.join(","),
     selectedTypeGroups.join(","),
     query,
+    sortKey,
   ]);
 
   // 필터 변경되면 페이지 리셋
@@ -151,34 +173,34 @@ export function HeroesBrowser() {
       <section className="bg-[var(--bg-surface)] border border-[var(--border-subtle)] rounded-sm p-4 md:p-5">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-sm font-medium text-[var(--text-primary)]">
-            필터
+            {t("field_filters")}
           </h2>
           {hasFilter && (
             <button
               onClick={reset}
               className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
             >
-              초기화
+              {t("reset")}
             </button>
           )}
         </div>
 
-        {/* 이름 검색 (한글 IME 안전) */}
+        {/* 이름 검색 (한글 IME 안전 + 자동완성) */}
         <div className="mb-4">
-          <SearchInput
+          <HeroAutocomplete
             value={query}
             onChange={(v) => updateParam("q", v || null)}
-            placeholder="이름으로 검색 (한글/영문)"
+            placeholder={t("search_by_name")}
             className="w-full bg-[var(--bg-input)] border border-[var(--border-default)] rounded-sm px-3 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:border-[var(--border-strong)]"
           />
         </div>
 
-        <Field label="속성">
+        <Field label={t("field_element")}>
           <div className="flex flex-wrap gap-1.5">
             {allElements.map((id) => (
               <Chip
                 key={id}
-                label={enums.elements[id].ko}
+                label={enumLabel(enums.elements[id], lang)}
                 selected={selectedElements.includes(id)}
                 onToggle={() => updateList("el", toggleArr(selectedElements, id))}
                 accent={ELEMENT_VAR[id]}
@@ -188,12 +210,12 @@ export function HeroesBrowser() {
           </div>
         </Field>
 
-        <Field label="직업">
+        <Field label={t("field_class")}>
           <div className="flex flex-wrap gap-1.5">
             {allClasses.map((id) => (
               <Chip
                 key={id}
-                label={enums.classes[id].ko}
+                label={enumLabel(enums.classes[id], lang)}
                 selected={selectedClasses.includes(id)}
                 onToggle={() => updateList("cl", toggleArr(selectedClasses, id))}
                 size="sm"
@@ -202,7 +224,7 @@ export function HeroesBrowser() {
           </div>
         </Field>
 
-        <Field label="등급">
+        <Field label={t("field_rarity")}>
           <div className="flex flex-wrap gap-1.5">
             {allRarities.map((n) => (
               <Chip
@@ -217,18 +239,21 @@ export function HeroesBrowser() {
           </div>
         </Field>
 
-        <Field label="타입">
+        <Field label={t("field_type")}>
           <div className="flex flex-wrap gap-1.5">
-            {CATEGORY_GROUPS.map((g) => (
-              <Chip
-                key={g.id}
-                label={g.label}
-                selected={selectedTypeGroups.includes(g.id)}
-                onToggle={() => updateList("type", toggleArr(selectedTypeGroups, g.id))}
-                accent={g.accent}
-                size="sm"
-              />
-            ))}
+            {CATEGORY_GROUPS.map((g) => {
+              const tg = TYPE_GROUP_KEYS.find((x) => x.id === g.id);
+              return (
+                <Chip
+                  key={g.id}
+                  label={tg ? t(tg.msg) : g.label}
+                  selected={selectedTypeGroups.includes(g.id)}
+                  onToggle={() => updateList("type", toggleArr(selectedTypeGroups, g.id))}
+                  accent={g.accent}
+                  size="sm"
+                />
+              );
+            })}
           </div>
         </Field>
 
@@ -236,27 +261,33 @@ export function HeroesBrowser() {
 
       {/* 결과 */}
       <section>
-        <div className="flex items-baseline justify-between mb-3">
+        <div className="flex items-baseline justify-between mb-3 gap-3">
           <h2 className="text-sm font-medium text-[var(--text-primary)]">
-            영웅{" "}
+            {t("nav_heroes")}{" "}
             <span className="tabular text-[var(--text-muted)] text-xs">
-              {filtered.length}명
+              {filtered.length}{t("unit_heroes")}
             </span>
+            {filtered.length > PAGE_SIZE && (
+              <span className="ml-2 text-xs text-[var(--text-muted)] tabular">
+                ({Math.min(visible, filtered.length)} / {filtered.length})
+              </span>
+            )}
           </h2>
-          {filtered.length > PAGE_SIZE && (
-            <span className="text-xs text-[var(--text-muted)] tabular">
-              {Math.min(visible, filtered.length)} / {filtered.length}
-            </span>
-          )}
+          <SortSelect
+            value={sortKey}
+            options={SORT_OPTIONS}
+            label={t("sort_label")}
+            onChange={(v) => updateParam("sort", v === "rarity" ? null : v)}
+          />
         </div>
-        <HeroGrid heroes={shown} emptyMessage="조건에 맞는 영웅이 없습니다." />
+        <HeroGrid heroes={shown} emptyMessage={t("no_results")} />
         {hasMore && (
           <div className="mt-6 text-center">
             <button
               onClick={() => setVisible((v) => v + PAGE_SIZE)}
               className="px-4 py-2 text-sm rounded-sm border border-[var(--border-default)] bg-[var(--bg-surface)] text-[var(--text-secondary)] hover:border-[var(--border-strong)] hover:text-[var(--text-primary)]"
             >
-              더 보기 (+{Math.min(PAGE_SIZE, filtered.length - visible)})
+              {t("load_more")} (+{Math.min(PAGE_SIZE, filtered.length - visible)})
             </button>
           </div>
         )}

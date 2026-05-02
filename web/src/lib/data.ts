@@ -30,6 +30,35 @@ export function getVariants(hero: Hero): Hero[] {
   return all.filter((h) => h.id !== hero.id);
 }
 
+export type HeroSortKey = "rarity" | "name" | "speed" | "atk" | "hp" | "def";
+
+export function sortHeroes(list: Hero[], key: HeroSortKey): Hero[] {
+  const arr = [...list];
+  const cmp = (a: Hero, b: Hero) => {
+    if (key === "name") {
+      return a.names.ko.localeCompare(b.names.ko, "ko");
+    }
+    if (key === "rarity") {
+      const ar = a.rarity ?? 0;
+      const br = b.rarity ?? 0;
+      if (ar !== br) return br - ar;
+      return a.names.ko.localeCompare(b.names.ko, "ko");
+    }
+    // 스탯 기반 정렬 — lv60_6 우선, 없으면 lv50_5
+    const statKey = key as "spd" | "atk" | "hp" | "def";
+    const map: Record<string, "spd" | "atk" | "hp" | "def"> = {
+      speed: "spd", atk: "atk", hp: "hp", def: "def",
+    };
+    const sk = map[key] ?? statKey;
+    const av = a.base_stats?.lv60_6?.[sk] ?? a.base_stats?.lv50_5?.[sk] ?? 0;
+    const bv = b.base_stats?.lv60_6?.[sk] ?? b.base_stats?.lv50_5?.[sk] ?? 0;
+    if (av !== bv) return bv - av;
+    return a.names.ko.localeCompare(b.names.ko, "ko");
+  };
+  arr.sort(cmp);
+  return arr;
+}
+
 /**
  * 이 영웅의 valid_sets 와 같은 세트를 사용하는 다른 영웅들
  * — 교집합이 가장 큰 영웅 우선, 가나다순

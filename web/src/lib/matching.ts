@@ -56,16 +56,24 @@ function metaMatches(query: GearQuery, hero: Hero): boolean {
 }
 
 /**
- * 입력한 세트 조합이 영웅의 set_combo alternates 중 하나와
- * 정확히 일치하는지 (보너스 점수용)
+ * 세트 보너스 점수
+ * - 영웅의 추천 조합과 입력이 정확히 일치: +5
+ * - 입력이 영웅의 추천 조합 중 하나의 부분집합: +3
+ * - 그 외 (valid_sets에만 있음): 0 (filter 통과만)
  */
-function setComboExactMatch(querySets: SetId[], hero: Hero): boolean {
-  if (querySets.length === 0 || !hero.valid_options) return false;
+function setComboScore(querySets: SetId[], hero: Hero): number {
+  if (querySets.length === 0 || !hero.valid_options) return 0;
   const querySet = new Set(querySets);
-  return hero.valid_options.set_combos.some((combo) => {
-    if (combo.length !== querySet.size) return false;
-    return combo.every((s) => querySet.has(s));
-  });
+  let subsetMatch = false;
+  for (const combo of hero.valid_options.set_combos) {
+    const comboSet = new Set(combo);
+    const allInCombo = [...querySet].every((s) => comboSet.has(s));
+    if (allInCombo) {
+      if (combo.length === querySet.size) return 5; // exact match
+      subsetMatch = true;
+    }
+  }
+  return subsetMatch ? 3 : 0;
 }
 
 export function matchHeroes(
@@ -96,18 +104,18 @@ export function matchHeroes(
       continue;
     }
 
-    const setComboBonus = setComboExactMatch(query.sets, hero);
+    const setBonus = setComboScore(query.sets, hero);
     const score =
       matchedEssential.length * 2 +
       matchedPreferred.length * 1 +
-      (setComboBonus ? 5 : 0);
+      setBonus;
 
     results.push({
       hero,
       score,
       matchedEssential,
       matchedPreferred,
-      setComboBonus,
+      setComboBonus: setBonus === 5,  // 정확 일치만 true (UI 호환)
     });
   }
 

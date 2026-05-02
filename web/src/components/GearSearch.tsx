@@ -4,8 +4,20 @@ import { useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Chip } from "./Chip";
 import { HeroCard } from "./HeroCard";
+import { SortSelect } from "./SortSelect";
 import { heroes, enums } from "@/lib/data";
 import { matchHeroes } from "@/lib/matching";
+import { useT, useLang } from "@/i18n/LangProvider";
+import { enumLabel } from "@/i18n/display";
+import type { MessageKey } from "@/i18n/messages";
+
+type SortKey = "score" | "rarity" | "name" | "speed";
+const SORT_KEYS: Array<{ value: SortKey; msg: MessageKey }> = [
+  { value: "score",  msg: "sort_score" },
+  { value: "rarity", msg: "sort_rarity" },
+  { value: "name",   msg: "sort_name" },
+  { value: "speed",  msg: "sort_speed" },
+];
 import type {
   SubstatId,
   SetId,
@@ -50,6 +62,9 @@ export function GearSearch() {
   const router = useRouter();
   const params = useSearchParams();
   const [visible, setVisible] = useState(PAGE_SIZE);
+  const t = useT();
+  const { lang } = useLang();
+  const SORT_OPTIONS = SORT_KEYS.map((o) => ({ value: o.value, label: t(o.msg) }));
 
   const allSubstats = SUBSTAT_ORDER;
   const allSets = Object.keys(enums.sets) as SetId[];
@@ -65,6 +80,9 @@ export function GearSearch() {
     .split(",")
     .map((s) => parseInt(s, 10))
     .filter((n) => allRarities.includes(n));
+  const sortKey: SortKey =
+    (SORT_OPTIONS.find((o) => o.value === params.get("sort"))?.value as SortKey)
+    ?? "score";
 
   const updateParam = (key: string, values: (string | number)[]) => {
     const next = new URLSearchParams(params.toString());
@@ -117,12 +135,30 @@ export function GearSearch() {
 
   const results = useMemo(() => {
     if (!hasInput) return [];
-    return matchHeroes(heroes, {
+    const matched = matchHeroes(heroes, {
       sets: selectedSets,
       substats: selectedSubs,
       elements: selectedElements.length ? selectedElements : undefined,
       classes: selectedClasses.length ? selectedClasses : undefined,
       rarities: selectedRarities.length ? selectedRarities : undefined,
+    });
+    if (sortKey === "score") return matched;  // matchHeroes 기본 정렬
+    return [...matched].sort((a, b) => {
+      if (sortKey === "rarity") {
+        const ar = a.hero.rarity ?? 0, br = b.hero.rarity ?? 0;
+        if (ar !== br) return br - ar;
+        return a.hero.names.ko.localeCompare(b.hero.names.ko, "ko");
+      }
+      if (sortKey === "name") {
+        return a.hero.names.ko.localeCompare(b.hero.names.ko, "ko");
+      }
+      if (sortKey === "speed") {
+        const av = a.hero.base_stats?.lv60_6?.spd ?? a.hero.base_stats?.lv50_5?.spd ?? 0;
+        const bv = b.hero.base_stats?.lv60_6?.spd ?? b.hero.base_stats?.lv50_5?.spd ?? 0;
+        if (av !== bv) return bv - av;
+        return a.hero.names.ko.localeCompare(b.hero.names.ko, "ko");
+      }
+      return 0;
     });
   }, [
     hasInput,
@@ -131,6 +167,7 @@ export function GearSearch() {
     selectedElements.join(","),
     selectedClasses.join(","),
     selectedRarities.join(","),
+    sortKey,
   ]);
 
   const shown = results.slice(0, visible);
@@ -142,38 +179,43 @@ export function GearSearch() {
       <section className="bg-[var(--bg-surface)] border border-[var(--border-subtle)] rounded-sm p-3 md:p-5">
         <div className="flex items-center justify-between mb-3 md:mb-4">
           <h2 className="text-sm font-medium text-[var(--text-primary)]">
-            장비 입력
+            {t("field_input")}
           </h2>
           {hasInput && (
             <button
               onClick={reset}
               className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
             >
-              초기화
+              {t("reset")}
             </button>
           )}
         </div>
 
-        <Field label="세트" hint="최대 3개">
+        <Field label={t("field_set")} hint={t("hint_max3")}>
           <div className="flex flex-wrap gap-1.5">
             {allSets.map((id) => (
               <Chip
                 key={id}
-                label={enums.sets[id].ko}
+                label={enumLabel(enums.sets[id], lang)}
                 selected={selectedSets.includes(id)}
                 onToggle={() => toggleSet(id)}
-                title={`${enums.sets[id].ko} (${enums.sets[id].pieces}세트) — ${enums.sets[id].effect ?? ""}`}
+                title={(() => {
+                  const s = enums.sets[id];
+                  const label = enumLabel(s, lang);
+                  const effect = lang === "en" ? (s.effect_en || s.effect) : s.effect;
+                  return `${label} (${s.pieces})${effect ? ` — ${effect}` : ""}`;
+                })()}
               />
             ))}
           </div>
         </Field>
 
-        <Field label="부옵션" hint="최대 4개">
+        <Field label={t("field_substat")} hint={t("hint_max4")}>
           <div className="flex flex-wrap gap-1.5">
             {allSubstats.map((id) => (
               <Chip
                 key={id}
-                label={enums.substats[id].ko}
+                label={enumLabel(enums.substats[id], lang)}
                 selected={selectedSubs.includes(id)}
                 onToggle={() => toggleSub(id)}
               />
@@ -186,7 +228,7 @@ export function GearSearch() {
             <span className="inline-block w-3 transition-transform group-open:rotate-90">
               ›
             </span>
-            영웅 필터 (선택)
+            {t("hero_filter_optional")}
             {(selectedElements.length + selectedClasses.length + selectedRarities.length) > 0 && (
               <span className="ml-1 text-[var(--accent)] tabular">
                 {selectedElements.length + selectedClasses.length + selectedRarities.length}
@@ -194,12 +236,12 @@ export function GearSearch() {
             )}
           </summary>
           <div className="space-y-3 pt-1">
-            <Field label="속성" inline>
+            <Field label={t("field_element")} inline>
               <div className="flex flex-wrap gap-1.5">
                 {allElements.map((id) => (
                   <Chip
                     key={id}
-                    label={enums.elements[id].ko}
+                    label={enumLabel(enums.elements[id], lang)}
                     selected={selectedElements.includes(id)}
                     onToggle={() => toggleElement(id)}
                     accent={ELEMENT_VAR[id]}
@@ -208,12 +250,12 @@ export function GearSearch() {
                 ))}
               </div>
             </Field>
-            <Field label="직업" inline>
+            <Field label={t("field_class")} inline>
               <div className="flex flex-wrap gap-1.5">
                 {allClasses.map((id) => (
                   <Chip
                     key={id}
-                    label={enums.classes[id].ko}
+                    label={enumLabel(enums.classes[id], lang)}
                     selected={selectedClasses.includes(id)}
                     onToggle={() => toggleClass(id)}
                     size="sm"
@@ -221,7 +263,7 @@ export function GearSearch() {
                 ))}
               </div>
             </Field>
-            <Field label="등급" inline>
+            <Field label={t("field_rarity")} inline>
               <div className="flex flex-wrap gap-1.5">
                 {allRarities.map((n) => (
                   <Chip
@@ -243,26 +285,34 @@ export function GearSearch() {
       <section>
         {!hasInput ? (
           <div className="text-center py-12 md:py-16 text-sm text-[var(--text-muted)]">
-            세트나 부옵션을 입력하면 매칭 영웅이 표시됩니다.
+            {t("no_input_hint")}
           </div>
         ) : results.length === 0 ? (
           <div className="text-center py-12 md:py-16 text-sm text-[var(--text-muted)]">
-            조건에 맞는 영웅이 없습니다.
+            {t("no_results")}
           </div>
         ) : (
           <>
-            <div className="flex items-baseline justify-between mb-3">
+            <div className="flex items-baseline justify-between mb-3 gap-3">
               <h2 className="text-sm font-medium text-[var(--text-primary)]">
-                매칭 결과{" "}
+                {t("matched_results")}{" "}
                 <span className="tabular text-[var(--text-muted)] text-xs">
-                  {results.length}명
+                  {results.length}{t("unit_heroes")}
                 </span>
+                {results.length > PAGE_SIZE && (
+                  <span className="ml-2 text-xs text-[var(--text-muted)] tabular">
+                    ({Math.min(visible, results.length)} / {results.length})
+                  </span>
+                )}
               </h2>
-              {results.length > PAGE_SIZE && (
-                <span className="text-xs text-[var(--text-muted)] tabular">
-                  {Math.min(visible, results.length)} / {results.length}
-                </span>
-              )}
+              <SortSelect
+                value={sortKey}
+                options={SORT_OPTIONS}
+                label={t("sort_label")}
+                onChange={(v) =>
+                  updateParam("sort", v === "score" ? [] : [v])
+                }
+              />
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-3">
               {shown.map((r) => (
@@ -281,7 +331,7 @@ export function GearSearch() {
                   onClick={() => setVisible((v) => v + PAGE_SIZE)}
                   className="px-4 py-2 text-sm rounded-sm border border-[var(--border-default)] bg-[var(--bg-surface)] text-[var(--text-secondary)] hover:border-[var(--border-strong)] hover:text-[var(--text-primary)]"
                 >
-                  더 보기 (+{Math.min(PAGE_SIZE, results.length - visible)})
+                  {t("load_more")} (+{Math.min(PAGE_SIZE, results.length - visible)})
                 </button>
               </div>
             )}

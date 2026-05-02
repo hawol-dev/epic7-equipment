@@ -38,6 +38,8 @@ from enums import (
     FRIBBELS_ELEMENT_TO_ID, FRIBBELS_CLASS_TO_ID, FRIBBELS_ZODIAC_TO_ID,
     export_enums_json,
 )
+from hero_guides import HERO_GUIDES
+from hero_notes_en import NOTE_EN
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
@@ -293,6 +295,56 @@ def main():
     engraving_grades = load_engraving_grades()  # {sid: {lv: {grade: val}}}
     print(f"  추천 아티팩트: {len(artifacts)}명, 각인 등급표: {len(engraving_grades)} 스탯")
 
+    # 아티팩트 ko → en 매핑 (Fribbels artifactdata.json + ko_dict 역매핑)
+    try:
+        art_en_to_ko = {}
+        # ko_dict 안에 아티팩트 영문 키들도 들어있음 — Fribbels artifactdata에서 영문 키 가져와서 ko_dict에서 한글 찾기
+        from urllib.request import urlopen
+        # 캐시: 한 번 다운받아서 raw에 저장돼있을 가능성 — local file 우선
+        art_local = ROOT / "data/raw/fribbels_artifacts.json"
+        if not art_local.exists():
+            art_data = json.loads(urlopen(
+                "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cache/artifactdata.json"
+            ).read())
+            art_local.write_text(json.dumps(art_data, ensure_ascii=False), encoding="utf-8")
+        else:
+            art_data = json.loads(art_local.read_text(encoding="utf-8"))
+        # 영문 키들 → ko_dict로 한글 매핑
+        artifact_ko_to_en = {}
+        for en_name in art_data.keys():
+            ko = ko_dict.get(en_name)
+            if ko:
+                artifact_ko_to_en[ko] = en_name
+        # Fribbels 번역에 없는 신규 아티팩트 수동 매핑
+        MANUAL_ARTIFACTS = {
+            "금강 각반": "Diamond Greaves",
+            "소중한 인연": "A Precious Connection",
+            "윈드라이너": "Windrider",
+            "푸른 장미의 가시": "Thorns of the Blue Rose",
+            "하사받은 펜": "Bestowed Pen",
+            "경련화 반지": "Spasm Ring",
+            "만능 회복 요술봉": "All-Purpose Recovery Wand",
+            "눈을 뜬 잎새": "Awakened Leaf",
+            "에티가 셉터": "Etica Scepter",
+            "염원의 일격": "Strike of Aspiration",
+            "악몽의 주인": "Lord of Nightmares",
+            "해방된 참전의 도끼": "Liberated Axe of War",
+            "나비 머리핀": "Butterfly Hairpin",
+            "봉염의 의식": "Sealing Flame Ritual",
+            "진실의 향수": "Perfume of Truth",
+            "쉐도우 윈즈7": "Shadow Wings 7",
+            "여신의 검은손": "Black Hand of the Goddess",
+            "영광의 깃발": "Banner of Glory",
+            "M.O.A.S": "M.O.A.S",
+            "수명의 서": "Book of Life",
+        }
+        for ko, en in MANUAL_ARTIFACTS.items():
+            artifact_ko_to_en.setdefault(ko, en)
+        print(f"  아티팩트 ko↔en 매핑: {len(artifact_ko_to_en)} ({len(MANUAL_ARTIFACTS)} 수동)")
+    except Exception as e:
+        print(f"  ⚠ 아티팩트 매핑 실패: {e}")
+        artifact_ko_to_en = {}
+
     # EN → KO 매핑 (우선순위: 강제 override > Fribbels ko_dict > 수동 매핑)
     en_to_ko = {}
     ko_to_en = {}
@@ -421,6 +473,8 @@ def main():
         if fr:
             sources.append("fribbels")
 
+        notes_ko = h["notes"]
+        notes_en = NOTE_EN.get(notes_ko) if notes_ko else None
         valid_options = {
             "substats": norm_substats(h["valid_substats"]),
             "priority_order": norm_priority_order(h["priority"]["order"]),
@@ -428,7 +482,8 @@ def main():
             "set_combos": norm_set_combos(h["set_combo"]["alternates"]),
             "valid_sets": norm_set_list(h["valid_sets"], f"valid_sets({ko_name})"),
             "ignore_2set": h["set_combo"]["ignore_2set"],
-            "notes": h["notes"],
+            "notes": notes_ko,
+            "notes_en": notes_en,
         }
 
         code = fr.get("code") if fr else None
@@ -443,7 +498,16 @@ def main():
             }
 
         # 추천 아티팩트 (file1 영웅 base_name 기준)
-        rec_artifacts = artifacts.get(base_ko) or artifacts.get(lookup_base)
+        rec_artifacts_ko = artifacts.get(base_ko) or artifacts.get(lookup_base)
+        rec_artifacts = None
+        if rec_artifacts_ko:
+            rec_artifacts = [
+                {"ko": a, "en": artifact_ko_to_en.get(a)}
+                for a in rec_artifacts_ko
+            ]
+
+        # 외부 가이드 링크 (디시 갤러리 등)
+        guides = HERO_GUIDES.get(base_ko) or HERO_GUIDES.get(lookup_base)
 
         type_id = classify_type(code, rarity) if code else "unknown"
         record = {
@@ -462,6 +526,7 @@ def main():
             "image": image,
             "base_stats": base_stats,
             "recommended_artifacts": rec_artifacts,
+            "guides": guides,
             "valid_options": valid_options,
             "has_data": True,
             "source": sources,
@@ -510,7 +575,12 @@ def main():
                 "thumbnail": local_image_path(assets.get("thumbnail")),
             },
             "base_stats": bs,
-            "recommended_artifacts": artifacts.get(display),
+            "recommended_artifacts": (
+                [{"ko": a, "en": artifact_ko_to_en.get(a)}
+                 for a in (artifacts.get(display) or [])]
+                if artifacts.get(display)
+                else None
+            ),
             "valid_options": None,
             "has_data": False,
             "source": ["fribbels"],

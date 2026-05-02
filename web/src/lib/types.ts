@@ -49,6 +49,7 @@ export interface ValidOptions {
   valid_sets: SetId[];
   ignore_2set: boolean;
   notes: string | null;
+  notes_en: string | null;
 }
 
 export interface BaseStats {
@@ -79,7 +80,8 @@ export interface Hero {
   categories: string[];
   image: { icon: string | null; thumbnail: string | null } | null;
   base_stats: { lv50_5: BaseStats | null; lv60_6: BaseStats | null } | null;
-  recommended_artifacts: string[] | null;
+  recommended_artifacts: Array<{ ko: string; en: string | null }> | null;
+  guides: Array<{ title: string; url: string }> | null;
   valid_options: ValidOptions | null;
   has_data: boolean;
   source: string[];
@@ -94,6 +96,7 @@ export interface EnumLabel {
   en: string;
   pieces?: number;
   effect?: string;
+  effect_en?: string;
   fribbels?: string;
   marker?: string;
 }

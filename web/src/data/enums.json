@@ -46,133 +46,155 @@
       "ko": "속도",
       "en": "Speed",
       "pieces": 4,
-      "effect": "속도가 25% 증가합니다."
+      "effect": "속도가 25% 증가합니다.",
+      "effect_en": "Increases Speed by 25%."
     },
     "hit": {
       "ko": "적중",
       "en": "Hit",
       "pieces": 2,
-      "effect": "효과적중이 20% 증가합니다."
+      "effect": "효과적중이 20% 증가합니다.",
+      "effect_en": "Increases Effectiveness by 20%."
     },
     "critical": {
       "ko": "치명",
       "en": "Critical",
       "pieces": 2,
-      "effect": "치명확률이 12% 증가합니다."
+      "effect": "치명확률이 12% 증가합니다.",
+      "effect_en": "Increases Critical Hit Chance by 12%."
     },
     "protection": {
       "ko": "수호",
       "en": "Protection",
       "pieces": 4,
-      "effect": "전투 시작 시 자신의 최대 생명력의 12%만큼 아군 전체에게 2턴 간 보호막을 발생시킵니다."
+      "effect": "전투 시작 시 자신의 최대 생명력의 12%만큼 아군 전체에게 2턴 간 보호막을 발생시킵니다.",
+      "effect_en": "At the start of combat, grants all allies a barrier equal to 12% of caster's Max HP for 2 turns."
     },
     "health": {
       "ko": "체력",
       "en": "Health",
       "pieces": 2,
-      "effect": "생명력이 20% 증가합니다."
+      "effect": "생명력이 20% 증가합니다.",
+      "effect_en": "Increases HP by 20%."
     },
     "defense": {
       "ko": "방어",
       "en": "Defense",
       "pieces": 2,
-      "effect": "방어력이 20% 증가합니다."
+      "effect": "방어력이 20% 증가합니다.",
+      "effect_en": "Increases Defense by 20%."
     },
     "attack": {
       "ko": "공격",
       "en": "Attack",
       "pieces": 4,
-      "effect": "공격력이 45% 증가합니다."
+      "effect": "공격력이 45% 증가합니다.",
+      "effect_en": "Increases Attack by 45%."
     },
     "destruction": {
       "ko": "파멸",
       "en": "Destruction",
       "pieces": 4,
-      "effect": "치명피해가 60% 증가합니다."
+      "effect": "치명피해가 60% 증가합니다.",
+      "effect_en": "Increases Critical Hit Damage by 60%."
     },
     "counter": {
       "ko": "반격",
       "en": "Counter",
       "pieces": 4,
-      "effect": "피격 시 30%의 확률로 반격합니다."
+      "effect": "피격 시 30%의 확률로 반격합니다.",
+      "effect_en": "30% chance to counterattack when hit."
     },
     "lifesteal": {
       "ko": "흡혈",
       "en": "Lifesteal",
       "pieces": 4,
-      "effect": "공격 시 피해량의 20%만큼 생명력을 회복합니다."
+      "effect": "공격 시 피해량의 20%만큼 생명력을 회복합니다.",
+      "effect_en": "Recovers HP equal to 20% of damage dealt on attack."
     },
     "resist": {
       "ko": "저항",
       "en": "Resist",
       "pieces": 2,
-      "effect": "효과저항이 20% 증가합니다."
+      "effect": "효과저항이 20% 증가합니다.",
+      "effect_en": "Increases Effect Resistance by 20%."
     },
     "immunity": {
       "ko": "면역",
       "en": "Immunity",
       "pieces": 2,
-      "effect": "전투 시작 시 자신에게 1턴 간 면역 효과를 발생시킵니다. 동일한 세트 효과와 중복되지 않습니다."
+      "effect": "전투 시작 시 자신에게 1턴 간 면역 효과를 발생시킵니다. 동일한 세트 효과와 중복되지 않습니다.",
+      "effect_en": "Grants Immunity to caster for 1 turn at the start of combat. Does not stack with the same set effect."
     },
     "rage": {
       "ko": "분노",
       "en": "Rage",
       "pieces": 4,
-      "effect": "공격 시 대상에게 약화효과가 있을 경우 피해량이 30% 증가합니다."
+      "effect": "공격 시 대상에게 약화효과가 있을 경우 피해량이 30% 증가합니다.",
+      "effect_en": "Damage dealt is increased by 30% when attacking enemies with debuffs."
     },
     "unity": {
       "ko": "협공",
       "en": "Unity",
       "pieces": 2,
-      "effect": "협공확률이 8% 증가합니다."
+      "effect": "협공확률이 8% 증가합니다.",
+      "effect_en": "Increases Dual Attack Chance by 8%."
     },
     "penetration": {
       "ko": "관통",
       "en": "Penetration",
       "pieces": 2,
-      "effect": "단일 공격 시 대상의 방어력을 15% 관통합니다. 동일한 세트 효과와 중복되지 않습니다."
+      "effect": "단일 공격 시 대상의 방어력을 15% 관통합니다. 동일한 세트 효과와 중복되지 않습니다.",
+      "effect_en": "Penetrates 15% of target's Defense on single-target attacks. Does not stack with the same set effect."
     },
     "torrent": {
       "ko": "격류",
       "en": "Torrent",
       "pieces": 2,
-      "effect": "생명력이 10% 감소하고 공격 시 피해량이 10% 증가합니다."
+      "effect": "생명력이 10% 감소하고 공격 시 피해량이 10% 증가합니다.",
+      "effect_en": "Decreases HP by 10%, increases damage dealt by 10%."
     },
     "injury": {
       "ko": "상처",
       "en": "Injury",
       "pieces": 4,
-      "effect": "공격 후 피해량만큼 대상의 최대 생명력을 6%(단일 공격 시 12%)까지 감소시킵니다."
+      "effect": "공격 후 피해량만큼 대상의 최대 생명력을 6%(단일 공격 시 12%)까지 감소시킵니다.",
+      "effect_en": "After attacking, reduces target's Max HP by 6% (12% on single-target) of damage dealt."
     },
     "revenge": {
       "ko": "복수",
       "en": "Revenge",
       "pieces": 4,
-      "effect": "속도가 12% 증가하고, 잃은 생명력 1%당 0.5%씩 추가로 증가합니다."
+      "effect": "속도가 12% 증가하고, 잃은 생명력 1%당 0.5%씩 추가로 증가합니다.",
+      "effect_en": "Increases Speed by 12%, plus 0.5% additional per 1% HP lost."
     },
     "warfare": {
       "ko": "개전",
       "en": "Warfare",
       "pieces": 4,
-      "effect": "생명력이 증가하고 전투 시작 시 스킬 쿨타임이 초기화됩니다."
+      "effect": "생명력이 증가하고 전투 시작 시 스킬 쿨타임이 초기화됩니다.",
+      "effect_en": "Increases HP and resets all skill cooldowns at the start of combat."
     },
     "pursuit": {
       "ko": "추격",
       "en": "Pursuit",
       "pieces": 2,
-      "effect": "추가 피해의 피해량이 증가합니다."
+      "effect": "추가 피해의 피해량이 증가합니다.",
+      "effect_en": "Increases additional damage dealt."
     },
     "reversal": {
       "ko": "역습",
       "en": "Reversal",
       "pieces": 4,
-      "effect": "속도가 15% 증가합니다. 부활 시 행동 게이지가 50% 증가합니다."
+      "effect": "속도가 15% 증가합니다. 부활 시 행동 게이지가 50% 증가합니다.",
+      "effect_en": "Increases Speed by 15%. Increases Combat Readiness by 50% when revived."
     },
     "riposte": {
       "ko": "응수",
       "en": "Riposte",
       "pieces": 4,
-      "effect": "회피 시 70% 확률로 반격합니다."
+      "effect": "회피 시 70% 확률로 반격합니다.",
+      "effect_en": "70% chance to counterattack when evading."
     }
   },
   "elements": {

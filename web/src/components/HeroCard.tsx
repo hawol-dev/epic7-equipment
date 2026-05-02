@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import type { Hero, SubstatId } from "@/lib/types";
 import { enums } from "@/lib/data";
+import { useLang, useT } from "@/i18n/LangProvider";
+import { heroName, enumLabel } from "@/i18n/display";
 
 interface Props {
   hero: Hero;
@@ -31,10 +35,13 @@ export function HeroCard({
   matchedEssential = [],
   matchedPreferred = [],
 }: Props) {
+  const { lang } = useLang();
+  const t = useT();
   const elementColor = hero.element ? ELEMENT_VAR[hero.element] : undefined;
   const rarityColor = hero.rarity ? RARITY_VAR[hero.rarity] : undefined;
-  const elementLabel = hero.element ? enums.elements[hero.element]?.ko : null;
-  const classLabel = hero.class ? enums.classes[hero.class]?.ko : null;
+  const elementLabel = hero.element ? enumLabel(enums.elements[hero.element], lang) : null;
+  const classLabel = hero.class ? enumLabel(enums.classes[hero.class], lang) : null;
+  const displayName = heroName(hero, lang);
   const showMatch = matchScore !== undefined;
   const matchedCount = matchedEssential.length + matchedPreferred.length;
 
@@ -47,7 +54,7 @@ export function HeroCard({
         {hero.image?.icon ? (
           <Image
             src={hero.image.icon}
-            alt={hero.names.ko}
+            alt={displayName}
             fill
             sizes="(max-width: 640px) 33vw, (max-width: 1024px) 20vw, 160px"
             className="object-cover"
@@ -87,14 +94,14 @@ export function HeroCard({
         {/* 미등록 배지 */}
         {!hero.has_data && (
           <div className="absolute bottom-1 left-1 right-1 px-1.5 py-0.5 text-[10px] text-[var(--text-secondary)] bg-[var(--bg-base)]/85 text-center">
-            유효옵 미등록
+            {t("unregistered")}
           </div>
         )}
       </div>
 
       <div className="p-2 min-w-0">
         <div className="text-sm text-[var(--text-primary)] truncate group-hover:text-white">
-          {hero.names.ko}
+          {displayName}
         </div>
         <div className="text-[11px] text-[var(--text-muted)] mt-0.5 truncate">
           {[elementLabel, classLabel].filter(Boolean).join(" · ")}
@@ -112,9 +119,9 @@ export function HeroCard({
                   borderColor:
                     "color-mix(in srgb, var(--essential) 35%, transparent)",
                 }}
-                title={`필수 부옵`}
+                title={t("level_essential")}
               >
-                {enums.substats[s].ko}
+                {enumLabel(enums.substats[s], lang)}
               </span>
             ))}
             {matchedPreferred.map((s) => (
@@ -126,9 +133,9 @@ export function HeroCard({
                   borderColor:
                     "color-mix(in srgb, var(--preferred) 35%, transparent)",
                 }}
-                title={`선호 부옵`}
+                title={t("level_preferred")}
               >
-                {enums.substats[s].ko}
+                {enumLabel(enums.substats[s], lang)}
               </span>
             ))}
           </div>

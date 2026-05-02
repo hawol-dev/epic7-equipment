@@ -1,0 +1,622 @@
+{
+  "substats": {
+    "spd": {
+      "ko": "속도",
+      "en": "Speed",
+      "fribbels": "Speed"
+    },
+    "atk_p": {
+      "ko": "공격력%",
+      "en": "ATK%",
+      "fribbels": "AttackPercent"
+    },
+    "hp_p": {
+      "ko": "생명력%",
+      "en": "HP%",
+      "fribbels": "HealthPercent"
+    },
+    "def_p": {
+      "ko": "방어력%",
+      "en": "DEF%",
+      "fribbels": "DefensePercent"
+    },
+    "chc": {
+      "ko": "치명확률",
+      "en": "Crit Chance",
+      "fribbels": "CriticalHitChancePercent"
+    },
+    "chd": {
+      "ko": "치명피해",
+      "en": "Crit Damage",
+      "fribbels": "CriticalHitDamagePercent"
+    },
+    "eff": {
+      "ko": "효과적중",
+      "en": "Effectiveness",
+      "fribbels": "EffectivenessPercent"
+    },
+    "effres": {
+      "ko": "효과저항",
+      "en": "Eff. Resistance",
+      "fribbels": "EffectResistancePercent"
+    }
+  },
+  "sets": {
+    "speed": {
+      "ko": "속도",
+      "en": "Speed",
+      "pieces": 4,
+      "effect": "속도가 25% 증가합니다."
+    },
+    "hit": {
+      "ko": "적중",
+      "en": "Hit",
+      "pieces": 2,
+      "effect": "효과적중이 20% 증가합니다."
+    },
+    "critical": {
+      "ko": "치명",
+      "en": "Critical",
+      "pieces": 2,
+      "effect": "치명확률이 12% 증가합니다."
+    },
+    "protection": {
+      "ko": "수호",
+      "en": "Protection",
+      "pieces": 4,
+      "effect": "전투 시작 시 자신의 최대 생명력의 12%만큼 아군 전체에게 2턴 간 보호막을 발생시킵니다."
+    },
+    "health": {
+      "ko": "체력",
+      "en": "Health",
+      "pieces": 2,
+      "effect": "생명력이 20% 증가합니다."
+    },
+    "defense": {
+      "ko": "방어",
+      "en": "Defense",
+      "pieces": 2,
+      "effect": "방어력이 20% 증가합니다."
+    },
+    "attack": {
+      "ko": "공격",
+      "en": "Attack",
+      "pieces": 4,
+      "effect": "공격력이 45% 증가합니다."
+    },
+    "destruction": {
+      "ko": "파멸",
+      "en": "Destruction",
+      "pieces": 4,
+      "effect": "치명피해가 60% 증가합니다."
+    },
+    "counter": {
+      "ko": "반격",
+      "en": "Counter",
+      "pieces": 4,
+      "effect": "피격 시 30%의 확률로 반격합니다."
+    },
+    "lifesteal": {
+      "ko": "흡혈",
+      "en": "Lifesteal",
+      "pieces": 4,
+      "effect": "공격 시 피해량의 20%만큼 생명력을 회복합니다."
+    },
+    "resist": {
+      "ko": "저항",
+      "en": "Resist",
+      "pieces": 2,
+      "effect": "효과저항이 20% 증가합니다."
+    },
+    "immunity": {
+      "ko": "면역",
+      "en": "Immunity",
+      "pieces": 2,
+      "effect": "전투 시작 시 자신에게 1턴 간 면역 효과를 발생시킵니다. 동일한 세트 효과와 중복되지 않습니다."
+    },
+    "rage": {
+      "ko": "분노",
+      "en": "Rage",
+      "pieces": 4,
+      "effect": "공격 시 대상에게 약화효과가 있을 경우 피해량이 30% 증가합니다."
+    },
+    "unity": {
+      "ko": "협공",
+      "en": "Unity",
+      "pieces": 2,
+      "effect": "협공확률이 8% 증가합니다."
+    },
+    "penetration": {
+      "ko": "관통",
+      "en": "Penetration",
+      "pieces": 2,
+      "effect": "단일 공격 시 대상의 방어력을 15% 관통합니다. 동일한 세트 효과와 중복되지 않습니다."
+    },
+    "torrent": {
+      "ko": "격류",
+      "en": "Torrent",
+      "pieces": 2,
+      "effect": "생명력이 10% 감소하고 공격 시 피해량이 10% 증가합니다."
+    },
+    "injury": {
+      "ko": "상처",
+      "en": "Injury",
+      "pieces": 4,
+      "effect": "공격 후 피해량만큼 대상의 최대 생명력을 6%(단일 공격 시 12%)까지 감소시킵니다."
+    },
+    "revenge": {
+      "ko": "복수",
+      "en": "Revenge",
+      "pieces": 4,
+      "effect": "속도가 12% 증가하고, 잃은 생명력 1%당 0.5%씩 추가로 증가합니다."
+    },
+    "warfare": {
+      "ko": "개전",
+      "en": "Warfare",
+      "pieces": 4,
+      "effect": "생명력이 증가하고 전투 시작 시 스킬 쿨타임이 초기화됩니다."
+    },
+    "pursuit": {
+      "ko": "추격",
+      "en": "Pursuit",
+      "pieces": 2,
+      "effect": "추가 피해의 피해량이 증가합니다."
+    },
+    "reversal": {
+      "ko": "역습",
+      "en": "Reversal",
+      "pieces": 4,
+      "effect": "속도가 15% 증가합니다. 부활 시 행동 게이지가 50% 증가합니다."
+    },
+    "riposte": {
+      "ko": "응수",
+      "en": "Riposte",
+      "pieces": 4,
+      "effect": "회피 시 70% 확률로 반격합니다."
+    }
+  },
+  "elements": {
+    "fire": {
+      "ko": "화염",
+      "en": "Fire"
+    },
+    "ice": {
+      "ko": "냉기",
+      "en": "Ice"
+    },
+    "earth": {
+      "ko": "자연",
+      "en": "Earth"
+    },
+    "light": {
+      "ko": "광",
+      "en": "Light"
+    },
+    "dark": {
+      "ko": "어둠",
+      "en": "Dark"
+    }
+  },
+  "classes": {
+    "warrior": {
+      "ko": "전사",
+      "en": "Warrior"
+    },
+    "knight": {
+      "ko": "기사",
+      "en": "Knight"
+    },
+    "thief": {
+      "ko": "도적",
+      "en": "Thief"
+    },
+    "ranger": {
+      "ko": "사수",
+      "en": "Ranger"
+    },
+    "mage": {
+      "ko": "마도사",
+      "en": "Mage"
+    },
+    "soulweaver": {
+      "ko": "정령사",
+      "en": "Soul Weaver"
+    }
+  },
+  "zodiacs": {
+    "aries": {
+      "ko": "백양궁",
+      "en": "Aries"
+    },
+    "taurus": {
+      "ko": "금우궁",
+      "en": "Taurus"
+    },
+    "gemini": {
+      "ko": "쌍아궁",
+      "en": "Gemini"
+    },
+    "cancer": {
+      "ko": "거해궁",
+      "en": "Cancer"
+    },
+    "leo": {
+      "ko": "사자궁",
+      "en": "Leo"
+    },
+    "virgo": {
+      "ko": "처녀궁",
+      "en": "Virgo"
+    },
+    "libra": {
+      "ko": "천칭궁",
+      "en": "Libra"
+    },
+    "scorpio": {
+      "ko": "천갈궁",
+      "en": "Scorpio"
+    },
+    "sagittarius": {
+      "ko": "인마궁",
+      "en": "Sagittarius"
+    },
+    "capricorn": {
+      "ko": "마갈궁",
+      "en": "Capricorn"
+    },
+    "aquarius": {
+      "ko": "보병궁",
+      "en": "Aquarius"
+    },
+    "pisces": {
+      "ko": "쌍어궁",
+      "en": "Pisces"
+    }
+  },
+  "engravings": {
+    "atk_p": {
+      "ko": "공격력%",
+      "en": "ATK%"
+    },
+    "def_p": {
+      "ko": "방어력%",
+      "en": "DEF%"
+    },
+    "hp_p": {
+      "ko": "생명력%",
+      "en": "HP%"
+    },
+    "chc": {
+      "ko": "치명확률",
+      "en": "Crit Chance"
+    },
+    "chd": {
+      "ko": "치명피해",
+      "en": "Crit Damage"
+    },
+    "eff": {
+      "ko": "효과적중",
+      "en": "Effectiveness"
+    },
+    "effres": {
+      "ko": "효과저항",
+      "en": "Eff. Resistance"
+    },
+    "atk": {
+      "ko": "공격력",
+      "en": "ATK"
+    },
+    "def": {
+      "ko": "방어력",
+      "en": "DEF"
+    },
+    "hp": {
+      "ko": "생명력",
+      "en": "HP"
+    }
+  },
+  "mark_levels": {
+    "essential": {
+      "ko": "필수",
+      "en": "Essential",
+      "marker": "●"
+    },
+    "preferred": {
+      "ko": "선호",
+      "en": "Preferred",
+      "marker": "○"
+    }
+  },
+  "engraving_grades": {
+    "atk_p": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": "7%",
+        "A": "11%",
+        "S": "15%",
+        "SS": "18%",
+        "SSS": "21%"
+      },
+      "4": {
+        "D": null,
+        "C": "6%",
+        "B": "9%",
+        "A": "12%",
+        "S": "14%",
+        "SS": "16%",
+        "SSS": "18%"
+      },
+      "3": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      }
+    },
+    "chc": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": "6%",
+        "A": "9%",
+        "S": "12%",
+        "SS": "15%",
+        "SSS": "18%"
+      },
+      "4": {
+        "D": null,
+        "C": "5%",
+        "B": "7%",
+        "A": "9%",
+        "S": "11%",
+        "SS": "13%",
+        "SSS": "15%"
+      },
+      "3": {
+        "D": "4%",
+        "C": "6%",
+        "B": "8%",
+        "A": "9%",
+        "S": "10%",
+        "SS": "11%",
+        "SSS": "12%"
+      }
+    },
+    "chd": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      },
+      "4": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      },
+      "3": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      }
+    },
+    "hp_p": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": "7%",
+        "A": "11%",
+        "S": "15%",
+        "SS": "18%",
+        "SSS": "21%"
+      },
+      "4": {
+        "D": null,
+        "C": "6%",
+        "B": "9%",
+        "A": "12%",
+        "S": "14%",
+        "SS": "16%",
+        "SSS": "18%"
+      },
+      "3": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      }
+    },
+    "def_p": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": "7%",
+        "A": "11%",
+        "S": "15%",
+        "SS": "18%",
+        "SSS": "21%"
+      },
+      "4": {
+        "D": null,
+        "C": "6%",
+        "B": "9%",
+        "A": "12%",
+        "S": "14%",
+        "SS": "16%",
+        "SSS": "18%"
+      },
+      "3": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      }
+    },
+    "eff": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": "9%",
+        "A": "14%",
+        "S": "19%",
+        "SS": "23%",
+        "SSS": "27%"
+      },
+      "4": {
+        "D": null,
+        "C": "8%",
+        "B": "12%",
+        "A": "15%",
+        "S": "18%",
+        "SS": "21%",
+        "SSS": "24%"
+      },
+      "3": {
+        "D": "6%",
+        "C": "8%",
+        "B": "10%",
+        "A": "12%",
+        "S": "14%",
+        "SS": "16%",
+        "SSS": "18%"
+      }
+    },
+    "effres": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": "9%",
+        "A": "14%",
+        "S": "19%",
+        "SS": "23%",
+        "SSS": "27%"
+      },
+      "4": {
+        "D": null,
+        "C": "8%",
+        "B": "12%",
+        "A": "15%",
+        "S": "18%",
+        "SS": "21%",
+        "SSS": "24%"
+      },
+      "3": {
+        "D": "6%",
+        "C": "8%",
+        "B": "10%",
+        "A": "12%",
+        "S": "14%",
+        "SS": "16%",
+        "SSS": "18%"
+      }
+    },
+    "atk": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      },
+      "4": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      },
+      "3": {
+        "D": "42",
+        "C": "63",
+        "B": "84",
+        "A": "105",
+        "S": "126",
+        "SS": "147",
+        "SSS": "168"
+      }
+    },
+    "hp": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      },
+      "4": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      },
+      "3": {
+        "D": "230",
+        "C": "345",
+        "B": "460",
+        "A": "575",
+        "S": "690",
+        "SS": "805",
+        "SSS": "920"
+      }
+    },
+    "def": {
+      "5": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      },
+      "4": {
+        "D": null,
+        "C": null,
+        "B": null,
+        "A": null,
+        "S": null,
+        "SS": null,
+        "SSS": null
+      },
+      "3": {
+        "D": "22",
+        "C": "33",
+        "B": "44",
+        "A": "55",
+        "S": "66",
+        "SS": "77",
+        "SSS": "88"
+      }
+    }
+  }
+}

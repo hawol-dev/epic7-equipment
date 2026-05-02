@@ -1,0 +1,17 @@
+=== 통합 DB 빌드 리포트 (영문 ID 정규화) ===
+통합 영웅: 288
+  유효옵 데이터 있음: 287
+  유효옵 데이터 없음: 1
+  이미지 있음: 288
+  한글명 누락: 0
+
+=== 인덱스 stats ===
+  by_substat_essential: 8 keys, 487 entries
+  by_substat_preferred: 8 keys, 737 entries
+  by_set: 20 keys, 974 entries
+  by_element: 5 keys, 288 entries
+  by_class: 6 keys, 288 entries
+  by_rarity: 3 keys, 288 entries
+  by_zodiac: 12 keys, 288 entries
+  by_engraving: 9 keys, 236 entries
+  by_type: 8 keys, 288 entries

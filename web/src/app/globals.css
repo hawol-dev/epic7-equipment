@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+/*
+  Epic 7 팬 사이트 디자인 토큰
+  - 다크 네이비 베이스 (게임 인게임 UI 무드)
+  - 속성 컬러는 액센트로만 사용 (배경·텍스트 X)
+  - 그라데이션 없음. solid color only.
+  - 골드는 5★ 표기에만.
+*/
+
+:root {
+  /* 베이스 - 다크 네이비 계열 */
+  --bg-base:      #0b0d12;   /* 페이지 배경 */
+  --bg-surface:   #14171f;   /* 카드/패널 */
+  --bg-elevated:  #1c2029;   /* hover, dropdown */
+  --bg-input:     #0f1217;   /* input bg (pit) */
+
+  /* 보더 */
+  --border-subtle: #1f2330;
+  --border-default:#2a2f3d;
+  --border-strong: #3a4150;
+
+  /* 텍스트 */
+  --text-primary:  #e7eaf0;
+  --text-secondary:#9aa1b1;
+  --text-muted:    #5b6376;
+  --text-inverse:  #0b0d12;
+
+  /* 액센트 - 게임 UI에서 따옴 */
+  --accent:        #c8a04a;   /* 5★ / 한정 골드 */
+  --accent-soft:   #8a6f33;
+  --focus-ring:    #4d6cff;   /* 버튼/입력 포커스 (블루) */
+
+  /* 의미 (semantic) */
+  --essential:     #e8523a;   /* ● 필수 - 강한 빨강 */
+  --preferred:     #d4a64a;   /* ○ 선호 - 황금 */
+
+  /* Epic 7 속성 컬러 (아이콘/뱃지 전용) */
+  --el-fire:   #e35a3a;
+  --el-ice:    #4ea7d4;
+  --el-earth:  #6db84a;
+  --el-light:  #d8c557;
+  --el-dark:   #8e5cc4;
+
+  /* 등급 (rarity) */
+  --rar-3: #b8b8b8;
+  --rar-4: #6db4d8;
+  --rar-5: #c8a04a;
+
+  /* 영웅 타입 */
+  --type-standard:   #6db4d8;
+  --type-moonlight:  #8e5cc4;
+  --type-limited:    #c8a04a;
+  --type-specialty:  #6db84a;
+
+  /* 폰트 */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+               "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+               sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+@theme inline {
+  --color-bg-base:       var(--bg-base);
+  --color-bg-surface:    var(--bg-surface);
+  --color-bg-elevated:   var(--bg-elevated);
+  --color-bg-input:      var(--bg-input);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-default:var(--border-default);
+  --color-border-strong: var(--border-strong);
+  --color-text-primary:  var(--text-primary);
+  --color-text-secondary:var(--text-secondary);
+  --color-text-muted:    var(--text-muted);
+  --color-accent:        var(--accent);
+  --color-accent-soft:   var(--accent-soft);
+  --color-focus-ring:    var(--focus-ring);
+  --color-essential:     var(--essential);
+  --color-preferred:     var(--preferred);
+  --color-el-fire:       var(--el-fire);
+  --color-el-ice:        var(--el-ice);
+  --color-el-earth:      var(--el-earth);
+  --color-el-light:      var(--el-light);
+  --color-el-dark:       var(--el-dark);
+  --color-rar-3:         var(--rar-3);
+  --color-rar-4:         var(--rar-4);
+  --color-rar-5:         var(--rar-5);
+  --font-sans:           var(--font-sans);
+  --font-mono:           var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-feature-settings: "tnum" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 모노 폰트가 필요한 곳 (스탯 숫자, 코드 등) */
+.tabular {
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono);
+}
+
+/* 포커스 스타일 통일 (의도 있는 블루 링) */
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* 인터랙티브 요소 — disabled 가 아니면 pointer */
+button:not(:disabled),
+[role="button"]:not([aria-disabled="true"]),
+summary,
+label:has(input[type="checkbox"]),
+label:has(input[type="radio"]) {
+  cursor: pointer;
+}
+
+button:disabled,
+[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+/* 검색 input의 native clear (X) 버튼 — Webkit 계열만 */
+input[type="search"]::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+
+/* 스크롤바 (다크 네이티브) */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border-default); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-strong); }

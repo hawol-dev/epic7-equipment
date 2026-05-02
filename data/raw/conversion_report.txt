@@ -1,0 +1,12 @@
+Total heroes: 287
+With variant (괄호 표기): 82
+Duplicates: 0
+
+Weird priority chars: 0
+
+Set combos with unparsed chars: 1
+  [어둠의 목자 디에네(적저)] '위에서 저항 추가' unknown: 'no alternates parsed'
+
+Sanity: substats marked but missing in priority order
+  [진혼의 로앤나] essential={'공격력%', '효과적중'}, priority={'공격력%', '효과저항'}, missing={'효과적중'}
+  ... total mismatches: 1

@@ -6849,7 +6849,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3827.1,
+      "def": 1134.1,
+      "hp": 10113.7,
+      "spd": 191.2,
+      "chc": 101.6,
+      "chd": 322.1,
+      "eff": 5.2,
+      "efr": 4.0,
+      "gs": 431.3,
+      "n": 3000
+    }
   },
   {
     "id": "fairytale-tenebria",
@@ -6959,7 +6970,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2273.7,
+      "def": 1396.3,
+      "hp": 14082.0,
+      "spd": 240.5,
+      "chc": 42.9,
+      "chd": 184.6,
+      "eff": 162.7,
+      "efr": 41.2,
+      "gs": 407.1,
+      "n": 2998
+    }
   },
   {
     "id": "maid-chloe",
@@ -7079,7 +7101,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1343.5,
+      "def": 1682.4,
+      "hp": 20333.1,
+      "spd": 224.6,
+      "chc": 18.9,
+      "chd": 153.6,
+      "eff": 31.6,
+      "efr": 155.3,
+      "gs": 425.3,
+      "n": 3000
+    }
   },
   {
     "id": "melissa",
@@ -7190,7 +7223,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4414.5,
+      "def": 1059.0,
+      "hp": 9081.9,
+      "spd": 217.5,
+      "chc": 99.9,
+      "chd": 300.0,
+      "eff": 5.4,
+      "efr": 7.6,
+      "gs": 419.5,
+      "n": 3000
+    }
   },
   {
     "id": "mort",
@@ -7324,7 +7368,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1987.1,
+      "def": 1265.8,
+      "hp": 24542.6,
+      "spd": 184.4,
+      "chc": 101.2,
+      "chd": 289.3,
+      "eff": 4.2,
+      "efr": 4.2,
+      "gs": 440.2,
+      "n": 3000
+    }
   },
   {
     "id": "adventurer-ras",
@@ -7437,7 +7492,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1556.7,
+      "def": 1548.5,
+      "hp": 25560.5,
+      "spd": 199.4,
+      "chc": 32.4,
+      "chd": 169.0,
+      "eff": 90.6,
+      "efr": 76.4,
+      "gs": 424.3,
+      "n": 3000
+    }
   },
   {
     "id": "muwi__wyvern",
@@ -7532,7 +7598,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3119.2,
+      "def": 887.0,
+      "hp": 11175.8,
+      "spd": 191.1,
+      "chc": 84.0,
+      "chd": 292.8,
+      "eff": 83.9,
+      "efr": 10.5,
+      "gs": 410.8,
+      "n": 3000
+    }
   },
   {
     "id": "martial-artist-ken",
@@ -7643,7 +7720,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4090.7,
+      "def": 1399.3,
+      "hp": 16331.5,
+      "spd": 118.3,
+      "chc": 36.9,
+      "chd": 319.7,
+      "eff": 2.9,
+      "efr": 100.5,
+      "gs": 430.1,
+      "n": 2967
+    }
   },
   {
     "id": "mui__banshee-1p",
@@ -7735,7 +7823,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2774.9,
+      "def": 1212.1,
+      "hp": 12069.8,
+      "spd": 210.3,
+      "chc": 91.9,
+      "chd": 240.1,
+      "eff": 81.6,
+      "efr": 16.5,
+      "gs": 385.8,
+      "n": 1483
+    }
   },
   {
     "id": "infinite-horizon-achates",
@@ -7844,7 +7943,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1280.8,
+      "def": 1655.2,
+      "hp": 16412.3,
+      "spd": 234.3,
+      "chc": 21.7,
+      "chd": 156.5,
+      "eff": 39.1,
+      "efr": 199.3,
+      "gs": 420.0,
+      "n": 2907
+    }
   },
   {
     "id": "milim",

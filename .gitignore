@@ -37,3 +37,6 @@ scripts/_*.json
 scripts/_*.txt
 scripts/__pycache__/
 *.tsbuildinfo
+
+# Phase 3 로컬 이미지 캐시
+data/raw/guide_images/

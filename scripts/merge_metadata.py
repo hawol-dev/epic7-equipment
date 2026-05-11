@@ -14,7 +14,7 @@ from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-ROOT = Path(r"E:\jsh02\Dev\EpicSevenEquipment")
+ROOT = Path(__file__).resolve().parent.parent
 SRC_FILE2_META = ROOT / "data/raw/file2_meta.json"
 SRC_HEROES = ROOT / "data/raw/heroes_valid_options.json"
 DST_MERGED = ROOT / "data/processed/heroes_merged.json"

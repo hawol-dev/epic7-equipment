@@ -11,7 +11,7 @@ from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-ROOT = Path(r"E:\jsh02\Dev\EpicSevenEquipment")
+ROOT = Path(__file__).resolve().parent.parent
 DST = ROOT / "data/raw/main_options.json"
 
 # (필드, 새 값) — 변경하지 않을 필드는 생략

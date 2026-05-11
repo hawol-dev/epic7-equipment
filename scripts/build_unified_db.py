@@ -42,7 +42,7 @@ from hero_notes_en import NOTE_EN
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-ROOT = Path(r"E:\jsh02\Dev\EpicSevenEquipment")
+ROOT = Path(__file__).resolve().parent.parent
 SRC_MERGED = ROOT / "data/processed/heroes_merged.json"
 SRC_FRIBBELS = ROOT / "data/raw/fribbels_herodata.json"
 SRC_FRIBBELS_KO = ROOT / "data/raw/fribbels_ko.json"

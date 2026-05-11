@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-ROOT = Path(r"E:\jsh02\Dev\EpicSevenEquipment")
+ROOT = Path(__file__).resolve().parent.parent
 DST = ROOT / "data/raw/main_options.json"
 
 # Subagent 분석 결과 (Wave 1 + Wave 2)

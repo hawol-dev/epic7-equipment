@@ -11,7 +11,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.path.insert(0, str(Path(__file__).parent))
 from hero_guides import HERO_GUIDES
 
-ROOT = Path(r"E:\jsh02\Dev\EpicSevenEquipment")
+ROOT = Path(__file__).resolve().parent.parent
 DST = ROOT / "data/raw/main_options.json"
 
 existing = {}

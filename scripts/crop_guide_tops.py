@@ -8,7 +8,7 @@ import sys, io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-ROOT = Path(r"E:\jsh02\Dev\EpicSevenEquipment")
+ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data/raw/guide_images"
 DST = ROOT / "data/raw/guide_images_cropped"
 DST.mkdir(parents=True, exist_ok=True)

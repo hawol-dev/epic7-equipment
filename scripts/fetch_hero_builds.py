@@ -17,7 +17,7 @@ BACKOFF_SEC = 60
 MAX_CONSECUTIVE_403 = 3
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 
-ROOT = Path(r"E:\jsh02\Dev\EpicSevenEquipment")
+ROOT = Path(__file__).resolve().parent.parent
 SRC_HEROES = ROOT / "data/processed/heroes.json"
 DST = ROOT / "data/raw/community_avg_stats.json"
 

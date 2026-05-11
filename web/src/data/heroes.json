@@ -122,7 +122,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2457.8,
+      "def": 1258.5,
+      "hp": 17179.0,
+      "spd": 285.8,
+      "chc": 36.1,
+      "chd": 172.7,
+      "eff": 61.0,
+      "efr": 20.0,
+      "gs": 427.6,
+      "n": 3000
+    }
   },
   {
     "id": "kitty-clarissa",
@@ -235,7 +246,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2295.8,
+      "def": 1284.8,
+      "hp": 14167.3,
+      "spd": 221.2,
+      "chc": 73.4,
+      "chd": 216.4,
+      "eff": 56.0,
+      "efr": 79.8,
+      "gs": 405.7,
+      "n": 3000
+    }
   },
   {
     "id": "inferno-khawazu",
@@ -342,7 +364,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4596.1,
+      "def": 1302.9,
+      "hp": 15405.5,
+      "spd": 201.6,
+      "chc": 34.2,
+      "chd": 166.6,
+      "eff": 31.8,
+      "efr": 15.2,
+      "gs": 411.9,
+      "n": 3000
+    }
   },
   {
     "id": "savior-adin",
@@ -1916,7 +1949,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1805.4,
+      "def": 1271.3,
+      "hp": 23171.0,
+      "spd": 268.5,
+      "chc": 100.3,
+      "chd": 228.5,
+      "eff": 1.6,
+      "efr": 5.0,
+      "gs": 443.3,
+      "n": 3000
+    }
   },
   {
     "id": "challenger-dominiel",
@@ -2015,7 +2059,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3980.9,
+      "def": 1102.8,
+      "hp": 9617.4,
+      "spd": 177.2,
+      "chc": 89.9,
+      "chd": 320.6,
+      "eff": 9.8,
+      "efr": 7.6,
+      "gs": 390.1,
+      "n": 2975
+    }
   },
   {
     "id": "twisted-eidolon-kayron__dpstank",
@@ -2147,7 +2202,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3261.3,
+      "def": 1081.0,
+      "hp": 17467.7,
+      "spd": 130.4,
+      "chc": 97.8,
+      "chd": 258.4,
+      "eff": 5.3,
+      "efr": 109.6,
+      "gs": 430.9,
+      "n": 2922
+    }
   },
   {
     "id": "twisted-eidolon-kayron__tank",
@@ -2276,7 +2342,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3261.3,
+      "def": 1081.0,
+      "hp": 17467.7,
+      "spd": 130.4,
+      "chc": 97.8,
+      "chd": 258.4,
+      "eff": 5.3,
+      "efr": 109.6,
+      "gs": 430.9,
+      "n": 2922
+    }
   },
   {
     "id": "diene",
@@ -2402,7 +2479,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1390.2,
+      "def": 1564.9,
+      "hp": 17395.0,
+      "spd": 250.9,
+      "chc": 22.8,
+      "chd": 158.4,
+      "eff": 27.0,
+      "efr": 168.4,
+      "gs": 421.8,
+      "n": 3000
+    }
   },
   {
     "id": "tieria__ext",
@@ -2499,7 +2587,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2571.9,
+      "def": 1081.1,
+      "hp": 12097.5,
+      "spd": 187.7,
+      "chc": 92.1,
+      "chd": 330.1,
+      "eff": 5.1,
+      "efr": 6.1,
+      "gs": 420.9,
+      "n": 3000
+    }
   },
   {
     "id": "designer-lilibet",
@@ -2612,7 +2711,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1831.8,
+      "def": 1994.4,
+      "hp": 16318.7,
+      "spd": 211.2,
+      "chc": 100.8,
+      "chd": 285.4,
+      "eff": 2.3,
+      "efr": 1.9,
+      "gs": 439.2,
+      "n": 3000
+    }
   },
   {
     "id": "dizzy",
@@ -2706,7 +2816,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2358.6,
+      "def": 1441.2,
+      "hp": 15156.6,
+      "spd": 219.0,
+      "chc": 46.2,
+      "chd": 184.3,
+      "eff": 105.8,
+      "efr": 60.2,
+      "gs": 396.6,
+      "n": 3000
+    }
   },
   {
     "id": "wandering-prince-cidd",

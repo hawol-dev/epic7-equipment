@@ -105,7 +105,8 @@
           "hp_p"
         ],
         "ring": [
-          "hp_p"
+          "hp_p",
+          "eff"
         ],
         "boots": [
           "spd"
@@ -878,7 +879,8 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "chc"
+          "chc",
+          "hp_p"
         ],
         "ring": [
           "hp_p"
@@ -2767,10 +2769,10 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "atk_p"
+          "chd"
         ],
         "ring": [
-          "atk_p"
+          "hp_p"
         ],
         "boots": [
           "spd"
@@ -4913,7 +4915,8 @@
           "atk_p"
         ],
         "ring": [
-          "atk_p"
+          "atk_p",
+          "hp_p"
         ],
         "boots": [
           "spd"
@@ -5963,7 +5966,7 @@
           "hp_p"
         ],
         "ring": [
-          "def_p"
+          "hp_p"
         ],
         "boots": [
           "spd"
@@ -8305,13 +8308,15 @@
       "notes_en": "Counter+Penetration is the standard build",
       "main_options": {
         "necklace": [
+          "chd",
           "chc"
         ],
         "ring": [
           "atk_p"
         ],
         "boots": [
-          "spd"
+          "spd",
+          "atk_p"
         ]
       }
     },
@@ -10976,10 +10981,12 @@
           "hp_p"
         ],
         "ring": [
-          "hp_p"
+          "hp_p",
+          "effres"
         ],
         "boots": [
-          "spd"
+          "spd",
+          "hp_p"
         ]
       }
     },
@@ -11532,13 +11539,14 @@
       "notes_en": "Immunity is the all-purpose pick",
       "main_options": {
         "necklace": [
-          "chc"
+          "chd"
         ],
         "ring": [
           "def_p"
         ],
         "boots": [
-          "spd"
+          "spd",
+          "hp_p"
         ]
       }
     },
@@ -12286,13 +12294,15 @@
       "notes_en": "Speed vs % boots is preference; % boots feels more universal",
       "main_options": {
         "necklace": [
+          "chd",
           "chc"
         ],
         "ring": [
           "hp_p"
         ],
         "boots": [
-          "spd"
+          "spd",
+          "hp_p"
         ]
       }
     },
@@ -13037,7 +13047,8 @@
           "hp_p"
         ],
         "ring": [
-          "hp_p"
+          "hp_p",
+          "eff"
         ],
         "boots": [
           "spd"
@@ -15131,7 +15142,8 @@
           "hp_p"
         ],
         "boots": [
-          "spd"
+          "spd",
+          "hp_p"
         ]
       }
     },
@@ -16286,7 +16298,8 @@
           "hp_p"
         ],
         "boots": [
-          "spd"
+          "spd",
+          "hp_p"
         ]
       }
     },
@@ -18782,10 +18795,11 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "chc"
+          "chd"
         ],
         "ring": [
-          "atk_p"
+          "atk_p",
+          "effres"
         ],
         "boots": [
           "spd"
@@ -18906,10 +18920,11 @@
       "notes_en": "Effect Resistance 150%+",
       "main_options": {
         "necklace": [
-          "chc"
+          "chd"
         ],
         "ring": [
-          "atk_p"
+          "atk_p",
+          "effres"
         ],
         "boots": [
           "spd"
@@ -21318,7 +21333,7 @@
           "atk_p"
         ],
         "ring": [
-          "atk_p"
+          "effres"
         ],
         "boots": [
           "atk_p"
@@ -24023,6 +24038,7 @@
           "hp_p"
         ],
         "ring": [
+          "eff",
           "effres"
         ],
         "boots": [
@@ -24362,7 +24378,8 @@
           "hp_p"
         ],
         "ring": [
-          "hp_p"
+          "hp_p",
+          "eff"
         ],
         "boots": [
           "spd"
@@ -25094,7 +25111,7 @@
           "hp_p"
         ],
         "ring": [
-          "atk_p"
+          "eff"
         ],
         "boots": [
           "spd"
@@ -27801,7 +27818,8 @@
       "notes_en": "Any set works; just give HP + Effectiveness gear",
       "main_options": {
         "necklace": [
-          "chd"
+          "chc",
+          "hp_p"
         ],
         "ring": [
           "hp_p"
@@ -27931,7 +27949,8 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "chd"
+          "chc",
+          "hp_p"
         ],
         "ring": [
           "hp_p"
@@ -28054,7 +28073,8 @@
       "notes_en": "Surprise-pick fast Harsetti — splits into DPS or debuffer by purpose",
       "main_options": {
         "necklace": [
-          "chd"
+          "chc",
+          "hp_p"
         ],
         "ring": [
           "hp_p"
@@ -28281,7 +28301,7 @@
       "notes_en": "On Counter, stack HP/DEF; effectiveness is nice but not primary",
       "main_options": {
         "necklace": [
-          "chc"
+          "chd"
         ],
         "ring": [
           "atk_p"
@@ -28404,7 +28424,7 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "chc"
+          "chd"
         ],
         "ring": [
           "atk_p"
@@ -28950,10 +28970,12 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "eff"
+          "atk_p",
+          "hp_p"
         ],
         "ring": [
-          "eff"
+          "atk_p",
+          "hp_p"
         ],
         "boots": [
           "spd"
@@ -29894,10 +29916,11 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "hp_p"
+          "hp_p",
+          "chd"
         ],
         "ring": [
-          "atk_p"
+          "hp_p"
         ],
         "boots": [
           "spd"

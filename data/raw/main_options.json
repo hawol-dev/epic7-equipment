@@ -4,7 +4,8 @@
       "hp_p"
     ],
     "ring": [
-      "hp_p"
+      "hp_p",
+      "eff"
     ],
     "boots": [
       "spd"
@@ -21,7 +22,8 @@
   },
   "기원의 라스": {
     "necklace": [
-      "chc"
+      "chc",
+      "hp_p"
     ],
     "ring": [
       "hp_p"
@@ -107,10 +109,10 @@
   },
   "라비": {
     "necklace": [
-      "atk_p"
+      "chd"
     ],
     "ring": [
-      "atk_p"
+      "hp_p"
     ],
     "boots": [
       "spd"
@@ -130,7 +132,8 @@
       "atk_p"
     ],
     "ring": [
-      "atk_p"
+      "atk_p",
+      "hp_p"
     ],
     "boots": [
       "spd"
@@ -143,7 +146,7 @@
       "hp_p"
     ],
     "ring": [
-      "def_p"
+      "hp_p"
     ],
     "boots": [
       "spd"
@@ -188,13 +191,15 @@
   },
   "방관자 화영": {
     "necklace": [
+      "chd",
       "chc"
     ],
     "ring": [
       "atk_p"
     ],
     "boots": [
-      "spd"
+      "spd",
+      "atk_p"
     ],
     "_source": "https://m.dcinside.com/board/epicseven/2318046",
     "_note": null
@@ -233,10 +238,12 @@
       "hp_p"
     ],
     "ring": [
-      "hp_p"
+      "hp_p",
+      "effres"
     ],
     "boots": [
-      "spd"
+      "spd",
+      "hp_p"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2474624",
     "_note": null
@@ -270,26 +277,29 @@
   },
   "사자왕 체르미아": {
     "necklace": [
-      "chc"
+      "chd"
     ],
     "ring": [
       "def_p"
     ],
     "boots": [
-      "spd"
+      "spd",
+      "hp_p"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2468705",
     "_note": null
   },
   "설화": {
     "necklace": [
+      "chd",
       "chc"
     ],
     "ring": [
       "hp_p"
     ],
     "boots": [
-      "spd"
+      "spd",
+      "hp_p"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2466360",
     "_note": null
@@ -299,7 +309,8 @@
       "hp_p"
     ],
     "ring": [
-      "hp_p"
+      "hp_p",
+      "eff"
     ],
     "boots": [
       "spd"
@@ -341,7 +352,8 @@
       "hp_p"
     ],
     "boots": [
-      "spd"
+      "spd",
+      "hp_p"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2495420",
     "_note": null
@@ -354,7 +366,8 @@
       "hp_p"
     ],
     "boots": [
-      "spd"
+      "spd",
+      "hp_p"
     ],
     "_source": "https://gall.dcinside.com/m/epicseven/2316253",
     "_note": null
@@ -396,10 +409,11 @@
   },
   "영안의 셀린": {
     "necklace": [
-      "chc"
+      "chd"
     ],
     "ring": [
-      "atk_p"
+      "atk_p",
+      "effres"
     ],
     "boots": [
       "spd"
@@ -426,7 +440,7 @@
       "atk_p"
     ],
     "ring": [
-      "atk_p"
+      "effres"
     ],
     "boots": [
       "atk_p"
@@ -481,6 +495,7 @@
       "hp_p"
     ],
     "ring": [
+      "eff",
       "effres"
     ],
     "boots": [
@@ -507,7 +522,8 @@
       "hp_p"
     ],
     "ring": [
-      "hp_p"
+      "hp_p",
+      "eff"
     ],
     "boots": [
       "spd"
@@ -527,7 +543,7 @@
       "hp_p"
     ],
     "ring": [
-      "atk_p"
+      "eff"
     ],
     "boots": [
       "spd"
@@ -590,7 +606,8 @@
   },
   "하르세티": {
     "necklace": [
-      "chd"
+      "chc",
+      "hp_p"
     ],
     "ring": [
       "hp_p"
@@ -603,10 +620,11 @@
   },
   "화란의 라비": {
     "necklace": [
-      "hp_p"
+      "hp_p",
+      "chd"
     ],
     "ring": [
-      "atk_p"
+      "hp_p"
     ],
     "boots": [
       "spd"
@@ -616,7 +634,7 @@
   },
   "한낮의 유영 플랑": {
     "necklace": [
-      "chc"
+      "chd"
     ],
     "ring": [
       "atk_p"
@@ -662,10 +680,12 @@
   },
   "헤카테": {
     "necklace": [
-      "eff"
+      "atk_p",
+      "hp_p"
     ],
     "ring": [
-      "eff"
+      "atk_p",
+      "hp_p"
     ],
     "boots": [
       "spd"

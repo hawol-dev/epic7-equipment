@@ -49,6 +49,7 @@ SRC_FRIBBELS_KO = ROOT / "data/raw/fribbels_ko.json"
 SRC_FILE2_ARTIFACTS = ROOT / "data/raw/file2_artifacts.json"
 SRC_FILE2_ENGRAVING = ROOT / "data/raw/file2_engraving_grades.json"
 SRC_MAIN_OPTIONS = ROOT / "data/raw/main_options.json"
+SRC_COMMUNITY_AVG_STATS = ROOT / "data/raw/community_avg_stats.json"
 
 DST_HEROES = ROOT / "data/processed/heroes.json"
 DST_ENUMS = ROOT / "data/processed/enums.json"
@@ -183,6 +184,13 @@ def load_main_options() -> dict:
     return out
 
 
+def load_community_avg_stats() -> dict:
+    """data/raw/community_avg_stats.json — 영웅 영문명 → {atk, def, ..., gs, n}."""
+    if not SRC_COMMUNITY_AVG_STATS.exists():
+        return {}
+    return json.loads(SRC_COMMUNITY_AVG_STATS.read_text(encoding="utf-8"))
+
+
 # Fribbels CDN URL → 로컬 이미지 경로 (web/public 기준)
 def local_image_path(url: str | None) -> str | None:
     if not url:
@@ -278,7 +286,8 @@ def main():
     artifacts = load_recommended_artifacts()  # {ko_name: [art1, art2, art3]}
     engraving_grades = load_engraving_grades()  # {sid: {lv: {grade: val}}}
     main_options_map = load_main_options()  # {ko_name: {necklace, ring, boots}}
-    print(f"  추천 아티팩트: {len(artifacts)}명, 각인 등급표: {len(engraving_grades)} 스탯, 주옵션: {len(main_options_map)}명")
+    community_stats_map = load_community_avg_stats()  # {en_name: {atk, def, ..., gs, n}}
+    print(f"  추천 아티팩트: {len(artifacts)}명, 각인 등급표: {len(engraving_grades)} 스탯, 주옵션: {len(main_options_map)}명, 커뮤니티 스탯: {len(community_stats_map)}명")
 
     # 아티팩트 ko → en 매핑 (Fribbels artifactdata.json + ko_dict 역매핑)
     try:
@@ -517,6 +526,7 @@ def main():
             "has_data": True,
             "source": sources,
             "tags": {"content": classify_content(variant_ko)},
+            "community_avg_stats": community_stats_map.get(en_name) if en_name else None,
         }
         out.append(record)
 
@@ -572,6 +582,7 @@ def main():
             "has_data": False,
             "source": ["fribbels"],
             "tags": {"content": classify_content(None)},
+            "community_avg_stats": community_stats_map.get(en_name),
         }
         out.append(record)
 

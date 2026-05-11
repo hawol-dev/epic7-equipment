@@ -31,6 +31,19 @@ export type EngravingId =
 
 export type ContentTag = "pve" | "pvp";
 
+export interface CommunityAvgStats {
+  atk: number;
+  def: number;
+  hp: number;
+  spd: number;
+  chc: number;
+  chd: number;
+  eff: number;
+  efr: number;
+  gs: number;
+  n: number;
+}
+
 export type HeroType =
   | "standard"
   | "moonlight5"
@@ -95,6 +108,7 @@ export interface Hero {
   has_data: boolean;
   source: string[];
   tags: { content: ContentTag };
+  community_avg_stats: CommunityAvgStats | null;
   translation_missing?: boolean;
 }
 

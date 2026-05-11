@@ -47,6 +47,7 @@ function makeHero(
     has_data: true,
     source: [],
     tags: { content: subs.content ?? "pvp" },
+    community_avg_stats: null,
   };
 }
 

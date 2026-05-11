@@ -12,7 +12,7 @@ import urllib.error
 from pathlib import Path
 
 API_URL = "https://krivpfvxi0.execute-api.us-west-2.amazonaws.com/dev/getBuilds"
-SLEEP_SEC = 1.0
+SLEEP_SEC = 5.0  # 1초는 burst 로 감지되어 즉시 403 → backoff 사이클. 5초면 비교적 안전.
 BACKOFF_SEC = 60
 MAX_CONSECUTIVE_403 = 3
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"

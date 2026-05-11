@@ -12,6 +12,8 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      HAWOL_DEV_PAT: ${{ secrets.HAWOL_DEV_PAT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -53,7 +55,7 @@ jobs:
       - name: Fetch Fribbels community avg stats
         run: python scripts/fetch_hero_builds.py
         continue-on-error: true
-        timeout-minutes: 10
+        timeout-minutes: 30
 
       - name: Re-build unified DB
         run: |
@@ -91,8 +93,6 @@ jobs:
 
       - name: Mirror push to hawol-dev (Vercel deploy target)
         if: steps.diff.outputs.changed == 'true' && env.HAWOL_DEV_PAT != ''
-        env:
-          HAWOL_DEV_PAT: ${{ secrets.HAWOL_DEV_PAT }}
         run: |
           git remote add hawol "https://x-access-token:${HAWOL_DEV_PAT}@github.com/hawol-dev/epic7-equipment.git"
           git push hawol HEAD:${{ github.ref_name }}

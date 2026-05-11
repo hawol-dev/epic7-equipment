@@ -97,10 +97,9 @@ export function matchHeroes(
       else if (level === "preferred") matchedPreferred.push(sub);
     }
 
-    // 부옵 입력했는데 하나도 매칭 안되면 제외
-    if (query.substats.length > 0 &&
-        matchedEssential.length === 0 &&
-        matchedPreferred.length === 0) {
+    // 부옵 strict 필터: 선택한 부옵 전부가 essential 또는 preferred일 때만 통과
+    const matchedCount = matchedEssential.length + matchedPreferred.length;
+    if (query.substats.length > 0 && matchedCount < query.substats.length) {
       continue;
     }
 

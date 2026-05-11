@@ -122,6 +122,14 @@ export const M = {
   lang_korean:      { ko: "한국어",                                  en: "Korean" },
   lang_english:     { ko: "English",                                  en: "English" },
 
+  // Community avg stats
+  sec_community_stats:    { ko: "커뮤니티 평균 스펙",   en: "Community Avg Stats" },
+  community_stats_source: { ko: "출처: Fribbels Hero Library 빌드 풀",
+                            en: "Source: Fribbels Hero Library build pool" },
+  stat_eff:               { ko: "효과적중",            en: "Effectiveness" },
+  stat_efr:               { ko: "효과저항",            en: "Effect Resistance" },
+  stat_gs:                { ko: "장비점수",            en: "Gear Score" },
+
   // Main options (주옵션 슬롯)
   sec_main_options: { ko: "주옵션",                                  en: "Main Options" },
   slot_necklace:    { ko: "목걸이",                                  en: "Necklace" },

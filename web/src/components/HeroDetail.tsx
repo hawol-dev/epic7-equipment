@@ -16,6 +16,7 @@ import type {
   EngravingGrade,
   ContentTag,
   MainOptions,
+  CommunityAvgStats,
 } from "@/lib/types";
 
 const SUBSTAT_ORDER: SubstatId[] = [
@@ -319,6 +320,7 @@ function ExtrasBlock({ hero }: { hero: Hero }) {
     variants.length > 0 ||
     related.length > 0 ||
     !!stats ||
+    !!hero.community_avg_stats ||
     artifacts.length > 0 ||
     guides.length > 0 ||
     !!engRow;
@@ -371,6 +373,28 @@ function ExtrasBlock({ hero }: { hero: Hero }) {
               <Stat label={t("stat_cp")} value={stats.cp} />
             )}
           </dl>
+        </Section>
+      )}
+
+      {hero.community_avg_stats && (
+        <Section title={t("sec_community_stats")}>
+          <dl className="grid grid-cols-3 sm:grid-cols-4 gap-x-3 gap-y-2 text-sm">
+            <Stat label={t("stat_atk")} value={Math.round(hero.community_avg_stats.atk).toLocaleString()} />
+            <Stat label={t("stat_hp")}  value={Math.round(hero.community_avg_stats.hp).toLocaleString()} />
+            <Stat label={t("stat_def")} value={Math.round(hero.community_avg_stats.def).toLocaleString()} />
+            <Stat label={t("stat_spd")} value={Math.round(hero.community_avg_stats.spd)} />
+            <Stat label={t("stat_chc")} value={`${hero.community_avg_stats.chc.toFixed(1)}%`} />
+            <Stat label={t("stat_chd")} value={`${hero.community_avg_stats.chd.toFixed(1)}%`} />
+            <Stat label={t("stat_eff")} value={`${hero.community_avg_stats.eff.toFixed(1)}%`} />
+            <Stat label={t("stat_efr")} value={`${hero.community_avg_stats.efr.toFixed(1)}%`} />
+            <Stat label={t("stat_gs")}  value={Math.round(hero.community_avg_stats.gs)} />
+          </dl>
+          <p
+            className="mt-3 text-[10px] text-[var(--text-muted)]"
+            title={t("community_stats_source")}
+          >
+            n = {hero.community_avg_stats.n.toLocaleString()} · Fribbels
+          </p>
         </Section>
       )}
 

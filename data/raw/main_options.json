@@ -1,8 +1,14 @@
 {
   "고독한 늑대 페이라": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2316561",
     "_note": null
   },
@@ -14,51 +20,101 @@
     "_note": null
   },
   "기원의 라스": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chc"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2463338",
     "_note": null
   },
   "노토스": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2551046",
     "_note": null
   },
   "도시의 그림자 슈": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2316230",
     "_note": null
   },
   "디에네": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2318036",
     "_note": null
   },
   "뒤틀린 망령 카일론": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p",
+      "chc",
+      "def_p"
+    ],
+    "ring": [
+      "hp_p",
+      "effres",
+      "def_p"
+    ],
+    "boots": [
+      "hp_p",
+      "atk_p",
+      "def_p"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2475175",
-    "_note": null
+    "_note": "탱망카 생/방, 딜망카 치확/공도"
   },
   "라이아": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p",
+      "def_p"
+    ],
+    "ring": [
+      "hp_p",
+      "def_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2050463",
-    "_note": null
+    "_note": "속>생>방>>>효저"
   },
   "라비": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "atk_p"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2206716",
     "_note": null
   },
@@ -70,23 +126,43 @@
     "_note": null
   },
   "리나크": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "atk_p"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2377539",
     "_note": null
   },
   "마신의 그림자": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "def_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2317797",
     "_note": null
   },
   "모르트": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p",
+      "chd"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd",
+      "hp_p"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2249106",
     "_note": null
   },
@@ -98,114 +174,216 @@
     "_note": null
   },
   "메이드 클로에": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2465395",
     "_note": null
   },
   "방관자 화영": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chc"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://m.dcinside.com/board/epicseven/2318046",
     "_note": null
   },
   "보건교사 율하": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2498236",
     "_note": null
   },
   "보검의 군주 이세리아": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "atk_p",
+      "hp_p"
+    ],
+    "ring": [
+      "atk_p",
+      "hp_p"
+    ],
+    "boots": [
+      "atk_p",
+      "hp_p"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2522171",
-    "_note": null
+    "_note": "공%/생% 모두 허용"
   },
   "빛의 루엘": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2474624",
     "_note": null
   },
   "베로니카": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chc"
+    ],
+    "ring": [
+      "eff"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/m/epicseven/2316277",
     "_note": null
   },
   "벨리안": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd",
+      "hp_p"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2479613",
-    "_note": null
+    "_note": "신발 속/생 모두 허용"
   },
   "사자왕 체르미아": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chc"
+    ],
+    "ring": [
+      "def_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2468705",
     "_note": null
   },
   "설화": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chc"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2466360",
     "_note": null
   },
   "소악마 루아": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2377672",
     "_note": null
   },
   "신월의 루나": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2577013",
     "_note": null
   },
   "심연의 유피네": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "def_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2057405",
-    "_note": null
+    "_note": "가이드 이미지 저해상도 — 우선순위 텍스트 기반 추정"
   },
   "아람": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2495420",
     "_note": null
   },
   "알베도": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/m/epicseven/2316253",
     "_note": null
   },
   "어둠의 목자 디에네": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chd"
+    ],
+    "ring": [
+      "hp_p",
+      "eff",
+      "effres"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2509639",
-    "_note": null
+    "_note": "반지는 컨셉별 분기"
   },
   "어린 셰나": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/m/epicseven/2316273",
     "_note": null
   },
@@ -217,9 +395,15 @@
     "_note": null
   },
   "영안의 셀린": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chc"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2377290",
     "_note": null
   },
@@ -238,51 +422,96 @@
     "_note": null
   },
   "전승의 아미키": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "atk_p"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "atk_p"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2377521",
     "_note": null
   },
   "조장 아룬카": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p",
+      "def_p"
+    ],
+    "ring": [
+      "hp_p",
+      "def_p"
+    ],
+    "boots": [
+      "hp_p",
+      "def_p"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2350723",
     "_note": null
   },
   "조향사 비브리스": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2572197",
     "_note": null
   },
   "집행관 빌트레드": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chd"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2168799",
     "_note": null
   },
   "천칭의 주인": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "effres"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2578136",
     "_note": null
   },
   "창공의 일리나브": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2182704",
     "_note": null
   },
   "축제의 에다": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2485808",
     "_note": null
   },
@@ -294,9 +523,15 @@
     "_note": null
   },
   "쾌속의 기수 세크레트": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2488439",
     "_note": null
   },
@@ -315,44 +550,80 @@
     "_note": null
   },
   "토라미": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chd"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2558653",
     "_note": null
   },
   "풍기위원 아리아": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chd"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2381792",
     "_note": null
   },
   "프리렌": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chd"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2463215",
     "_note": null
   },
   "하르세티": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chd"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "hp_p"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2364890",
-    "_note": null
+    "_note": "가이드별 옵션 차이 있음 — 치피/생/생 채택"
   },
   "화란의 라비": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2489048",
     "_note": null
   },
   "한낮의 유영 플랑": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chc"
+    ],
+    "ring": [
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2316247",
     "_note": null
   },
@@ -364,30 +635,57 @@
     "_note": null
   },
   "호반의 마녀 테네브리아": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "eff"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2390650",
     "_note": null
   },
   "호위대장 크라우": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "def_p"
+    ],
+    "ring": [
+      "def_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2375359",
     "_note": null
   },
   "헤카테": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "eff"
+    ],
+    "ring": [
+      "eff"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2585318",
     "_note": null
   },
   "해변의 벨로나": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chc",
+      "chd"
+    ],
+    "ring": [
+      "atk_p",
+      "hp_p"
+    ],
+    "boots": [
+      "atk_p",
+      "hp_p"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2358423",
     "_note": null
   }

@@ -1,6 +1,6 @@
 name: Sync Hero Data
 
-# 매주 월요일 03:00 UTC (한국 12:00) 실행 + 수동 트리거 가능
+# 매주 월요일 03:00 UTC (한국 12:00) 실행 + 수동 트리거(workflow_dispatch) 가능
 on:
   schedule:
     - cron: "0 3 * * 1"

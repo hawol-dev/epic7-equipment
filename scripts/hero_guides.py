@@ -28,6 +28,7 @@ HERO_GUIDES: dict[str, list[dict]] = {
     "베로니카": [{"title": "디시 가이드", "url": "https://gall.dcinside.com/m/epicseven/2316277"}],
     "벨리안": [{"title": "디시 가이드", "url": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2479613"}],
     "사자왕 체르미아": [{"title": "디시 가이드", "url": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2468705"}],
+    "살로메": [{"title": "디시 가이드", "url": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2606339"}],
     "설화": [{"title": "디시 가이드", "url": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2466360"}],
     "소악마 루아": [{"title": "디시 가이드", "url": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2377672"}],
     "신월의 루나": [{"title": "디시 가이드", "url": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2577013"}],

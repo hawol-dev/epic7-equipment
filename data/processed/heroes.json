@@ -3101,12 +3101,10 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "hp_p",
-          "def_p"
+          "hp_p"
         ],
         "ring": [
-          "hp_p",
-          "def_p"
+          "hp_p"
         ],
         "boots": [
           "spd"
@@ -14792,9 +14790,11 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "def_p"
+          "chd",
+          "chc"
         ],
         "ring": [
+          "def_p",
           "hp_p"
         ],
         "boots": [
@@ -23432,13 +23432,15 @@
       "notes_en": "Standard build",
       "main_options": {
         "necklace": [
-          "chd"
+          "chd",
+          "chc"
         ],
         "ring": [
           "atk_p"
         ],
         "boots": [
-          "spd"
+          "spd",
+          "atk_p"
         ]
       }
     },
@@ -23557,13 +23559,15 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "chd"
+          "chd",
+          "chc"
         ],
         "ring": [
           "atk_p"
         ],
         "boots": [
-          "spd"
+          "spd",
+          "atk_p"
         ]
       }
     },
@@ -23788,12 +23792,16 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "hp_p"
+          "hp_p",
+          "chd",
+          "chc"
         ],
         "ring": [
-          "atk_p"
+          "hp_p",
+          "effres"
         ],
         "boots": [
+          "hp_p",
           "spd"
         ]
       }
@@ -23909,12 +23917,16 @@
       "notes_en": null,
       "main_options": {
         "necklace": [
-          "hp_p"
+          "hp_p",
+          "chd",
+          "chc"
         ],
         "ring": [
-          "atk_p"
+          "hp_p",
+          "effres"
         ],
         "boots": [
+          "hp_p",
           "spd"
         ]
       }
@@ -31161,7 +31173,12 @@
         "en": "Sweet Miracle"
       }
     ],
-    "guides": null,
+    "guides": [
+      {
+        "title": "디시 가이드",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2606339"
+      }
+    ],
     "valid_options": {
       "substats": {
         "spd": "essential",
@@ -31200,7 +31217,17 @@
       "ignore_2set": false,
       "notes": "빠빠좋, 용도에 따라 적중저항 챙기는데 보통 적저 유기하고 튼튼하게 쓰는듯",
       "notes_en": "Faster the better — depending on use, eff/res; usually skip res and go tanky",
-      "main_options": null
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [

@@ -94,18 +94,16 @@
   },
   "라이아": {
     "necklace": [
-      "hp_p",
-      "def_p"
+      "hp_p"
     ],
     "ring": [
-      "hp_p",
-      "def_p"
+      "hp_p"
     ],
     "boots": [
       "spd"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2050463",
-    "_note": "속>생>방>>>효저"
+    "_note": null
   },
   "라비": {
     "necklace": [
@@ -333,16 +331,18 @@
   },
   "심연의 유피네": {
     "necklace": [
-      "def_p"
+      "chd",
+      "chc"
     ],
     "ring": [
+      "def_p",
       "hp_p"
     ],
     "boots": [
       "spd"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2057405",
-    "_note": "가이드 이미지 저해상도 — 우선순위 텍스트 기반 추정"
+    "_note": null
   },
   "아람": {
     "necklace": [
@@ -479,16 +479,18 @@
   },
   "집행관 빌트레드": {
     "necklace": [
-      "chd"
+      "chd",
+      "chc"
     ],
     "ring": [
       "atk_p"
     ],
     "boots": [
-      "spd"
+      "spd",
+      "atk_p"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2168799",
-    "_note": null
+    "_note": "반교집"
   },
   "천칭의 주인": {
     "necklace": [
@@ -506,12 +508,16 @@
   },
   "창공의 일리나브": {
     "necklace": [
-      "hp_p"
+      "hp_p",
+      "chd",
+      "chc"
     ],
     "ring": [
-      "atk_p"
+      "hp_p",
+      "effres"
     ],
     "boots": [
+      "hp_p",
       "spd"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2182704",
@@ -707,6 +713,19 @@
       "hp_p"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2358423",
+    "_note": null
+  },
+  "살로메": {
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd"
+    ],
+    "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2606339",
     "_note": null
   }
 }

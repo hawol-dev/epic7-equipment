@@ -50,6 +50,11 @@ jobs:
               print(f"  downloaded {path}")
           PY
 
+      - name: Fetch Fribbels community avg stats
+        run: python scripts/fetch_hero_builds.py
+        continue-on-error: true
+        timeout-minutes: 10
+
       - name: Re-build unified DB
         run: |
           python scripts/build_unified_db.py

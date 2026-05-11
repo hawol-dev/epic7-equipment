@@ -6,12 +6,14 @@ import { enums, getVariants, getRelatedHeroes } from "@/lib/data";
 import { HeroCard } from "@/components/HeroCard";
 import { useT, useLang } from "@/i18n/LangProvider";
 import { enumLabel, heroName } from "@/i18n/display";
+import type { MessageKey } from "@/i18n/messages";
 import type {
   Hero,
   SubstatId,
   SetId,
   ElementId,
   EngravingGrade,
+  ContentTag,
 } from "@/lib/types";
 
 const SUBSTAT_ORDER: SubstatId[] = [
@@ -31,6 +33,11 @@ const RARITY_VAR: Record<number, string> = {
   3: "var(--rar-3)",
   4: "var(--rar-4)",
   5: "var(--rar-5)",
+};
+
+const CONTENT_LABEL: Record<ContentTag, MessageKey> = {
+  pve: "content_pve",
+  pvp: "content_pvp",
 };
 
 const TYPE_LABEL_KO: Record<string, string> = {
@@ -124,6 +131,7 @@ export function HeroDetail({ hero }: { hero: Hero }) {
               {TYPE_LABEL[hero.type] && (
                 <Badge subtle>{TYPE_LABEL[hero.type]}</Badge>
               )}
+              <Badge subtle>{t(CONTENT_LABEL[hero.tags.content])}</Badge>
             </div>
 
             {hero.engraving_focus && (

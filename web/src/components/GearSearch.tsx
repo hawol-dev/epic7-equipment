@@ -23,12 +23,20 @@ import type {
   SetId,
   ElementId,
   ClassId,
+  ContentTag,
 } from "@/lib/types";
 
 const SUBSTAT_ORDER: SubstatId[] = [
   "spd", "atk_p", "hp_p", "def_p",
   "chc", "chd", "eff", "effres",
 ];
+
+const CONTENT_ORDER: ContentTag[] = ["pve", "pvp"];
+
+const CONTENT_LABEL: Record<ContentTag, MessageKey> = {
+  pve: "content_pve",
+  pvp: "content_pvp",
+};
 
 const ELEMENT_VAR: Record<ElementId, string> = {
   fire: "var(--el-fire)",
@@ -80,6 +88,7 @@ export function GearSearch() {
     .split(",")
     .map((s) => parseInt(s, 10))
     .filter((n) => allRarities.includes(n));
+  const selectedContents = parseList(params.get("ct"), CONTENT_ORDER);
   const sortKey: SortKey =
     (SORT_OPTIONS.find((o) => o.value === params.get("sort"))?.value as SortKey)
     ?? "score";
@@ -123,6 +132,13 @@ export function GearSearch() {
     updateParam("rar", Array.from(cur));
   };
 
+  const toggleContent = (id: ContentTag) => {
+    const cur = new Set(selectedContents);
+    if (cur.has(id)) cur.delete(id);
+    else cur.add(id);
+    updateParam("ct", Array.from(cur));
+  };
+
   const reset = () => {
     router.replace("/", { scroll: false });
     setVisible(PAGE_SIZE);
@@ -131,7 +147,7 @@ export function GearSearch() {
   const hasInput =
     selectedSets.length + selectedSubs.length +
     selectedElements.length + selectedClasses.length +
-    selectedRarities.length > 0;
+    selectedRarities.length + selectedContents.length > 0;
 
   const results = useMemo(() => {
     if (!hasInput) return [];
@@ -141,6 +157,7 @@ export function GearSearch() {
       elements: selectedElements.length ? selectedElements : undefined,
       classes: selectedClasses.length ? selectedClasses : undefined,
       rarities: selectedRarities.length ? selectedRarities : undefined,
+      contents: selectedContents.length ? selectedContents : undefined,
     });
     if (sortKey === "score") return matched;  // matchHeroes 기본 정렬
     return [...matched].sort((a, b) => {
@@ -167,6 +184,7 @@ export function GearSearch() {
     selectedElements.join(","),
     selectedClasses.join(","),
     selectedRarities.join(","),
+    selectedContents.join(","),
     sortKey,
   ]);
 
@@ -229,9 +247,9 @@ export function GearSearch() {
               ›
             </span>
             {t("hero_filter_optional")}
-            {(selectedElements.length + selectedClasses.length + selectedRarities.length) > 0 && (
+            {(selectedElements.length + selectedClasses.length + selectedRarities.length + selectedContents.length) > 0 && (
               <span className="ml-1 text-[var(--accent)] tabular">
-                {selectedElements.length + selectedClasses.length + selectedRarities.length}
+                {selectedElements.length + selectedClasses.length + selectedRarities.length + selectedContents.length}
               </span>
             )}
           </summary>
@@ -272,6 +290,19 @@ export function GearSearch() {
                     selected={selectedRarities.includes(n)}
                     onToggle={() => toggleRarity(n)}
                     accent={RARITY_VAR[n]}
+                    size="sm"
+                  />
+                ))}
+              </div>
+            </Field>
+            <Field label={t("field_content")} inline>
+              <div className="flex flex-wrap gap-1.5">
+                {CONTENT_ORDER.map((id) => (
+                  <Chip
+                    key={id}
+                    label={t(CONTENT_LABEL[id])}
+                    selected={selectedContents.includes(id)}
+                    onToggle={() => toggleContent(id)}
                     size="sm"
                   />
                 ))}

@@ -98,6 +98,22 @@ INCLUDE_FRIBBELS_ONLY = {
     "Vivian",  # 비비안 — 자연 마도사 5★ 베이스 (사용자 요청)
 }
 
+PVE_KEYWORDS = (
+    "PVE", "원정대", "와이번", "밴시원펀", "골렘원펀",
+    "성좌", "전당", "대 스트라제스용",
+)
+
+
+def classify_content(variant_ko: str | None) -> str:
+    """variant_ko에 PVE 컨텐츠 표기가 있으면 'pve', 그 외 전부 'pvp'."""
+    if not variant_ko:
+        return "pvp"
+    for kw in PVE_KEYWORDS:
+        if kw in variant_ko:
+            return "pve"
+    return "pvp"
+
+
 # file1 variant 한글 표기 → URL 안전한 영문 슬러그
 # (영웅 ID는 ASCII만 — URL 인코딩 이슈 방지)
 VARIANT_SLUG = {
@@ -480,6 +496,7 @@ def main():
             "valid_options": valid_options,
             "has_data": True,
             "source": sources,
+            "tags": {"content": classify_content(variant_ko)},
         }
         out.append(record)
 
@@ -534,6 +551,7 @@ def main():
             "valid_options": None,
             "has_data": False,
             "source": ["fribbels"],
+            "tags": {"content": classify_content(None)},
         }
         out.append(record)
 

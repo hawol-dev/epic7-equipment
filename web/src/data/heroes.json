@@ -106,7 +106,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "kitty-clarissa",
@@ -214,7 +217,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "inferno-khawazu",
@@ -316,7 +322,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "savior-adin",
@@ -418,7 +427,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "savior-adin__spd-block",
@@ -520,7 +532,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "savior-adin__lifesteal",
@@ -624,7 +639,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "peacemaker-furious",
@@ -731,7 +749,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "genesis-ras",
@@ -844,7 +865,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "fallen-cecilia",
@@ -940,7 +964,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "nahkwol",
@@ -1042,7 +1069,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "summertime-iseria",
@@ -1138,7 +1168,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "notos",
@@ -1248,7 +1281,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "moon-bunny-dominiel",
@@ -1350,7 +1386,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "general-purrgis",
@@ -1448,7 +1487,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "destina",
@@ -1552,7 +1594,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "urban-shadow-choux",
@@ -1662,7 +1707,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "challenger-dominiel",
@@ -1756,7 +1804,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "twisted-eidolon-kayron__dpstank",
@@ -1867,7 +1918,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "twisted-eidolon-kayron__tank",
@@ -1975,7 +2029,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "diene",
@@ -2086,7 +2143,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "tieria__ext",
@@ -2178,7 +2238,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "designer-lilibet",
@@ -2286,7 +2349,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "dizzy",
@@ -2375,7 +2441,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "wandering-prince-cidd",
@@ -2477,7 +2546,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ravi",
@@ -2593,7 +2665,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "last-rider-krau",
@@ -2695,7 +2770,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "last-piece-karin",
@@ -2797,7 +2875,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "laia",
@@ -2903,7 +2984,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ran",
@@ -3008,7 +3092,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ram__pve",
@@ -3116,7 +3203,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "landy",
@@ -3222,7 +3312,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "landy__halfhp",
@@ -3326,7 +3419,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ray__ext",
@@ -3426,7 +3522,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "lethe",
@@ -3533,7 +3632,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "rem",
@@ -3627,7 +3729,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "robin",
@@ -3722,7 +3827,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "roana",
@@ -3841,7 +3949,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "roy-mustang",
@@ -3945,7 +4056,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "luna",
@@ -4057,7 +4171,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "luna__exp",
@@ -4163,7 +4280,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "luluca__pve",
@@ -4254,7 +4374,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "lua",
@@ -4352,7 +4475,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ruiza",
@@ -4448,7 +4574,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ludwig",
@@ -4539,7 +4668,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "rinak",
@@ -4634,7 +4766,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "lidica",
@@ -4732,7 +4867,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "rimuru",
@@ -4840,7 +4978,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "riza-hawkeye",
@@ -4934,7 +5075,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "lilibet__pve",
@@ -5037,7 +5181,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "lilibet__pvp",
@@ -5141,7 +5288,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "lilias",
@@ -5244,7 +5394,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "lilka__pve",
@@ -5336,7 +5489,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "magic-scholar-doris",
@@ -5429,7 +5585,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "mascot-hazel__pve",
@@ -5522,7 +5681,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "archdemons-shadow",
@@ -5634,7 +5796,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "falconer-kluri",
@@ -5727,7 +5892,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "mercedes__exp",
@@ -5823,7 +5991,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "fairytale-tenebria",
@@ -5928,7 +6099,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "maid-chloe",
@@ -6033,7 +6207,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "melissa",
@@ -6139,7 +6316,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "mort",
@@ -6256,7 +6436,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "adventurer-ras",
@@ -6352,7 +6535,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "muwi__wyvern",
@@ -6442,7 +6628,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "martial-artist-ken",
@@ -6548,7 +6737,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "mui__banshee-1p",
@@ -6635,7 +6827,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "infinite-horizon-achates",
@@ -6739,7 +6934,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "milim",
@@ -6843,7 +7041,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ocean-breeze-luluca",
@@ -6949,7 +7150,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "sea-phantom-politis",
@@ -7047,7 +7251,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "basar",
@@ -7132,7 +7339,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "baal-sezan__exp",
@@ -7241,7 +7451,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "baiken__banshee-1p",
@@ -7331,7 +7544,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "holiday-yufine",
@@ -7433,7 +7649,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "holiday-yufine__ext",
@@ -7536,7 +7755,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "midnight-gala-lilias",
@@ -7642,7 +7864,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "midnight-gala-lilias__effres",
@@ -7746,7 +7971,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "bystander-hwayoung",
@@ -7859,7 +8087,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "wanderer-silk",
@@ -7964,7 +8195,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "silver-blade-aramintha",
@@ -8063,7 +8297,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "benimaru",
@@ -8171,7 +8408,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "veronica",
@@ -8277,7 +8517,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "bellona__pve",
@@ -8382,7 +8625,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "belian",
@@ -8499,7 +8745,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "belian__spd-deck",
@@ -8608,7 +8857,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "belian__crit",
@@ -8721,7 +8973,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "astromancer-elena",
@@ -8827,7 +9082,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "school-nurse-yulha",
@@ -8935,7 +9193,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "monarch-of-the-sword-iseria",
@@ -9038,7 +9299,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "auxiliary-lots",
@@ -9127,7 +9391,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "sealed-eye-surin",
@@ -9222,7 +9489,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "immortal-wukong",
@@ -9334,7 +9604,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "immortal-wukong__vs-strazes",
@@ -9435,7 +9708,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "faithless-lidica",
@@ -9542,7 +9818,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "brieg__pve",
@@ -9656,7 +9935,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "birgitta",
@@ -9757,7 +10039,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "byblis",
@@ -9860,7 +10145,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "violet",
@@ -9951,7 +10239,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "wretched-rose",
@@ -10040,7 +10331,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "beehoo__pve",
@@ -10138,7 +10432,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "vildred",
@@ -10244,7 +10541,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ruele-of-light",
@@ -10355,7 +10655,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "angel-of-light-angelica",
@@ -10462,7 +10765,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "commander-pavel",
@@ -10560,7 +10866,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "saria",
@@ -10666,7 +10975,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "desert-jewel-basar",
@@ -10770,7 +11082,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "lionheart-cermia",
@@ -10884,7 +11199,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "sharun",
@@ -10982,7 +11300,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "shalltear",
@@ -11088,7 +11409,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "charlotte",
@@ -11188,7 +11512,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "westwind-executioner-schuri",
@@ -11285,7 +11612,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "architect-laika",
@@ -11383,7 +11713,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "solitaria-of-the-snow",
@@ -11485,7 +11818,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "setsuka",
@@ -11600,7 +11936,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "cerise__exp",
@@ -11706,7 +12045,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "cecilia",
@@ -11797,7 +12139,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "sez",
@@ -11903,7 +12248,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "sigret__wyvern",
@@ -12000,7 +12348,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "celine",
@@ -12102,7 +12453,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "senya",
@@ -12206,7 +12560,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "hellion-lua",
@@ -12310,7 +12667,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "sol__golem-1p",
@@ -12404,7 +12764,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "angelic-montmorancy__ext",
@@ -12493,7 +12856,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "sylvan-sage-vivian",
@@ -12603,7 +12969,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "sylvan-sage-vivian__std",
@@ -12707,7 +13076,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "choux",
@@ -12812,7 +13184,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "shuna",
@@ -12921,7 +13296,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "schniel__pve",
@@ -13033,7 +13411,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "schuri",
@@ -13135,7 +13516,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "stark",
@@ -13228,7 +13612,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "straze",
@@ -13330,7 +13717,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "champion-zerato",
@@ -13419,7 +13809,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "cidd",
@@ -13525,7 +13918,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "new-moon-luna__first-turn",
@@ -13632,7 +14028,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "new-moon-luna__mid-turn",
@@ -13739,7 +14138,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "specimen-sez",
@@ -13849,7 +14251,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "abyssal-yufine",
@@ -13963,7 +14368,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "judge-kise",
@@ -14065,7 +14473,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "aramintha",
@@ -14166,7 +14577,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "aram",
@@ -14285,7 +14699,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "arunka",
@@ -14386,7 +14803,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "aria",
@@ -14496,7 +14916,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "amid",
@@ -14593,7 +15016,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "armin",
@@ -14699,7 +15125,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "abigail",
@@ -14809,7 +15238,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ainz-ooal-gown",
@@ -14890,7 +15322,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "achates__wos",
@@ -14983,7 +15418,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "aki",
@@ -15077,7 +15515,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "angelica__pve",
@@ -15167,7 +15608,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "alencia",
@@ -15274,7 +15718,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "albedo",
@@ -15386,7 +15833,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "assassin-cidd",
@@ -15490,7 +15940,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "assassin-cartuja__ext",
@@ -15592,7 +16045,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "ambitious-tywin__dps",
@@ -15697,7 +16153,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ambitious-tywin__guard",
@@ -15794,7 +16253,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ambitious-tywin__eff",
@@ -15898,7 +16360,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "shepherd-of-the-dark-diene",
@@ -16015,7 +16480,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "shepherd-of-the-dark-diene__eff-res",
@@ -16122,7 +16590,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "dark-corvus",
@@ -16226,7 +16697,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "young-senya",
@@ -16337,7 +16811,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "little-queen-charlotte",
@@ -16453,7 +16930,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "eda",
@@ -16552,7 +17032,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "edward-elric",
@@ -16657,7 +17140,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ervalen__ext",
@@ -16747,7 +17233,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "emilia",
@@ -16853,7 +17342,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "elena",
@@ -16955,7 +17447,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "eligos",
@@ -17059,7 +17554,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "elvira",
@@ -17164,7 +17662,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "elphelt__pve",
@@ -17256,7 +17757,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "summer-break-charlotte",
@@ -17363,7 +17867,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "free-spirit-tieria__pve",
@@ -17455,7 +17962,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "researcher-carrot",
@@ -17545,7 +18055,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "eternal-wanderer-ludwig",
@@ -17643,7 +18156,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "spirit-eye-celine",
@@ -17752,7 +18268,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "spirit-eye-celine__effres-only",
@@ -17862,7 +18381,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "operator-sigret",
@@ -17960,7 +18482,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "dragon-king-sharun",
@@ -18062,7 +18587,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "dragon-bride-senya",
@@ -18167,7 +18695,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "yuna",
@@ -18260,7 +18791,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "yufine",
@@ -18351,7 +18885,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "yulha",
@@ -18462,7 +18999,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "silvertide-christy",
@@ -18565,7 +19105,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "argent-waves-hwayoung",
@@ -18672,7 +19215,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "iseria__pve",
@@ -18770,7 +19316,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "ilynav",
@@ -18864,7 +19413,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "lone-crescent-bellona",
@@ -18976,7 +19528,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "benevolent-romann",
@@ -19068,7 +19623,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "unbound-knight-arowell",
@@ -19169,7 +19727,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "mercenary-helga",
@@ -19261,7 +19822,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "zahhak",
@@ -19359,7 +19923,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "remnant-violet",
@@ -19467,7 +20034,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "jack-o",
@@ -19571,7 +20141,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "briar-witch-iseria__dps",
@@ -19674,7 +20247,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "briar-witch-iseria__first-turn",
@@ -19771,7 +20347,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "blood-moon-haste",
@@ -19875,7 +20454,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "zealot-carmainerose__pve",
@@ -19967,7 +20549,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "tactical-archetype-coli",
@@ -20073,7 +20658,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "inheritor-amiki",
@@ -20169,7 +20757,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "fighter-maya",
@@ -20262,7 +20853,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "new-kid-adin",
@@ -20368,7 +20962,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "zeno",
@@ -20461,7 +21058,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "jenua",
@@ -20569,7 +21169,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "mediator-kawerik",
@@ -20675,7 +21278,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "boss-arunka__dpstank",
@@ -20784,7 +21390,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "boss-arunka__tank",
@@ -20893,7 +21502,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "perfumer-byblis",
@@ -20999,7 +21611,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "closer-charles",
@@ -21105,7 +21720,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "sinful-angelica__arena-atk",
@@ -21202,7 +21820,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "watcher-schuri",
@@ -21306,7 +21927,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "death-dealer-ray",
@@ -21408,7 +22032,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "conqueror-lilias",
@@ -21512,7 +22139,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "zio",
@@ -21616,7 +22246,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "zio__eff-acc",
@@ -21721,7 +22354,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "commander-lorina",
@@ -21830,7 +22466,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "command-model-laika",
@@ -21930,7 +22569,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "requiem-roana",
@@ -22037,7 +22679,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "arbiter-vildred",
@@ -22149,7 +22794,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "arbiter-vildred__anti-cheese",
@@ -22260,7 +22908,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "charles__ext",
@@ -22365,7 +23016,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "empyrean-ilynav__dps",
@@ -22473,7 +23127,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "empyrean-ilynav__tank",
@@ -22580,7 +23237,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "lady-of-the-scales",
@@ -22692,7 +23352,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "cermia__pve",
@@ -22789,7 +23452,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "top-model-luluca",
@@ -22893,7 +23559,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "festive-eda",
@@ -23009,7 +23678,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "karin__pve",
@@ -23103,7 +23775,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "camilla__pve",
@@ -23197,7 +23872,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "kawerik",
@@ -23299,7 +23977,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "kayron",
@@ -23403,7 +24084,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "kane__exp-lich",
@@ -23495,7 +24179,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "ken__pve",
@@ -23593,7 +24280,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "swift-flagbearer-sigret",
@@ -23703,7 +24393,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "krau",
@@ -23809,7 +24502,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "chloe__pve",
@@ -23902,7 +24598,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "kiris__pve",
@@ -23996,7 +24695,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "kise",
@@ -24102,7 +24804,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "taranor-guard__pve",
@@ -24201,7 +24906,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "tamarinne__pve",
@@ -24313,7 +25021,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "tywin__ext",
@@ -24404,7 +25115,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "taeyou",
@@ -24497,7 +25211,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "tenebria__exp",
@@ -24606,7 +25323,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "tori",
@@ -24720,7 +25440,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "pavel",
@@ -24828,7 +25551,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "fenne",
@@ -24933,7 +25659,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "fern",
@@ -25045,7 +25774,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "peira",
@@ -25145,7 +25877,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "fenris__exp",
@@ -25249,7 +25984,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "bomb-model-kanna__pve",
@@ -25338,7 +26076,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "politis__dps",
@@ -25440,7 +26181,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "politis__v1",
@@ -25543,7 +26287,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "disciplinary-prefect-aria",
@@ -25657,7 +26404,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "tempest-surin",
@@ -25761,7 +26511,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "furious__pve",
@@ -25852,7 +26605,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "frida",
@@ -25950,7 +26706,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "frieren",
@@ -26065,7 +26824,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "flan",
@@ -26167,7 +26929,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "harsetti__debuffer",
@@ -26273,7 +27038,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "harsetti__dps",
@@ -26389,7 +27157,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "harsetti__spd",
@@ -26498,7 +27269,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "hasol",
@@ -26593,7 +27367,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "afternoon-soak-flan",
@@ -26707,7 +27484,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "afternoon-soak-flan__spd-deck",
@@ -26816,7 +27596,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "navy-captain-landy",
@@ -26917,7 +27700,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "seaside-bellona",
@@ -27026,7 +27812,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "pirate-captain-flan",
@@ -27121,7 +27910,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "haste__pve",
@@ -27210,7 +28002,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pve"
+    }
   },
   {
     "id": "hecate",
@@ -27319,7 +28114,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "sage-baal-sezan",
@@ -27422,7 +28220,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "blood-blade-karin",
@@ -27533,7 +28334,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "blood-blade-karin__res",
@@ -27647,7 +28451,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "witch-of-the-mere-tenebria",
@@ -27756,7 +28563,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "witch-of-the-mere-tenebria__res",
@@ -27867,7 +28677,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "guard-captain-krau",
@@ -27968,7 +28781,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "crimson-armin",
@@ -28075,7 +28891,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "apocalypse-ravi",
@@ -28191,7 +29010,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "hwayoung",
@@ -28287,7 +29109,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "blooming-lidica",
@@ -28393,7 +29218,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "blooming-lidica__vs-harsetti",
@@ -28499,7 +29327,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "specter-tenebria",
@@ -28609,7 +29440,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "successor-taeyou",
@@ -28714,7 +29548,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "fumyr",
@@ -28815,7 +29652,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "shadow-knight-pyllis",
@@ -28917,7 +29757,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ae-ningning",
@@ -29010,7 +29853,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ae-winter",
@@ -29114,7 +29960,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ae-giselle",
@@ -29208,7 +30057,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "ae-karina",
@@ -29317,7 +30169,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "salome",
@@ -29418,7 +30273,10 @@
       "file1",
       "file2",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "estelle",
@@ -29510,7 +30368,10 @@
     "source": [
       "file1",
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   },
   {
     "id": "vivian",
@@ -29574,6 +30435,9 @@
     "has_data": false,
     "source": [
       "fribbels"
-    ]
+    ],
+    "tags": {
+      "content": "pvp"
+    }
   }
 ]

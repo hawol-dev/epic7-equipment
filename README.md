@@ -66,6 +66,12 @@ npm run dev   # http://localhost:3000
 
 ### 2026-05-11
 
+**PVE/PVP 컨텐츠 태그**
+
+- 영웅별 `tags.content`: variant_ko의 PVE 컨텐츠 표기(PVE/원정대/와이번/밴시/골렘/성좌/전당) 기반 자동 분류
+- 메인 검색 고급 필터에 "컨텐츠" 칩 추가 (PVE/PVP)
+- 상세 페이지 헤더 배지에 컨텐츠 표시
+
 **부옵 strict 필터**
 
 - 메인 검색에서 선택한 부옵 전부가 essential 또는 preferred인 영웅만 노출

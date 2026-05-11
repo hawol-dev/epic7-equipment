@@ -29,6 +29,8 @@ export type EngravingId =
   | "atk_p" | "def_p" | "hp_p" | "chc" | "chd"
   | "eff" | "effres" | "atk" | "def" | "hp";
 
+export type ContentTag = "pve" | "pvp";
+
 export type HeroType =
   | "standard"
   | "moonlight5"
@@ -85,6 +87,7 @@ export interface Hero {
   valid_options: ValidOptions | null;
   has_data: boolean;
   source: string[];
+  tags: { content: ContentTag };
   translation_missing?: boolean;
 }
 

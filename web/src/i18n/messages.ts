@@ -121,6 +121,11 @@ export const M = {
   // Language switcher
   lang_korean:      { ko: "한국어",                                  en: "Korean" },
   lang_english:     { ko: "English",                                  en: "English" },
+
+  // Content tags (PVE/PVP)
+  field_content:    { ko: "컨텐츠",                                  en: "Content" },
+  content_pve:      { ko: "PVE",                                     en: "PvE" },
+  content_pvp:      { ko: "PVP",                                     en: "PvP" },
 } as const;
 
 export type MessageKey = keyof typeof M;

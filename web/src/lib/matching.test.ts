@@ -4,7 +4,9 @@ import type { Hero, SubstatId } from "./types";
 
 function makeHero(
   id: string,
-  subs: Partial<Record<SubstatId, "essential" | "preferred" | null>>
+  subs: Partial<Record<SubstatId, "essential" | "preferred" | null>> & {
+    content?: "pve" | "pvp";
+  }
 ): Hero {
   return {
     id,
@@ -44,6 +46,7 @@ function makeHero(
     },
     has_data: true,
     source: [],
+    tags: { content: subs.content ?? "pvp" },
   };
 }
 
@@ -84,6 +87,26 @@ test("strict 필터: 부옵 입력 없으면 영웅 데이터 있는 거 다 통
   const heroes = [
     makeHero("a", { spd: "essential" }),
     makeHero("b", { chc: "essential" }),
+  ];
+  const results = matchHeroes(heroes, { sets: [], substats: [] });
+  expect(results.length).toBe(2);
+});
+
+test("contents 필터: pve만 선택 시 pve 영웅만 통과", () => {
+  const heroes = [
+    makeHero("a_pve", { spd: "essential", content: "pve" }),
+    makeHero("b_pvp", { spd: "essential", content: "pvp" }),
+  ];
+  const results = matchHeroes(heroes, {
+    sets: [], substats: [], contents: ["pve"],
+  });
+  expect(results.map((r) => r.hero.id)).toEqual(["a_pve"]);
+});
+
+test("contents 필터: 비어있으면 둘 다 통과", () => {
+  const heroes = [
+    makeHero("a_pve", { spd: "essential", content: "pve" }),
+    makeHero("b_pvp", { spd: "essential", content: "pvp" }),
   ];
   const results = matchHeroes(heroes, { sets: [], substats: [] });
   expect(results.length).toBe(2);

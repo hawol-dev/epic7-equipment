@@ -4,6 +4,7 @@ import type {
   SetId,
   ElementId,
   ClassId,
+  ContentTag,
 } from "./types";
 
 export interface GearQuery {
@@ -15,6 +16,8 @@ export interface GearQuery {
   elements?: ElementId[];
   classes?: ClassId[];
   rarities?: number[];
+  /** 컨텐츠 필터: pve/pvp 둘 다 선택 또는 빈 배열이면 전체 */
+  contents?: ContentTag[];
 }
 
 export interface MatchResult {
@@ -50,6 +53,9 @@ function metaMatches(query: GearQuery, hero: Hero): boolean {
     return false;
   }
   if (query.rarities?.length && (!hero.rarity || !query.rarities.includes(hero.rarity))) {
+    return false;
+  }
+  if (query.contents?.length && !query.contents.includes(hero.tags.content)) {
     return false;
   }
   return true;

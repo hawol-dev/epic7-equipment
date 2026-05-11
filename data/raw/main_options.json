@@ -168,9 +168,17 @@
     "_note": null
   },
   "모험가 라스": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p",
+      "def_p"
+    ],
+    "ring": [
+      "hp_p",
+      "def_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=apple1004ga&no=1817883",
     "_note": null
   },
@@ -588,9 +596,15 @@
     "_note": null
   },
   "타마린느": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "eff"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=apple1004ga&no=1719138",
     "_note": null
   },

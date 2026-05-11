@@ -6737,7 +6737,19 @@
       "ignore_2set": false,
       "notes": null,
       "notes_en": null,
-      "main_options": null
+      "main_options": {
+        "necklace": [
+          "hp_p",
+          "def_p"
+        ],
+        "ring": [
+          "hp_p",
+          "def_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -25797,7 +25809,17 @@
       "ignore_2set": false,
       "notes": null,
       "notes_en": null,
-      "main_options": null
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "eff"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [

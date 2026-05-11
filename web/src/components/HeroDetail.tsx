@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { enums, getVariants, getRelatedHeroes } from "@/lib/data";
 import { HeroCard } from "@/components/HeroCard";
+import { SlotIcon } from "./SlotIcon";
 import { useT, useLang } from "@/i18n/LangProvider";
 import { enumLabel, heroName } from "@/i18n/display";
 import type { MessageKey } from "@/i18n/messages";
@@ -14,6 +15,7 @@ import type {
   ElementId,
   EngravingGrade,
   ContentTag,
+  MainOptions,
 } from "@/lib/types";
 
 const SUBSTAT_ORDER: SubstatId[] = [
@@ -186,7 +188,9 @@ function ValidOptionsBlock({ hero }: { hero: Hero }) {
   const preferred = SUBSTAT_ORDER.filter((s) => vo.substats[s] === "preferred");
 
   return (
-    <div className="grid md:grid-cols-2 gap-4 md:gap-6">
+    <>
+      {vo.main_options && <MainOptionsBlock mo={vo.main_options} />}
+      <div className="grid md:grid-cols-2 gap-4 md:gap-6 mt-4 md:mt-6">
       <Section title={t("sec_substats")}>
         <div className="space-y-3">
           <SubstatLine label={t("level_essential")} marker="●" color="var(--essential)" stats={essential} />
@@ -263,6 +267,7 @@ function ValidOptionsBlock({ hero }: { hero: Hero }) {
         </Section>
       )}
     </div>
+    </>
   );
 }
 
@@ -520,5 +525,37 @@ function Stat({ label, value }: { label: string; value: string | number }) {
         {typeof value === "number" ? value.toLocaleString() : value}
       </dd>
     </div>
+  );
+}
+
+function MainOptionsBlock({ mo }: { mo: MainOptions }) {
+  const t = useT();
+  const { lang } = useLang();
+  const slots: { key: keyof MainOptions; label: string }[] = [
+    { key: "necklace", label: t("slot_necklace") },
+    { key: "ring",     label: t("slot_ring") },
+    { key: "boots",    label: t("slot_boots") },
+  ];
+  return (
+    <section className="bg-[var(--bg-surface)] border border-[var(--border-subtle)] rounded-sm p-4 md:p-5 mt-4 md:mt-6">
+      <h2 className="text-xs uppercase tracking-wider text-[var(--text-muted)] mb-3">
+        {t("sec_main_options")}
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        {slots.map(({ key, label }) => {
+          const opts = mo[key];
+          if (!opts.length) return null;
+          return (
+            <div key={key} className="flex items-center gap-2">
+              <SlotIcon slot={key} size={18} />
+              <div className="text-xs text-[var(--text-muted)] w-12">{label}</div>
+              <div className="text-sm text-[var(--text-primary)]">
+                {opts.map((s) => enumLabel(enums.substats[s], lang)).join(" / ")}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
   );
 }

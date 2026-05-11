@@ -122,6 +122,12 @@ export const M = {
   lang_korean:      { ko: "한국어",                                  en: "Korean" },
   lang_english:     { ko: "English",                                  en: "English" },
 
+  // Main options (주옵션 슬롯)
+  sec_main_options: { ko: "주옵션",                                  en: "Main Options" },
+  slot_necklace:    { ko: "목걸이",                                  en: "Necklace" },
+  slot_ring:        { ko: "반지",                                    en: "Ring" },
+  slot_boots:       { ko: "신발",                                    en: "Boots" },
+
   // Content tags (PVE/PVP)
   field_content:    { ko: "컨텐츠",                                  en: "Content" },
   content_pve:      { ko: "PVE",                                     en: "PvE" },

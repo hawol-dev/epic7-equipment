@@ -43,6 +43,12 @@ export type HeroType =
 
 export type SubstatLevel = "essential" | "preferred" | null;
 
+export interface MainOptions {
+  necklace: SubstatId[];
+  ring: SubstatId[];
+  boots: SubstatId[];
+}
+
 export interface ValidOptions {
   substats: Record<SubstatId, SubstatLevel>;
   priority_order: SubstatId[];
@@ -52,6 +58,7 @@ export interface ValidOptions {
   ignore_2set: boolean;
   notes: string | null;
   notes_en: string | null;
+  main_options: MainOptions | null;
 }
 
 export interface BaseStats {

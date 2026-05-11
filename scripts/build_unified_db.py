@@ -48,6 +48,7 @@ SRC_FRIBBELS = ROOT / "data/raw/fribbels_herodata.json"
 SRC_FRIBBELS_KO = ROOT / "data/raw/fribbels_ko.json"
 SRC_FILE2_ARTIFACTS = ROOT / "data/raw/file2_artifacts.json"
 SRC_FILE2_ENGRAVING = ROOT / "data/raw/file2_engraving_grades.json"
+SRC_MAIN_OPTIONS = ROOT / "data/raw/main_options.json"
 
 DST_HEROES = ROOT / "data/processed/heroes.json"
 DST_ENUMS = ROOT / "data/processed/enums.json"
@@ -165,6 +166,23 @@ def load_engraving_grades() -> dict[str, dict[str, dict[str, str | None]]]:
     return json.loads(SRC_FILE2_ENGRAVING.read_text(encoding="utf-8"))
 
 
+def load_main_options() -> dict:
+    """data/raw/main_options.json 에서 비어있지 않은 영웅의 주옵션만 반환."""
+    if not SRC_MAIN_OPTIONS.exists():
+        return {}
+    raw = json.loads(SRC_MAIN_OPTIONS.read_text(encoding="utf-8"))
+    out = {}
+    for name, entry in raw.items():
+        if not (entry.get("necklace") or entry.get("ring") or entry.get("boots")):
+            continue  # 빈 항목 skip
+        out[name] = {
+            "necklace": entry.get("necklace") or [],
+            "ring":     entry.get("ring") or [],
+            "boots":    entry.get("boots") or [],
+        }
+    return out
+
+
 # Fribbels CDN URL → 로컬 이미지 경로 (web/public 기준)
 def local_image_path(url: str | None) -> str | None:
     if not url:
@@ -259,7 +277,8 @@ def main():
     # 추가 데이터 (파일2)
     artifacts = load_recommended_artifacts()  # {ko_name: [art1, art2, art3]}
     engraving_grades = load_engraving_grades()  # {sid: {lv: {grade: val}}}
-    print(f"  추천 아티팩트: {len(artifacts)}명, 각인 등급표: {len(engraving_grades)} 스탯")
+    main_options_map = load_main_options()  # {ko_name: {necklace, ring, boots}}
+    print(f"  추천 아티팩트: {len(artifacts)}명, 각인 등급표: {len(engraving_grades)} 스탯, 주옵션: {len(main_options_map)}명")
 
     # 아티팩트 ko → en 매핑 (Fribbels artifactdata.json + ko_dict 역매핑)
     try:
@@ -450,6 +469,7 @@ def main():
             "ignore_2set": h["set_combo"]["ignore_2set"],
             "notes": notes_ko,
             "notes_en": notes_en,
+            "main_options": main_options_map.get(base_ko) or None,
         }
 
         code = fr.get("code") if fr else None

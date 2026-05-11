@@ -99,7 +99,18 @@
       ],
       "ignore_2set": false,
       "notes": "중턴면역 디버퍼적중 선턴은 속도부터",
-      "notes_en": "Mid-turn Immunity. Effectiveness for debuffer; first-turn prioritizes speed"
+      "notes_en": "Mid-turn Immunity. Effectiveness for debuffer; first-turn prioritizes speed",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -210,7 +221,8 @@
       ],
       "ignore_2set": false,
       "notes": "심연용은 적중맞춰야함",
-      "notes_en": "Need effectiveness for Abyss runs"
+      "notes_en": "Need effectiveness for Abyss runs",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -315,7 +327,8 @@
       ],
       "ignore_2set": false,
       "notes": "턴오기 전에 안뒤져야함",
-      "notes_en": "Just don't die before her turn comes"
+      "notes_en": "Just don't die before her turn comes",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -420,7 +433,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -525,7 +539,8 @@
       ],
       "ignore_2set": false,
       "notes": "전체공격 반격은 관통셋 효과 안먹음",
-      "notes_en": "AoE counterattack doesn't benefit from Penetration set"
+      "notes_en": "AoE counterattack doesn't benefit from Penetration set",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -632,7 +647,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -742,7 +758,8 @@
       ],
       "ignore_2set": false,
       "notes": "방비례 딜러 공vs방 효율은 안써서 모르니 세팅 전 질문 추천",
-      "notes_en": "DEF-scaling DPS — ATK vs DEF efficiency unknown, ask before building"
+      "notes_en": "DEF-scaling DPS — ATK vs DEF efficiency unknown, ask before building",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -858,7 +875,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "chc"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -957,7 +985,8 @@
       ],
       "ignore_2set": false,
       "notes": "생활효저 챙기는게 좋음",
-      "notes_en": "Better to stack HP/Resistance"
+      "notes_en": "Better to stack HP/Resistance",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -1062,7 +1091,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -1161,7 +1191,8 @@
       ],
       "ignore_2set": false,
       "notes": "심뜨별 아티 풀강 필수",
-      "notes_en": "Heart of Hannya artifact at max level required"
+      "notes_en": "Heart of Hannya artifact at max level required",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -1274,7 +1305,18 @@
       ],
       "ignore_2set": false,
       "notes": "투신 버프로 능력치 2배라 치치는 한도의 반만 챙김",
-      "notes_en": "Stat-doubling buff means CHC/CHD can be stacked at half the usual"
+      "notes_en": "Stat-doubling buff means CHC/CHD can be stacked at half the usual",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -1379,7 +1421,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -1480,7 +1523,8 @@
       ],
       "ignore_2set": false,
       "notes": "발자르고 탱vs속도 조금 챙기고 탱으로 세팅 나뉨",
-      "notes_en": "Splits into cut-speed-tank vs slight-speed-tank builds"
+      "notes_en": "Splits into cut-speed-tank vs slight-speed-tank builds",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -1587,7 +1631,8 @@
       ],
       "ignore_2set": false,
       "notes": "디버프케어",
-      "notes_en": "Debuff cleanser"
+      "notes_en": "Debuff cleanser",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -1700,7 +1745,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -1797,7 +1853,8 @@
       ],
       "ignore_2set": false,
       "notes": "뚀미펀치! 뚀미펀치!",
-      "notes_en": "Ddyomi punch! Ddyomi punch!"
+      "notes_en": "Ddyomi punch! Ddyomi punch!",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -1911,7 +1968,24 @@
       ],
       "ignore_2set": false,
       "notes": "깡방목채용/뉴비용X",
-      "notes_en": "Uses flat DEF necklace, not a beginner pick"
+      "notes_en": "Uses flat DEF necklace, not a beginner pick",
+      "main_options": {
+        "necklace": [
+          "hp_p",
+          "chc",
+          "def_p"
+        ],
+        "ring": [
+          "hp_p",
+          "effres",
+          "def_p"
+        ],
+        "boots": [
+          "hp_p",
+          "atk_p",
+          "def_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -2022,7 +2096,24 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p",
+          "chc",
+          "def_p"
+        ],
+        "ring": [
+          "hp_p",
+          "effres",
+          "def_p"
+        ],
+        "boots": [
+          "hp_p",
+          "atk_p",
+          "def_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -2136,7 +2227,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -2231,7 +2333,8 @@
       ],
       "ignore_2set": false,
       "notes": "조커끼기 때문에 공격력보단 치피를 더 중점으로 두는게 좋음",
-      "notes_en": "Since Daydream Joker is equipped, prioritize CHD over ATK"
+      "notes_en": "Since Daydream Joker is equipped, prioritize CHD over ATK",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -2342,7 +2445,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -2434,7 +2538,8 @@
       ],
       "ignore_2set": true,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -2539,7 +2644,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -2658,7 +2764,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "atk_p"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -2763,7 +2880,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -2868,7 +2986,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -2977,7 +3096,20 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p",
+          "def_p"
+        ],
+        "ring": [
+          "hp_p",
+          "def_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -3085,7 +3217,8 @@
       ],
       "ignore_2set": false,
       "notes": "간혹 디버퍼용으로 적중 맞추는 경우 있음",
-      "notes_en": "Sometimes built as a debuffer with effectiveness"
+      "notes_en": "Sometimes built as a debuffer with effectiveness",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -3196,7 +3329,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -3305,7 +3439,8 @@
       ],
       "ignore_2set": false,
       "notes": "극속/중턴 세팅 있고 생방은 죽지않을 정도로",
-      "notes_en": "Hyper-speed and mid-turn builds. HP/DEF just enough to survive"
+      "notes_en": "Hyper-speed and mid-turn builds. HP/DEF just enough to survive",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -3412,7 +3547,8 @@
       ],
       "ignore_2set": false,
       "notes": "생방 튼튼하게 나머진 딜로, 혈옥수  써야함",
-      "notes_en": "Solid HP/DEF, rest into damage — needs Bloodstone"
+      "notes_en": "Solid HP/DEF, rest into damage — needs Bloodstone",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -3515,7 +3651,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -3625,7 +3762,8 @@
       ],
       "ignore_2set": false,
       "notes": "반격은 중턴으로 챙김 250근처",
-      "notes_en": "For Counter, aim for mid-turn around 250 speed"
+      "notes_en": "For Counter, aim for mid-turn around 250 speed",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -3722,7 +3860,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -3820,7 +3959,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -3942,7 +4082,8 @@
       ],
       "ignore_2set": false,
       "notes": "생퍼신/속신 취향, 원정대용 전열은 생2만방2천",
-      "notes_en": "HP%/Speed boots is preference; for Expedition front line, 20k HP / 2k DEF"
+      "notes_en": "HP%/Speed boots is preference; for Expedition front line, 20k HP / 2k DEF",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -4049,7 +4190,8 @@
       ],
       "ignore_2set": false,
       "notes": "채티필수",
-      "notes_en": "Chatty artifact required"
+      "notes_en": "Chatty artifact required",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -4164,7 +4306,8 @@
       ],
       "ignore_2set": false,
       "notes": "옛날에 반면시구르 루나가 있었다는 걸 아시나요",
-      "notes_en": "Did you know there used to be Counter+Immunity Sigret + Luna comp?"
+      "notes_en": "Did you know there used to be Counter+Immunity Sigret + Luna comp?",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -4273,7 +4416,8 @@
       ],
       "ignore_2set": false,
       "notes": "스킬끄고 검집아티로 운빨딜링",
-      "notes_en": "Disable a skill, use Bastion artifact for RNG damage"
+      "notes_en": "Disable a skill, use Bastion artifact for RNG damage",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -4367,7 +4511,8 @@
       ],
       "ignore_2set": true,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -4468,7 +4613,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -4567,7 +4713,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -4661,7 +4808,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -4759,7 +4907,18 @@
       ],
       "ignore_2set": false,
       "notes": "세트무시 선턴 가능",
-      "notes_en": "Can run first-turn build ignoring set effects"
+      "notes_en": "Can run first-turn build ignoring set effects",
+      "main_options": {
+        "necklace": [
+          "atk_p"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -4860,7 +5019,8 @@
       ],
       "ignore_2set": false,
       "notes": "빠빠좋",
-      "notes_en": "Faster the better"
+      "notes_en": "Faster the better",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -4971,7 +5131,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -5068,7 +5229,8 @@
       ],
       "ignore_2set": false,
       "notes": "pve는 약점공격버프싸개",
-      "notes_en": "PvE: weakness attack buff applier"
+      "notes_en": "PvE: weakness attack buff applier",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -5174,7 +5336,8 @@
       ],
       "ignore_2set": false,
       "notes": "격류 없는 뉴비는 관통이나 치명",
-      "notes_en": "If you lack Torrent set as a beginner, use Penetration or Critical"
+      "notes_en": "If you lack Torrent set as a beginner, use Penetration or Critical",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -5281,7 +5444,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -5387,7 +5551,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -5482,7 +5647,8 @@
       ],
       "ignore_2set": false,
       "notes": "방깎싸개, 서브딜러 세팅으로 나뉨",
-      "notes_en": "Splits into DEF break applier or sub-DPS"
+      "notes_en": "Splits into DEF break applier or sub-DPS",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -5578,7 +5744,8 @@
       ],
       "ignore_2set": false,
       "notes": "컴까기에서 암속탱킹용으로 쓰기 괜찮음",
-      "notes_en": "Decent as a Dark-element tank in Computer Grand Hunt"
+      "notes_en": "Decent as a Dark-element tank in Computer Grand Hunt",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -5674,7 +5841,8 @@
       ],
       "ignore_2set": false,
       "notes": "공격력비례에 속지마셈 올려도 좆도 안오름",
-      "notes_en": "Don't be fooled by ATK scaling — pumping ATK barely helps"
+      "notes_en": "Don't be fooled by ATK scaling — pumping ATK barely helps",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -5789,7 +5957,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "def_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -5885,7 +6064,8 @@
       ],
       "ignore_2set": false,
       "notes": "3스 소울번싸개",
-      "notes_en": "Pure soulburn S3 user"
+      "notes_en": "Pure soulburn S3 user",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -5984,7 +6164,8 @@
       ],
       "ignore_2set": false,
       "notes": "PVP는 반면",
-      "notes_en": "Reverse for PvP"
+      "notes_en": "Reverse for PvP",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -6092,7 +6273,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -6200,7 +6382,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -6309,7 +6502,8 @@
       ],
       "ignore_2set": false,
       "notes": "중턴",
-      "notes_en": "Mid-turn"
+      "notes_en": "Mid-turn",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -6429,7 +6623,20 @@
       ],
       "ignore_2set": false,
       "notes": "생퍼신/속신 취향 공은챙김당함",
-      "notes_en": "HP% boots vs Speed boots is preference; ATK ends up stacked"
+      "notes_en": "HP% boots vs Speed boots is preference; ATK ends up stacked",
+      "main_options": {
+        "necklace": [
+          "hp_p",
+          "chd"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd",
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -6528,7 +6735,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -6621,7 +6829,8 @@
       ],
       "ignore_2set": false,
       "notes": "효적 65%만 챙김",
-      "notes_en": "Only 65% effectiveness needed"
+      "notes_en": "Only 65% effectiveness needed",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -6730,7 +6939,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -6820,7 +7030,8 @@
       ],
       "ignore_2set": true,
       "notes": "이계는 속도만 맞추면 되고 지옥은 쫄 1라 잡을 딜도 챙겨야함",
-      "notes_en": "Astranox needs speed only; Hell needs damage to clear minions in round 1"
+      "notes_en": "Astranox needs speed only; Hell needs damage to clear minions in round 1",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -6927,7 +7138,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7034,7 +7246,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7143,7 +7356,8 @@
       ],
       "ignore_2set": false,
       "notes": "탱키하게, 서브디버퍼로 세팅이 나뉨",
-      "notes_en": "Tanky build, or splits into sub-debuffer build"
+      "notes_en": "Tanky build, or splits into sub-debuffer build",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7244,7 +7458,8 @@
       ],
       "ignore_2set": false,
       "notes": "세트무시 선턴 가능, 중턴저항바폴도 있음",
-      "notes_en": "Can run first-turn ignoring sets; mid-turn Resistance Barrier-pop also viable"
+      "notes_en": "Can run first-turn ignoring sets; mid-turn Resistance Barrier-pop also viable",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7332,7 +7547,8 @@
       ],
       "ignore_2set": true,
       "notes": "3스소울번싸개",
-      "notes_en": "Pure soulburn S3 user"
+      "notes_en": "Pure soulburn S3 user",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7444,7 +7660,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7537,7 +7754,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7642,7 +7860,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7748,7 +7967,8 @@
       ],
       "ignore_2set": false,
       "notes": "불 성좌에서 화상 걸기 위해 적중 필요",
-      "notes_en": "Needs effectiveness to apply Burn in Fire Wyvern 13"
+      "notes_en": "Needs effectiveness to apply Burn in Fire Wyvern 13",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7857,7 +8077,8 @@
       ],
       "ignore_2set": false,
       "notes": "생퍼 없을수록 좋고",
-      "notes_en": "The less HP% the better"
+      "notes_en": "The less HP% the better",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -7964,7 +8185,8 @@
       ],
       "ignore_2set": false,
       "notes": "1스 흡혈 피해량 제한 믿고 효저 많이",
-      "notes_en": "S1 lifesteal damage caps reliably — stack a lot of effect resistance"
+      "notes_en": "S1 lifesteal damage caps reliably — stack a lot of effect resistance",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -8080,7 +8302,18 @@
       ],
       "ignore_2set": false,
       "notes": "반관이 정배",
-      "notes_en": "Counter+Penetration is the standard build"
+      "notes_en": "Counter+Penetration is the standard build",
+      "main_options": {
+        "necklace": [
+          "chc"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -8188,7 +8421,8 @@
       ],
       "ignore_2set": false,
       "notes": "깔창 디버퍼로 많이 쓰는데 면역 까고 행밀침묵이 더 중요해서 딜은 우선순위가 낮음",
-      "notes_en": "Often used as a fast debuffer — strip immunity, push action and silence matter more than damage"
+      "notes_en": "Often used as a fast debuffer — strip immunity, push action and silence matter more than damage",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -8290,7 +8524,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -8401,7 +8636,8 @@
       ],
       "ignore_2set": false,
       "notes": "생방 조금 나머지 딜몰빵 너무 느리면 안됨",
-      "notes_en": "A bit of HP/DEF, rest into damage — can't be too slow"
+      "notes_en": "A bit of HP/DEF, rest into damage — can't be too slow",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -8510,7 +8746,18 @@
       ],
       "ignore_2set": false,
       "notes": "적중을 생활저항 상대로 200% 이상은 챙기는 걸 추천하고 공은 챙길수록 물몸 상대로 짜를 가능성이 높아짐 공3천정도",
-      "notes_en": "Aim for 200%+ effectiveness vs HP+Resist targets; more ATK = more chance to one-shot squishies (~3,000 ATK)"
+      "notes_en": "Aim for 200%+ effectiveness vs HP+Resist targets; more ATK = more chance to one-shot squishies (~3,000 ATK)",
+      "main_options": {
+        "necklace": [
+          "chc"
+        ],
+        "ring": [
+          "eff"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -8618,7 +8865,8 @@
       ],
       "ignore_2set": false,
       "notes": "방깎셔틀or서브딜러",
-      "notes_en": "DEF break shuttle or sub-DPS"
+      "notes_en": "DEF break shuttle or sub-DPS",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -8738,7 +8986,19 @@
       ],
       "ignore_2set": false,
       "notes": "아티 3F 필수",
-      "notes_en": "Artifact at 3-stars Fully Awakened required"
+      "notes_en": "Artifact at 3-stars Fully Awakened required",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd",
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -8850,7 +9110,19 @@
       ],
       "ignore_2set": false,
       "notes": "아티 3F 필수",
-      "notes_en": "Artifact at 3-stars Fully Awakened required"
+      "notes_en": "Artifact at 3-stars Fully Awakened required",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd",
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -8966,7 +9238,19 @@
       ],
       "ignore_2set": false,
       "notes": "보검끼고 반격딜세팅, 적중챙김당함",
-      "notes_en": "Sword of Judgment + Counter DPS; effectiveness gets stacked anyway"
+      "notes_en": "Sword of Judgment + Counter DPS; effectiveness gets stacked anyway",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd",
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -9075,7 +9359,8 @@
       ],
       "ignore_2set": false,
       "notes": "빡딜or중턴",
-      "notes_en": "Burst DPS or mid-turn"
+      "notes_en": "Burst DPS or mid-turn",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -9186,7 +9471,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -9292,7 +9588,21 @@
       ],
       "ignore_2set": false,
       "notes": "저항은 고저항(200%",
-      "notes_en": "Resistance: high-resist (200%)"
+      "notes_en": "Resistance: high-resist (200%)",
+      "main_options": {
+        "necklace": [
+          "atk_p",
+          "hp_p"
+        ],
+        "ring": [
+          "atk_p",
+          "hp_p"
+        ],
+        "boots": [
+          "atk_p",
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -9384,7 +9694,8 @@
       ],
       "ignore_2set": true,
       "notes": "2스로 딜러 끌어올려서 제초",
-      "notes_en": "Use S2 to push allies up and clean up"
+      "notes_en": "Use S2 to push allies up and clean up",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -9482,7 +9793,8 @@
       ],
       "ignore_2set": false,
       "notes": "중턴",
-      "notes_en": "Mid-turn"
+      "notes_en": "Mid-turn",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -9597,7 +9909,8 @@
       ],
       "ignore_2set": false,
       "notes": "생방 조금 챙기는 빡딜러",
-      "notes_en": "Burst DPS with a touch of HP/DEF"
+      "notes_en": "Burst DPS with a touch of HP/DEF",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -9701,7 +10014,8 @@
       "valid_sets": [],
       "ignore_2set": false,
       "notes": "관저+생몰빵으로 스트3스 버티는 용도, 딜챙기면 좋음",
-      "notes_en": "Penetration+Resist with all-HP to survive Straze S3 — damage helps"
+      "notes_en": "Penetration+Resist with all-HP to survive Straze S3 — damage helps",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -9811,7 +10125,8 @@
       ],
       "ignore_2set": false,
       "notes": "선턴",
-      "notes_en": "First-turn"
+      "notes_en": "First-turn",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -9928,7 +10243,8 @@
       ],
       "ignore_2set": false,
       "notes": "적중은 35%만, 흡셋은 힙스터",
-      "notes_en": "Only 35% effectiveness needed; Lifesteal set is the hipster pick"
+      "notes_en": "Only 35% effectiveness needed; Lifesteal set is the hipster pick",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -10032,7 +10348,8 @@
       ],
       "ignore_2set": true,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -10138,7 +10455,8 @@
       ],
       "ignore_2set": false,
       "notes": "생방 챙기면서 공(음료수아티)을 우선하기vs적중 우선하기",
-      "notes_en": "Stack HP/DEF, prioritize ATK (Frosted Flower Vase) vs prioritize Effectiveness"
+      "notes_en": "Stack HP/DEF, prioritize ATK (Frosted Flower Vase) vs prioritize Effectiveness",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -10232,7 +10550,8 @@
       ],
       "ignore_2set": false,
       "notes": "냉속의 영원한 카운터",
-      "notes_en": "Eternal counter to Ice/Speed comps"
+      "notes_en": "Eternal counter to Ice/Speed comps",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -10324,7 +10643,8 @@
       "valid_sets": [],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -10425,7 +10745,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -10534,7 +10855,8 @@
       ],
       "ignore_2set": false,
       "notes": "속깔창이라 중턴에 딜챙기면 더좋음",
-      "notes_en": "Speed-focused — better with damage stacking on mid-turn"
+      "notes_en": "Speed-focused — better with damage stacking on mid-turn",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -10648,7 +10970,18 @@
       ],
       "ignore_2set": false,
       "notes": "개딴딴하게 맞추면 극찬받음",
-      "notes_en": "Praised highly when built ultra-tanky"
+      "notes_en": "Praised highly when built ultra-tanky",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -10758,7 +11091,8 @@
       ],
       "ignore_2set": false,
       "notes": "속느린 효적효저/탱, 선턴적중 세팅이 다양함",
-      "notes_en": "Slow Eff+Res tank or first-turn effectiveness — various builds"
+      "notes_en": "Slow Eff+Res tank or first-turn effectiveness — various builds",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -10859,7 +11193,8 @@
       ],
       "ignore_2set": false,
       "notes": "공 5천이상",
-      "notes_en": "5,000+ Attack"
+      "notes_en": "5,000+ Attack",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -10968,7 +11303,8 @@
       ],
       "ignore_2set": false,
       "notes": "속셋이 더 범용",
-      "notes_en": "Speed set is more versatile"
+      "notes_en": "Speed set is more versatile",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -11075,7 +11411,8 @@
       ],
       "ignore_2set": false,
       "notes": "주로 나세실 상대로, 빠빠좋",
-      "notes_en": "Mainly vs Cecilia of the Abyss; faster the better"
+      "notes_en": "Mainly vs Cecilia of the Abyss; faster the better",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -11192,7 +11529,18 @@
       ],
       "ignore_2set": false,
       "notes": "범용은 면역",
-      "notes_en": "Immunity is the all-purpose pick"
+      "notes_en": "Immunity is the all-purpose pick",
+      "main_options": {
+        "necklace": [
+          "chc"
+        ],
+        "ring": [
+          "def_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -11293,7 +11641,8 @@
       ],
       "ignore_2set": false,
       "notes": "조웨릭 카운터로 썼었음",
-      "notes_en": "Was used as counter to Joker Werick"
+      "notes_en": "Was used as counter to Joker Werick",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -11402,7 +11751,8 @@
       ],
       "ignore_2set": false,
       "notes": "빠빠좋",
-      "notes_en": "Faster the better"
+      "notes_en": "Faster the better",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -11505,7 +11855,8 @@
       ],
       "ignore_2set": false,
       "notes": "협공 제외 상황에서 버프 있으면 1스가 전체공격으로 바뀜",
-      "notes_en": "When Dual Attack is excluded, buffs make S1 turn into AoE"
+      "notes_en": "When Dual Attack is excluded, buffs make S1 turn into AoE",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -11605,7 +11956,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -11706,7 +12058,8 @@
       ],
       "ignore_2set": false,
       "notes": "선턴소멸딜러, 2스 표적으로 회피캐 상성도 좋음",
-      "notes_en": "First-turn delete DPS; S2 marks make it strong vs evasion"
+      "notes_en": "First-turn delete DPS; S2 marks make it strong vs evasion",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -11811,7 +12164,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -11929,7 +12283,18 @@
       ],
       "ignore_2set": false,
       "notes": "속신or퍼신 취향인데 범용은 퍼신같음",
-      "notes_en": "Speed vs % boots is preference; % boots feels more universal"
+      "notes_en": "Speed vs % boots is preference; % boots feels more universal",
+      "main_options": {
+        "necklace": [
+          "chc"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -12038,7 +12403,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -12132,7 +12498,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -12241,7 +12608,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -12341,7 +12709,8 @@
       ],
       "ignore_2set": false,
       "notes": "무위랑 쓸거면 발자르고 디버프 걸거면 적중 65%",
-      "notes_en": "If pairing with Mui, cut speed; if applying debuffs, 65% effectiveness"
+      "notes_en": "If pairing with Mui, cut speed; if applying debuffs, 65% effectiveness",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -12446,7 +12815,8 @@
       ],
       "ignore_2set": false,
       "notes": "비급 유무에 따라 맞출 속도가 다름",
-      "notes_en": "Target speed depends on whether you have the Exclusive Equipment"
+      "notes_en": "Target speed depends on whether you have the Exclusive Equipment",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -12553,7 +12923,8 @@
       ],
       "ignore_2set": false,
       "notes": "공몰빵/저항/적중 세팅으로 나뉨",
-      "notes_en": "Splits into pure-ATK / Resistance / Effectiveness builds"
+      "notes_en": "Splits into pure-ATK / Resistance / Effectiveness builds",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -12660,7 +13031,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -12757,7 +13139,8 @@
       ],
       "ignore_2set": false,
       "notes": "템없으면 파치나 파관",
-      "notes_en": "Without good gear, Destruction+Critical or Destruction+Penetration"
+      "notes_en": "Without good gear, Destruction+Critical or Destruction+Penetration",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -12849,7 +13232,8 @@
       ],
       "ignore_2set": false,
       "notes": "성좌 영겁에서 효저285% 때문에 저저저 주기도 함",
-      "notes_en": "In Wyvern 13 Eternal, sometimes triple-resist substats due to 285% res"
+      "notes_en": "In Wyvern 13 Eternal, sometimes triple-resist substats due to 285% res",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -12962,7 +13346,8 @@
       ],
       "ignore_2set": false,
       "notes": "용도별 세팅 다름, 채티 쓰는 경우 생방을 조금 더 챙김",
-      "notes_en": "Builds vary by role — with Chatty, stack a bit more HP/DEF"
+      "notes_en": "Builds vary by role — with Chatty, stack a bit more HP/DEF",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -13069,7 +13454,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -13177,7 +13563,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -13289,7 +13676,8 @@
       ],
       "ignore_2set": false,
       "notes": "단단/저항/적저세팅 나뉨",
-      "notes_en": "Splits into Tanky / Resistance / Eff+Res builds"
+      "notes_en": "Splits into Tanky / Resistance / Eff+Res builds",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -13404,7 +13792,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -13509,7 +13898,8 @@
       ],
       "ignore_2set": false,
       "notes": "PVE 빠빠좋 치확100% 필수 성좌용은 딜을 요구함",
-      "notes_en": "PvE: faster the better. 100% CHC required. Wyvern 13 needs damage"
+      "notes_en": "PvE: faster the better. 100% CHC required. Wyvern 13 needs damage",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -13605,7 +13995,8 @@
       ],
       "ignore_2set": false,
       "notes": "속낮추고 딜로 많이 쓰는듯",
-      "notes_en": "Often built with lower speed, more damage"
+      "notes_en": "Often built with lower speed, more damage",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -13710,7 +14101,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -13802,7 +14194,8 @@
       "valid_sets": [],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -13911,7 +14304,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -14021,7 +14415,18 @@
       ],
       "ignore_2set": false,
       "notes": "빠빠좋 적중은 있음 좋음",
-      "notes_en": "Faster the better — effectiveness is nice to have"
+      "notes_en": "Faster the better — effectiveness is nice to have",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -14131,7 +14536,18 @@
       ],
       "ignore_2set": false,
       "notes": "속도 느린 대신 탱탱함+적중으로 이득봄",
-      "notes_en": "Trades speed for tankiness + effectiveness gains"
+      "notes_en": "Trades speed for tankiness + effectiveness gains",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -14244,7 +14660,8 @@
       ],
       "ignore_2set": false,
       "notes": "용도별 셋팅 다양, 적중은 통수용으로 씀",
-      "notes_en": "Various builds by role; effectiveness used for surprise picks"
+      "notes_en": "Various builds by role; effectiveness used for surprise picks",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -14361,7 +14778,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "def_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -14466,7 +14894,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -14570,7 +14999,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -14692,7 +15122,18 @@
       ],
       "ignore_2set": false,
       "notes": "반격수호는 하르세티용",
-      "notes_en": "Counter+Protection is for Harsetti synergy"
+      "notes_en": "Counter+Protection is for Harsetti synergy",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -14796,7 +15237,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -14909,7 +15351,8 @@
       ],
       "ignore_2set": false,
       "notes": "고속아리아도 있지만 흡셋이 범용",
-      "notes_en": "High-speed Aria builds exist but Lifesteal set is more versatile"
+      "notes_en": "High-speed Aria builds exist but Lifesteal set is more versatile",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -15009,7 +15452,8 @@
       ],
       "ignore_2set": true,
       "notes": "세트무시 선턴 가능",
-      "notes_en": "Can run first-turn build ignoring set effects"
+      "notes_en": "Can run first-turn build ignoring set effects",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -15118,7 +15562,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -15231,7 +15676,8 @@
       ],
       "ignore_2set": false,
       "notes": "몸 단단한 서브딜러 적중은 챙김당함",
-      "notes_en": "Tanky sub-DPS — effectiveness ends up needed"
+      "notes_en": "Tanky sub-DPS — effectiveness ends up needed",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -15315,7 +15761,8 @@
       "valid_sets": [],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -15411,7 +15858,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -15508,7 +15956,8 @@
       ],
       "ignore_2set": false,
       "notes": "빠빠좋, 생방을 챙길수록 아티 강화랑 세팅 난이도가 높아짐",
-      "notes_en": "Faster the better — more HP/DEF means harder gearing & artifact upgrade"
+      "notes_en": "Faster the better — more HP/DEF means harder gearing & artifact upgrade",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -15601,7 +16050,8 @@
       ],
       "ignore_2set": false,
       "notes": "와이번용은 단단하게",
-      "notes_en": "For Wyvern Hunt, build tanky"
+      "notes_en": "For Wyvern Hunt, build tanky",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -15711,7 +16161,8 @@
       ],
       "ignore_2set": false,
       "notes": "상처는 비주류, 템포 빠르게는 속도, 딜링은 파멸",
-      "notes_en": "Injury is niche; Speed for tempo, Destruction for damage"
+      "notes_en": "Injury is niche; Speed for tempo, Destruction for damage",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -15826,7 +16277,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -15933,7 +16395,8 @@
       ],
       "ignore_2set": false,
       "notes": "란보다 먼저 따는 호신용칼 용도로 썼었음",
-      "notes_en": "Was used as a self-defense pick before getting Ran"
+      "notes_en": "Was used as a self-defense pick before getting Ran",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -16038,7 +16501,8 @@
       ],
       "ignore_2set": false,
       "notes": "적중과 속도만 맞추면 됨",
-      "notes_en": "Just hit effectiveness and speed targets"
+      "notes_en": "Just hit effectiveness and speed targets",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -16146,7 +16610,8 @@
       ],
       "ignore_2set": false,
       "notes": "잘안씀",
-      "notes_en": "Rarely used"
+      "notes_en": "Rarely used",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -16246,7 +16711,8 @@
       ],
       "ignore_2set": false,
       "notes": "잿세 상대로 쓸만",
-      "notes_en": "Useful against Briar Witch Iseria"
+      "notes_en": "Useful against Briar Witch Iseria",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -16353,7 +16819,8 @@
       ],
       "ignore_2set": false,
       "notes": "기절방깎연계용 잘안씀",
-      "notes_en": "Stun + DEF break combo, rarely used"
+      "notes_en": "Stun + DEF break combo, rarely used",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -16473,7 +16940,20 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "hp_p",
+          "eff",
+          "effres"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -16583,7 +17063,20 @@
       ],
       "ignore_2set": false,
       "notes": "효적효저는 최소 100% 이상",
-      "notes_en": "At least 100% effectiveness and resistance"
+      "notes_en": "At least 100% effectiveness and resistance",
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "hp_p",
+          "eff",
+          "effres"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -16690,7 +17183,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -16804,7 +17298,18 @@
       ],
       "ignore_2set": false,
       "notes": "하르세티용은 발자르고 면역필수",
-      "notes_en": "For Harsetti pairing, cut speed and Immunity is required"
+      "notes_en": "For Harsetti pairing, cut speed and Immunity is required",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -16923,7 +17428,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17025,7 +17531,8 @@
       ],
       "ignore_2set": false,
       "notes": "딜vs적중 중에 택일",
-      "notes_en": "Pick either Damage or Effectiveness"
+      "notes_en": "Pick either Damage or Effectiveness",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17133,7 +17640,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17226,7 +17734,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17335,7 +17844,8 @@
       ],
       "ignore_2set": false,
       "notes": "선턴발사대면 속도만",
-      "notes_en": "If used as a first-turn launcher, speed only"
+      "notes_en": "If used as a first-turn launcher, speed only",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17440,7 +17950,8 @@
       ],
       "ignore_2set": false,
       "notes": "타격속덱 턴스틸용",
-      "notes_en": "For striking-speed comps, used to steal turns"
+      "notes_en": "For striking-speed comps, used to steal turns",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17547,7 +18058,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17655,7 +18167,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17750,7 +18263,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17860,7 +18374,8 @@
       ],
       "ignore_2set": false,
       "notes": "속파츠/협공빡딜/탱디버퍼 용도 따라 다름",
-      "notes_en": "Speed parts / Dual-Attack burst / tanky debuffer — varies by role"
+      "notes_en": "Speed parts / Dual-Attack burst / tanky debuffer — varies by role",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -17955,7 +18470,8 @@
       ],
       "ignore_2set": false,
       "notes": "뉴비때 쓸만한 버스기사",
-      "notes_en": "Solid carry for beginners"
+      "notes_en": "Solid carry for beginners",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -18048,7 +18564,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -18149,7 +18666,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -18261,7 +18779,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "chc"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -18374,7 +18903,18 @@
       ],
       "ignore_2set": false,
       "notes": "효저150% 이상",
-      "notes_en": "Effect Resistance 150%+"
+      "notes_en": "Effect Resistance 150%+",
+      "main_options": {
+        "necklace": [
+          "chc"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -18475,7 +19015,8 @@
       ],
       "ignore_2set": false,
       "notes": "중턴극딜/선턴으로 세팅이 나뉨",
-      "notes_en": "Splits into mid-turn max-DPS or first-turn builds"
+      "notes_en": "Splits into mid-turn max-DPS or first-turn builds",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -18580,7 +19121,8 @@
       ],
       "ignore_2set": false,
       "notes": "속도는 유지하면서 탱키하게vs적중많이 취향",
-      "notes_en": "Tanky-while-fast vs heavy-effectiveness, by preference"
+      "notes_en": "Tanky-while-fast vs heavy-effectiveness, by preference",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -18688,7 +19230,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -18784,7 +19327,8 @@
       ],
       "ignore_2set": false,
       "notes": "중턴",
-      "notes_en": "Mid-turn"
+      "notes_en": "Mid-turn",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -18878,7 +19422,8 @@
       ],
       "ignore_2set": false,
       "notes": "지오연계",
-      "notes_en": "Pairs with Geo"
+      "notes_en": "Pairs with Geo",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -18992,7 +19537,8 @@
       ],
       "ignore_2set": false,
       "notes": "생활효저 추천",
-      "notes_en": "Recommended: HP + Effect Resistance"
+      "notes_en": "Recommended: HP + Effect Resistance",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -19098,7 +19644,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -19208,7 +19755,8 @@
       ],
       "ignore_2set": false,
       "notes": "세팅에 따라 속빠르게/발자르고 씀",
-      "notes_en": "Built either fast or speed-cut depending on role"
+      "notes_en": "Built either fast or speed-cut depending on role",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -19309,7 +19857,8 @@
       ],
       "ignore_2set": false,
       "notes": "PVE 디버프 싸개",
-      "notes_en": "PvE debuff applier"
+      "notes_en": "PvE debuff applier",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -19406,7 +19955,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -19521,7 +20071,8 @@
       ],
       "ignore_2set": false,
       "notes": "고점 응면셋 스탠다드파면셋",
-      "notes_en": "High-roll Riposte+Immunity, standard Destruction+Immunity"
+      "notes_en": "High-roll Riposte+Immunity, standard Destruction+Immunity",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -19616,7 +20167,8 @@
       ],
       "ignore_2set": false,
       "notes": "선턴",
-      "notes_en": "First-turn"
+      "notes_en": "First-turn",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -19720,7 +20272,8 @@
       ],
       "ignore_2set": false,
       "notes": "생생면 조합도 가능 생활효저 챙기고 단단하게 하는데 속도는 취향",
-      "notes_en": "HP+HP+Immunity also works — go tanky with HP/Resist, speed by preference"
+      "notes_en": "HP+HP+Immunity also works — go tanky with HP/Resist, speed by preference",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -19815,7 +20368,8 @@
       ],
       "ignore_2set": false,
       "notes": "적중버프 있어서 최소한으로 챙기고 딜챙겨주면 좋음",
-      "notes_en": "Has effectiveness buff — minimize effectiveness gear, prioritize damage"
+      "notes_en": "Has effectiveness buff — minimize effectiveness gear, prioritize damage",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -19916,7 +20470,8 @@
       ],
       "ignore_2set": false,
       "notes": "빠빠좋",
-      "notes_en": "Faster the better"
+      "notes_en": "Faster the better",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -20027,7 +20582,8 @@
       ],
       "ignore_2set": false,
       "notes": "극속잔 세팅도 있음",
-      "notes_en": "Hyper-speed Reversal build also exists"
+      "notes_en": "Hyper-speed Reversal build also exists",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -20134,7 +20690,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -20240,7 +20797,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -20340,7 +20898,8 @@
       ],
       "ignore_2set": false,
       "notes": "사파벨 트리거로 쓰려면 치확 줘야하고 세트무시 선턴 가능",
-      "notes_en": "To trigger Sez, give CHC; can ignore set effects with first-turn build"
+      "notes_en": "To trigger Sez, give CHC; can ignore set effects with first-turn build",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -20447,7 +21006,8 @@
       ],
       "ignore_2set": false,
       "notes": "적중은 챙김당함 템없으면 속셋가능",
-      "notes_en": "Effectiveness gets stacked; without gear, Speed set works"
+      "notes_en": "Effectiveness gets stacked; without gear, Speed set works",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -20542,7 +21102,8 @@
       ],
       "ignore_2set": false,
       "notes": "아티에 따라 적중요구치가 달라짐",
-      "notes_en": "Effectiveness requirement depends on artifact choice"
+      "notes_en": "Effectiveness requirement depends on artifact choice",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -20651,7 +21212,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -20750,7 +21312,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "atk_p"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "atk_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -20846,7 +21419,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -20955,7 +21529,8 @@
       ],
       "ignore_2set": false,
       "notes": "생방은 죽지않을 정도만",
-      "notes_en": "HP/DEF only enough to not die"
+      "notes_en": "HP/DEF only enough to not die",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -21051,7 +21626,8 @@
       ],
       "ignore_2set": false,
       "notes": "딜보다는 탱키한 디버퍼가 더 어울리는 추세",
-      "notes_en": "Trending toward tanky debuffer rather than DPS"
+      "notes_en": "Trending toward tanky debuffer rather than DPS",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -21162,7 +21738,8 @@
       ],
       "ignore_2set": false,
       "notes": "저항단 세팅 있음",
-      "notes_en": "Pure Resistance build exists"
+      "notes_en": "Pure Resistance build exists",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -21271,7 +21848,8 @@
       ],
       "ignore_2set": false,
       "notes": "번외로 파관 딜셋팅도 있음",
-      "notes_en": "Destruction+Penetration DPS build also exists"
+      "notes_en": "Destruction+Penetration DPS build also exists",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -21383,7 +21961,21 @@
       ],
       "ignore_2set": false,
       "notes": "효적은 챙김당함",
-      "notes_en": "Effectiveness ends up stacked"
+      "notes_en": "Effectiveness ends up stacked",
+      "main_options": {
+        "necklace": [
+          "hp_p",
+          "def_p"
+        ],
+        "ring": [
+          "hp_p",
+          "def_p"
+        ],
+        "boots": [
+          "hp_p",
+          "def_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -21495,7 +22087,21 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p",
+          "def_p"
+        ],
+        "ring": [
+          "hp_p",
+          "def_p"
+        ],
+        "boots": [
+          "hp_p",
+          "def_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -21604,7 +22210,18 @@
       ],
       "ignore_2set": false,
       "notes": "속도는 230근처에 적중은 100근처로 적당히 주고 나머지 생방인듯",
-      "notes_en": "Around 230 speed, 100 effectiveness, rest in HP/DEF"
+      "notes_en": "Around 230 speed, 100 effectiveness, rest in HP/DEF",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -21713,7 +22330,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -21813,7 +22431,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -21920,7 +22539,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -22025,7 +22645,8 @@
       ],
       "ignore_2set": false,
       "notes": "적중 낮춘 탱죽레이 세팅도 있음",
-      "notes_en": "Tanky low-effectiveness Ray build also exists"
+      "notes_en": "Tanky low-effectiveness Ray build also exists",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -22132,7 +22753,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -22239,7 +22861,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -22347,7 +22970,8 @@
       ],
       "ignore_2set": false,
       "notes": "딜을 낮추고 적중을 더 많이",
-      "notes_en": "Lower damage, more effectiveness"
+      "notes_en": "Lower damage, more effectiveness",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -22459,7 +23083,8 @@
       ],
       "ignore_2set": false,
       "notes": "룬작 때문에 저항 200 필수",
-      "notes_en": "200% Resistance required because of rune procs"
+      "notes_en": "200% Resistance required because of rune procs",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -22562,7 +23187,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -22672,7 +23298,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -22787,7 +23414,18 @@
       ],
       "ignore_2set": false,
       "notes": "스탠다드",
-      "notes_en": "Standard build"
+      "notes_en": "Standard build",
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -22901,7 +23539,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -23009,7 +23658,8 @@
       ],
       "ignore_2set": false,
       "notes": "PVE는 극딜일수록 좋음",
-      "notes_en": "More damage is always better in PvE"
+      "notes_en": "More damage is always better in PvE",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -23120,7 +23770,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -23230,7 +23891,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -23345,7 +24017,18 @@
       ],
       "ignore_2set": false,
       "notes": "선턴/중턴/효적효저세팅 다양함",
-      "notes_en": "Various builds: first-turn / mid-turn / Effectiveness+Resistance"
+      "notes_en": "Various builds: first-turn / mid-turn / Effectiveness+Resistance",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "effres"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -23445,7 +24128,8 @@
       ],
       "ignore_2set": false,
       "notes": "파티 조합에 따라 발자를지 유무가 다름",
-      "notes_en": "Whether to cut speed depends on team comp"
+      "notes_en": "Whether to cut speed depends on team comp",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -23552,7 +24236,8 @@
       ],
       "ignore_2set": false,
       "notes": "빠빠좋",
-      "notes_en": "Faster the better"
+      "notes_en": "Faster the better",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -23671,7 +24356,18 @@
       ],
       "ignore_2set": false,
       "notes": "중턴이면 적중챙김",
-      "notes_en": "Mid-turn build needs effectiveness"
+      "notes_en": "Mid-turn build needs effectiveness",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -23768,7 +24464,8 @@
       ],
       "ignore_2set": false,
       "notes": "와이번 원펀은 속도조절해야함",
-      "notes_en": "For Wyvern one-shot, speed needs tuning"
+      "notes_en": "For Wyvern one-shot, speed needs tuning",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -23865,7 +24562,8 @@
       ],
       "ignore_2set": false,
       "notes": "서브딜러/협공방깎싸개로 세팅이 나뉨",
-      "notes_en": "Splits into sub-DPS or Dual-Attack DEF-break applier builds"
+      "notes_en": "Splits into sub-DPS or Dual-Attack DEF-break applier builds",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -23970,7 +24668,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -24077,7 +24776,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -24172,7 +24872,8 @@
       ],
       "ignore_2set": false,
       "notes": "불사 패시브로 급사 버티고 흡혈로 피 채우고 탱킹함",
-      "notes_en": "Survives lethal hits with revive passive, sustains via Lifesteal"
+      "notes_en": "Survives lethal hits with revive passive, sustains via Lifesteal",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -24273,7 +24974,8 @@
       ],
       "ignore_2set": false,
       "notes": "컨텐츠/조합에 따라 필요속도가 달라지며 패기 때문에 효적인 안챙김",
-      "notes_en": "Required speed varies by content/comp; doesn't need effectiveness due to her passive"
+      "notes_en": "Required speed varies by content/comp; doesn't need effectiveness due to her passive",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -24386,7 +25088,18 @@
       ],
       "ignore_2set": false,
       "notes": "빠빠좋",
-      "notes_en": "Faster the better"
+      "notes_en": "Faster the better",
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -24495,7 +25208,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -24591,7 +25305,8 @@
       ],
       "ignore_2set": false,
       "notes": "원펀 조합은 속도만 신경쓰면됨",
-      "notes_en": "For one-shot comps, only speed matters"
+      "notes_en": "For one-shot comps, only speed matters",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -24688,7 +25403,8 @@
       ],
       "ignore_2set": false,
       "notes": "심연용 특정 층마다 적중요구치가 다름",
-      "notes_en": "Effectiveness requirement varies by Abyss floor"
+      "notes_en": "Effectiveness requirement varies by Abyss floor",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -24797,7 +25513,8 @@
       ],
       "ignore_2set": false,
       "notes": "중턴",
-      "notes_en": "Mid-turn"
+      "notes_en": "Mid-turn",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -24899,7 +25616,8 @@
       ],
       "ignore_2set": false,
       "notes": "생방은 죽지않을 정도로만",
-      "notes_en": "HP/DEF only enough to not die"
+      "notes_en": "HP/DEF only enough to not die",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -25014,7 +25732,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -25108,7 +25827,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -25204,7 +25924,8 @@
       ],
       "ignore_2set": false,
       "notes": "중턴",
-      "notes_en": "Mid-turn"
+      "notes_en": "Mid-turn",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -25316,7 +26037,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -25433,7 +26155,18 @@
       ],
       "ignore_2set": false,
       "notes": "템없으면 파면",
-      "notes_en": "Without good gear, Destruction+Immunity"
+      "notes_en": "Without good gear, Destruction+Immunity",
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -25544,7 +26277,8 @@
       ],
       "ignore_2set": false,
       "notes": "중턴딜러",
-      "notes_en": "Mid-turn DPS"
+      "notes_en": "Mid-turn DPS",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -25652,7 +26386,8 @@
       ],
       "ignore_2set": false,
       "notes": "공계수 높아서 공격력도 좋은데 상처로 깎이는 생명력 수치에 주의",
-      "notes_en": "High ATK scaling helps, but watch HP loss from Injury set"
+      "notes_en": "High ATK scaling helps, but watch HP loss from Injury set",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -25767,7 +26502,8 @@
       ],
       "ignore_2set": false,
       "notes": "생방은 적당히",
-      "notes_en": "Moderate HP/DEF"
+      "notes_en": "Moderate HP/DEF",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -25870,7 +26606,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -25977,7 +26714,8 @@
       ],
       "ignore_2set": false,
       "notes": "시더로 대체가능",
-      "notes_en": "Can be replaced by Cidd"
+      "notes_en": "Can be replaced by Cidd",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -26069,7 +26807,8 @@
       ],
       "ignore_2set": false,
       "notes": "원정대 리치 조합에 힐러 대신 쓸거면 혈옥수 필수",
-      "notes_en": "If used as a healer-replacement in Expedition Lich comps, Bloodstone required"
+      "notes_en": "If used as a healer-replacement in Expedition Lich comps, Bloodstone required",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -26174,7 +26913,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -26280,7 +27020,8 @@
       ],
       "ignore_2set": false,
       "notes": "적중만 챙기기vs효적효저 챙기기",
-      "notes_en": "Pure Effectiveness vs Effectiveness+Resistance"
+      "notes_en": "Pure Effectiveness vs Effectiveness+Resistance",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -26397,7 +27138,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -26504,7 +27256,8 @@
       ],
       "ignore_2set": false,
       "notes": "은신 때문에 흡격이 정배",
-      "notes_en": "Due to Stealth, Lifesteal+Torrent is the standard build"
+      "notes_en": "Due to Stealth, Lifesteal+Torrent is the standard build",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -26598,7 +27351,8 @@
       ],
       "ignore_2set": false,
       "notes": "적중 우선 맞추고 딜/탱 취향인데 보통 짬템줌",
-      "notes_en": "Hit effectiveness target first, DPS/tank by preference — usually given spare gear"
+      "notes_en": "Hit effectiveness target first, DPS/tank by preference — usually given spare gear",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -26699,7 +27453,8 @@
       ],
       "ignore_2set": false,
       "notes": "빠빠좋",
-      "notes_en": "Faster the better"
+      "notes_en": "Faster the better",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -26817,7 +27572,18 @@
       ],
       "ignore_2set": false,
       "notes": "실레나는 속격이 편함",
-      "notes_en": "For Selena, Speed+Torrent is easier"
+      "notes_en": "For Selena, Speed+Torrent is easier",
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -26922,7 +27688,8 @@
       ],
       "ignore_2set": true,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -27031,7 +27798,18 @@
       ],
       "ignore_2set": false,
       "notes": "세트자유, 생적템 주면됨",
-      "notes_en": "Any set works; just give HP + Effectiveness gear"
+      "notes_en": "Any set works; just give HP + Effectiveness gear",
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -27150,7 +27928,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -27262,7 +28051,18 @@
       ],
       "ignore_2set": false,
       "notes": "통수용 속빠른 하르세티, 목적에 따라 딜/디버퍼 세팅이 나뉨",
-      "notes_en": "Surprise-pick fast Harsetti — splits into DPS or debuffer by purpose"
+      "notes_en": "Surprise-pick fast Harsetti — splits into DPS or debuffer by purpose",
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -27360,7 +28160,8 @@
       ],
       "ignore_2set": false,
       "notes": "생활저항 이상 탱키하게",
-      "notes_en": "Go tanky with HP/Resistance or higher"
+      "notes_en": "Go tanky with HP/Resistance or higher",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -27477,7 +28278,18 @@
       ],
       "ignore_2set": false,
       "notes": "반격이면 생방챙김, 적중은 있으면 좋지만 주력은 아님",
-      "notes_en": "On Counter, stack HP/DEF; effectiveness is nice but not primary"
+      "notes_en": "On Counter, stack HP/DEF; effectiveness is nice but not primary",
+      "main_options": {
+        "necklace": [
+          "chc"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -27589,7 +28401,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "chc"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -27693,7 +28516,8 @@
       ],
       "ignore_2set": false,
       "notes": "속도는 속신만 끼거나 퍼신으로 쓰기 중 취향에 맞게",
-      "notes_en": "Speed boots only or % boots — pick by preference"
+      "notes_en": "Speed boots only or % boots — pick by preference",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -27805,7 +28629,21 @@
       ],
       "ignore_2set": false,
       "notes": "적중 챙김당함",
-      "notes_en": "Effectiveness ends up stacked anyway"
+      "notes_en": "Effectiveness ends up stacked anyway",
+      "main_options": {
+        "necklace": [
+          "chc",
+          "chd"
+        ],
+        "ring": [
+          "atk_p",
+          "hp_p"
+        ],
+        "boots": [
+          "atk_p",
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -27903,7 +28741,8 @@
       ],
       "ignore_2set": false,
       "notes": "생방 적당히",
-      "notes_en": "Moderate HP/DEF"
+      "notes_en": "Moderate HP/DEF",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -27995,7 +28834,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -28107,7 +28947,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "eff"
+        ],
+        "ring": [
+          "eff"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -28213,7 +29064,8 @@
       ],
       "ignore_2set": false,
       "notes": "효적효저는 챙김당함",
-      "notes_en": "Effectiveness and Resistance both end up stacked"
+      "notes_en": "Effectiveness and Resistance both end up stacked",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -28327,7 +29179,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -28444,7 +29297,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -28556,7 +29410,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "eff"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -28670,7 +29535,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "eff"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -28774,7 +29650,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "def_p"
+        ],
+        "ring": [
+          "def_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -28884,7 +29771,8 @@
       ],
       "ignore_2set": false,
       "notes": "수호셋 없으면 속셋 쓰거나 생방면으로 타협",
-      "notes_en": "Without Protection set, use Speed or compromise with HP+DEF+Immunity"
+      "notes_en": "Without Protection set, use Speed or compromise with HP+DEF+Immunity",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -29003,7 +29891,18 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -29102,7 +30001,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -29211,7 +30111,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -29320,7 +30221,8 @@
       ],
       "ignore_2set": false,
       "notes": "하르세티 속도에 따라 세트가 달라짐",
-      "notes_en": "Set depends on Harsetti's speed"
+      "notes_en": "Set depends on Harsetti's speed",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -29433,7 +30335,8 @@
       ],
       "ignore_2set": false,
       "notes": "관통은 타그헬 써서 번-3스 연계용",
-      "notes_en": "Penetration build uses Tagahel for burn-S3 combos"
+      "notes_en": "Penetration build uses Tagahel for burn-S3 combos",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -29541,7 +30444,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -29645,7 +30549,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -29750,7 +30655,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -29846,7 +30752,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -29953,7 +30860,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -30050,7 +30958,8 @@
       ],
       "ignore_2set": false,
       "notes": null,
-      "notes_en": null
+      "notes_en": null,
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -30162,7 +31071,8 @@
       ],
       "ignore_2set": false,
       "notes": "적중 챙김당함 조룬카랑 다르게 속도를 챙김",
-      "notes_en": "Effectiveness gets stacked; unlike Cdr-Arunka, focus speed too"
+      "notes_en": "Effectiveness gets stacked; unlike Cdr-Arunka, focus speed too",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -30266,7 +31176,8 @@
       ],
       "ignore_2set": false,
       "notes": "빠빠좋, 용도에 따라 적중저항 챙기는데 보통 적저 유기하고 튼튼하게 쓰는듯",
-      "notes_en": "Faster the better — depending on use, eff/res; usually skip res and go tanky"
+      "notes_en": "Faster the better — depending on use, eff/res; usually skip res and go tanky",
+      "main_options": null
     },
     "has_data": true,
     "source": [
@@ -30362,7 +31273,8 @@
       ],
       "ignore_2set": false,
       "notes": "피해분배가 있어서 튼튼하게 맞춰야 함 생활저항or유기인데 생너무 낮으면 저항유기",
-      "notes_en": "Has damage redirect, needs to be tanky — HP+Resist or skip resist if HP is too low"
+      "notes_en": "Has damage redirect, needs to be tanky — HP+Resist or skip resist if HP is too low",
+      "main_options": null
     },
     "has_data": true,
     "source": [

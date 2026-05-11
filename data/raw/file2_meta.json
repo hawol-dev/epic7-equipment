@@ -1,0 +1,2452 @@
+{
+  "라비": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "마갈궁",
+    "class": "전사",
+    "engraving_focus": "방어력(%)"
+  },
+  "바캉스 유피네": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "천칭궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "베니마루": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "인마궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "샤르티아": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "인마궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "솔": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "슈타르크": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "아비게일": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "백양궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "아키": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "쌍어궁",
+    "class": "전사",
+    "engraving_focus": "효과저항"
+  },
+  "에드워드 엘릭": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "백양궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "잭 오": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "금우궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "체르미아": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "케인": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "켄": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "호위대장 크라우": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "백양궁",
+    "class": "전사",
+    "engraving_focus": "방어력(%)"
+  },
+  "화영": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "천칭궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "딩고": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "카와주": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "코르부스": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "디에리아": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "멜라니": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "아젤리아": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "자누타": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "쥬니": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "릴리아스": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "백양궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "샬롯": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "사자궁",
+    "class": "기사",
+    "engraving_focus": "공격력(%)"
+  },
+  "세실리아": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "일리나브": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "마야": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "빅토리카": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "모험가 라스": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "카오스교 도살추적자": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "클라우디아": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "ae-윈터": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "마갈궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "설화": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "천갈궁",
+    "class": "도적",
+    "engraving_focus": "생명력(%)"
+  },
+  "제뉴아": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "천갈궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "카일론": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "백양궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "쾌속의 기수 세크레트": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "마갈궁",
+    "class": "도적",
+    "engraving_focus": "효과적중"
+  },
+  "토라미": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "사자궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "헤이스트": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "수린": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "카와나": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "성염의 아딘": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "쥬디스": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "하탄": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "낙월": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "마갈궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "남국의 이세리아": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "마갈궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "로빈": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "마갈궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "루이자": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "쌍어궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "리디카": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "처녀궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "비후": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "엘리고스": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "처녀궁",
+    "class": "사수",
+    "engraving_focus": "치명확률"
+  },
+  "엘페르트": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "폭격형 카논": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "한낮의 유영 플랑": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "쌍아궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "베로니카": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": "처녀궁",
+    "class": "사수",
+    "engraving_focus": "치명확률"
+  },
+  "슈리": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": "사자궁",
+    "class": "사수",
+    "engraving_focus": "치명확률"
+  },
+  "로이 머스탱": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "사자궁",
+    "class": "마도사",
+    "engraving_focus": "공격력(%)"
+  },
+  "멜리사": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "사자궁",
+    "class": "마도사",
+    "engraving_focus": "공격력(%)"
+  },
+  "밀림": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "거해궁",
+    "class": "마도사",
+    "engraving_focus": "공격력(%)"
+  },
+  "바알&세잔": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "쌍아궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "아라민타": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "쌍아궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "축제의 에다": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "쌍어궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "카웨릭": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "처녀궁",
+    "class": "마도사",
+    "engraving_focus": "공격력(%)"
+  },
+  "테네브리아": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "거해궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "폴리티스": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "쌍아궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "메르세데스": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": "천갈궁",
+    "class": "마도사",
+    "engraving_focus": "공격력(%)"
+  },
+  "세릴라": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "연구자 캐롯": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "전도자 카마인로즈": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "ae-닝닝": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "슈나": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "쌍아궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "아람": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "천갈궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "타마린느": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "인마궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "조향사 비브리스": {
+    "rank": 5,
+    "element": "화염",
+    "zodiac": "처녀궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "아카테스": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "키즈나 아이": {
+    "rank": 4,
+    "element": "화염",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "마스코트 헤이즐": {
+    "rank": 3,
+    "element": "화염",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "레테": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "보병궁",
+    "class": "전사",
+    "engraving_focus": "효과적중"
+  },
+  "렘": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "루나": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "천칭궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "세크레트": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "금우궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "슈": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "마갈궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "클로에": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "태유": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "클라릿사": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "레나": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "에노트": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "전승의 아미키": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "타라노르 근위부대원": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "탈라즈": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "ae-카리나": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "백양궁",
+    "class": "기사",
+    "engraving_focus": "방어력(%)"
+  },
+  "브리그": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "백양궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "여름 방학 샬롯": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "쌍아궁",
+    "class": "기사",
+    "engraving_focus": "공격력(%)"
+  },
+  "크라우": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "쌍어궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "타이윈": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "로제": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "크로제": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "바스크": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "타라노르 왕궁병사": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "헬렌": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "전술형 콜리": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "마갈궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "란": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "백양궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "세즈": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "천갈궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "엘비라": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "마갈궁",
+    "class": "도적",
+    "engraving_focus": "효과저항"
+  },
+  "은빛 해일 화영": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "사자궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "키세": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "사자궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "페이라": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "처녀궁",
+    "class": "도적",
+    "engraving_focus": "효과적중"
+  },
+  "카린": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "콜리": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "랑발드": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "무위": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "여름의 제자 알렉사": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "청현의 아딘": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "루아": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "쌍어궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "리자 호크아이": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "비브리스": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "쌍어궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "세리스": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "보병궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "유나": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "플랑": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "마갈궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "해변의 벨로나": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "쌍아궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "퓨리우스": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "뮤즈 리마": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "이안": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "디지": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "루루카": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "메르헨 테네브리아": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "금우궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "아리아": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "금우궁",
+    "class": "마도사",
+    "engraving_focus": "방어력(%)"
+  },
+  "에다": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "백양궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "제노": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "금우궁",
+    "class": "마도사",
+    "engraving_focus": "방어력(%)"
+  },
+  "페른": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "천갈궁",
+    "class": "마도사",
+    "engraving_focus": "치명확률"
+  },
+  "후미르": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "쌍어궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "도미니엘": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "로만": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "제라토": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "미스티체인": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "인도자 제나": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "디에네": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "쌍아궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "비르기타": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "천갈궁",
+    "class": "정령사",
+    "engraving_focus": "효과적중"
+  },
+  "아미드": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "금우궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "에밀리아": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "쌍아궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "엘레나": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "쌍아궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "페네": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "거해궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "프리다": {
+    "rank": 5,
+    "element": "냉기",
+    "zodiac": "금우궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "안젤리카": {
+    "rank": 4,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "수호천사 몽모랑시": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "아이테르": {
+    "rank": 3,
+    "element": "냉기",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "라이아": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "백양궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "리무루": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "천칭궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "릴리벳": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "천칭궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "뮤이": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "불사형 오공": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "천갈궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "아룬카": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "천갈궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "알렌시아": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "거해궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "유피네": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "자하크": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "인마궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "헤카테": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "마갈궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "카르투하": {
+    "rank": 4,
+    "element": "자연",
+    "zodiac": "거해궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "퍼지스": {
+    "rank": 4,
+    "element": "자연",
+    "zodiac": "천갈궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "무카차": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "에인즈": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "자유로운 용병 헬가": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "모르트": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "쌍아궁",
+    "class": "기사",
+    "engraving_focus": "치명확률"
+  },
+  "셰나": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "금우궁",
+    "class": "기사",
+    "engraving_focus": "공격력(%)"
+  },
+  "알베도": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "인마궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "율하": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "인마궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "찰스": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "쌍아궁",
+    "class": "기사",
+    "engraving_focus": "치명확률"
+  },
+  "아밍": {
+    "rank": 4,
+    "element": "자연",
+    "zodiac": "마갈궁",
+    "class": "기사",
+    "engraving_focus": "방어력(%)"
+  },
+  "매사냥꾼 쿠루리": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "은결의 크리스티": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": "마갈궁",
+    "class": "기사",
+    "engraving_focus": "효과저항"
+  },
+  "리나크": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "금우궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "바이켄": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "밤의 연회 릴리아스": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "천칭궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "비올레토": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "빌트레드": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "사자궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "셀린": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "천갈궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "에르발렌": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "화원의 리디카": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "마갈궁",
+    "class": "도적",
+    "engraving_focus": "생명력(%)"
+  },
+  "시더": {
+    "rank": 4,
+    "element": "자연",
+    "zodiac": "백양궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "신록의 아딘": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "에즈라": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "오르테": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "의적 루지드": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "랑디": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "사자궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "벨로나": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "마갈궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "사르미아": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "금우궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "이세리아": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "사자궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "지휘형 라이카": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "쌍아궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "파벨": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "처녀궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "펜리스": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "금우궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "레오": {
+    "rank": 4,
+    "element": "자연",
+    "zodiac": "마갈궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "실크": {
+    "rank": 4,
+    "element": "자연",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "레아": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "릴카": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "자경단장 글렌": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "키리스": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "ae-지젤": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "람": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "쌍아궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "루트비히": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "바사르": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "비비안": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "인마궁",
+    "class": "마도사",
+    "engraving_focus": "치명확률"
+  },
+  "프리렌": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "사자궁",
+    "class": "마도사",
+    "engraving_focus": "치명확률"
+  },
+  "아들라이": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "인형 제작가 펄호라이즌": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "데스티나": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "거해궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "레이": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "금우궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "로앤나": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "쌍어궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "바다 향기 루루카": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "쌍아궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "샤룬": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "슈니엘": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "금우궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "어린 셰나": {
+    "rank": 5,
+    "element": "자연",
+    "zodiac": "쌍어궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "랏츠": {
+    "rank": 4,
+    "element": "자연",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "링": {
+    "rank": 4,
+    "element": "자연",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "루시": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "버나드": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "제크토": {
+    "rank": 3,
+    "element": "자연",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "사자왕 체르미아": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "백양궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "심판자 키세": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "인마궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "어린 여왕 샬롯": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "천칭궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "지배자 릴리아스": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "보병궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "후계자 태유": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "천칭궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "대장 퍼지스": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "거해궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "여일의 디에리아": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "처녀궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "군터": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "선봉대장 리코리스": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "카밀라": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "기원의 라스": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "천칭궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "노토스": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "거해궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "라스트 라이더 크라우": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "쌍어궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "벨리안": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "백양궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "보검의 군주 이세리아": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "금우궁",
+    "class": "기사",
+    "engraving_focus": "공격력(%)"
+  },
+  "야심가 타이윈": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "인마궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "용의 반려 셰나": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "인마궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "조장 아룬카": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "마갈궁",
+    "class": "기사",
+    "engraving_focus": "방어력(%)"
+  },
+  "창공의 일리나브": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "거해궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "해군 대령 랑디": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "사자궁",
+    "class": "기사",
+    "engraving_focus": "공격력(%)"
+  },
+  "전투형 마야": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "홍염의 아밍": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "천칭궁",
+    "class": "기사",
+    "engraving_focus": "방어력(%)"
+  },
+  "윤령": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "이튼": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "자유기사 아로웰": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": "천칭궁",
+    "class": "기사",
+    "engraving_focus": "생명력"
+  },
+  "키키라트 V.2": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "뒤틀린 망령 카일론": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "천갈궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "실험체 세즈": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "천갈궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "영안의 셀린": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "인마궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "라스트 피스 카린": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "백양궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "풍운의 수린": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "쌍아궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "구원자 아딘": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": "사자궁",
+    "class": "도적",
+    "engraving_focus": "공격력"
+  },
+  "미르사": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "탈리아": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "별의 신탁 엘레나": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "천칭궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "불신자 리디카": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "쌍아궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "사령관 파벨": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "금우궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "방랑자 실크": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "마갈궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "주시자 슈리": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "천갈궁",
+    "class": "사수",
+    "engraving_focus": "치명확률"
+  },
+  "셀레스트": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": "인마궁",
+    "class": "사수",
+    "engraving_focus": "공격력"
+  },
+  "백은칼날의 아라민타": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "쌍아궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "설계자 라이카": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "처녀궁",
+    "class": "마도사",
+    "engraving_focus": "공격력(%)"
+  },
+  "설국의 솔리타리아": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "금우궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "숲의 현자 비비안": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "거해궁",
+    "class": "마도사",
+    "engraving_focus": "치명확률"
+  },
+  "신월의 루나": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "천칭궁",
+    "class": "마도사",
+    "engraving_focus": "생명력(%)"
+  },
+  "현자 바알&세잔": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "금우궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "호반의 마녀 테네브리아": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "쌍어궁",
+    "class": "마도사",
+    "engraving_focus": "생명력(%)"
+  },
+  "구도자 아이테르": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "떠돌이 왕자 시더": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "쌍어궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "빛의 천사 안젤리카": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "금우궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "자애의 로만": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "금우궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "글루미레인": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "메이드 클로에": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "쌍아궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "빛의 루엘": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "쌍어궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "사막의 보석 바사르": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "금우궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "용왕 샤룬": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "천갈궁",
+    "class": "정령사",
+    "engraving_focus": "효과적중"
+  },
+  "천칭의 주인": {
+    "rank": 5,
+    "element": "광",
+    "zodiac": "금우궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "달토끼 도미니엘": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "금우궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "미지의 가능성 아카테스": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "쌍어궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "비탄의 로제": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": "쌍아궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "열화의 딩고": {
+    "rank": 4,
+    "element": "광",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "마법학자 도리스": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "소니아": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "엘슨": {
+    "rank": 3,
+    "element": "광",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "고독한 늑대 페이라": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "보병궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "도시의 그림자 슈": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "백양궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "디자이너 릴리벳": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "거해궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "무투가 켄": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "사자궁",
+    "class": "전사",
+    "engraving_focus": "효과저항"
+  },
+  "방관자 화영": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "천갈궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "살로메": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "백양궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "스트라제스": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "금우궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "어둠의 코르부스": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "마갈궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "일편고월 벨로나": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "천갈궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "조율자 카웨릭": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "마갈궁",
+    "class": "전사",
+    "engraving_focus": "효과저항"
+  },
+  "풍기위원 아리아": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "마갈궁",
+    "class": "전사",
+    "engraving_focus": "생명력(%)"
+  },
+  "화란의 라비": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "거해궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "고양이 클라릿사": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "처녀궁",
+    "class": "전사",
+    "engraving_focus": "효과저항"
+  },
+  "광염의 카와주": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "천갈궁",
+    "class": "전사",
+    "engraving_focus": "공격력(%)"
+  },
+  "대족장 카와나": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "배드캣 아밍": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "백양궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "암살자 카르투하": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "천갈궁",
+    "class": "전사",
+    "engraving_focus": "효과적중"
+  },
+  "바터스": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "지휘관 로리나": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": "사자궁",
+    "class": "전사",
+    "engraving_focus": "치명확률"
+  },
+  "카오스교 도끼 대장군": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "페닐라": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "전사",
+    "engraving_focus": null
+  },
+  "나락의 세실리아": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "인마궁",
+    "class": "기사",
+    "engraving_focus": "생명력(%)"
+  },
+  "심연의 유피네": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "보병궁",
+    "class": "기사",
+    "engraving_focus": "방어력(%)"
+  },
+  "그림자 로제": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "무법자 크로제": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "하솔": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "기사",
+    "engraving_focus": null
+  },
+  "흑기사 필리스": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": "거해궁",
+    "class": "기사",
+    "engraving_focus": "방어력"
+  },
+  "보건교사 율하": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "거해궁",
+    "class": "도적",
+    "engraving_focus": "효과적중"
+  },
+  "잔영의 비올레토": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "사자궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "종결자 찰스": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "천갈궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "집행관 빌트레드": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "사자궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "암살자 시더": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "보병궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "암살자 콜리": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "금우궁",
+    "class": "도적",
+    "engraving_focus": "치명확률"
+  },
+  "전학생 아딘": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "인마궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "초승달 무희 링": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "혈검 카린": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "천갈궁",
+    "class": "도적",
+    "engraving_focus": "공격력(%)"
+  },
+  "레브나": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "스벤": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "페넬로페": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "도적",
+    "engraving_focus": null
+  },
+  "바다의 유령 폴리티스": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "쌍어궁",
+    "class": "사수",
+    "engraving_focus": "생명력(%)"
+  },
+  "소악마 루아": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "쌍어궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "오퍼레이터 세크레트": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "천칭궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "잿빛 숲의 이세리아": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "쌍아궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "해적 선장 플랑": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "쌍아궁",
+    "class": "사수",
+    "engraving_focus": "공격력(%)"
+  },
+  "균형의 퓨리우스": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "천갈궁",
+    "class": "사수",
+    "engraving_focus": "치명확률"
+  },
+  "방랑 용사 레오": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "서풍의 처형자 슈리": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "쌍아궁",
+    "class": "사수",
+    "engraving_focus": "효과적중"
+  },
+  "만능 해결사 완다": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "사수",
+    "engraving_focus": null
+  },
+  "마신의 그림자": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "보병궁",
+    "class": "마도사",
+    "engraving_focus": "공격력(%)"
+  },
+  "아인즈 울 고운": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "금우궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "어둠의 목자 디에네": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "천칭궁",
+    "class": "마도사",
+    "engraving_focus": "생명력(%)"
+  },
+  "영겁의 표류자 루트비히": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "사자궁",
+    "class": "마도사",
+    "engraving_focus": "치명확률"
+  },
+  "지오": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "백양궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "진혼의 로앤나": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "보병궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "최강 모델 루루카": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "인마궁",
+    "class": "마도사",
+    "engraving_focus": "치명확률"
+  },
+  "하르세티": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "천칭궁",
+    "class": "마도사",
+    "engraving_focus": "생명력(%)"
+  },
+  "환영의 테네브리아": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "쌍아궁",
+    "class": "마도사",
+    "engraving_focus": "공격력(%)"
+  },
+  "도전자 도미니엘": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "천갈궁",
+    "class": "마도사",
+    "engraving_focus": "치명확률"
+  },
+  "보조형 랏츠": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "쌍어궁",
+    "class": "마도사",
+    "engraving_focus": "생명력(%)"
+  },
+  "봉안의 수린": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "보병궁",
+    "class": "마도사",
+    "engraving_focus": "공격력(%)"
+  },
+  "승부의 제라토": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "백양궁",
+    "class": "마도사",
+    "engraving_focus": "효과적중"
+  },
+  "외우주의 메르세데스": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "스단": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "오틸리어": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "휴라두": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "마도사",
+    "engraving_focus": null
+  },
+  "적월의 귀족 헤이스트": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "쌍어궁",
+    "class": "정령사",
+    "engraving_focus": "생명력(%)"
+  },
+  "죽음의 탐구자 레이": {
+    "rank": 5,
+    "element": "어둠",
+    "zodiac": "거해궁",
+    "class": "정령사",
+    "engraving_focus": "효과적중"
+  },
+  "슈팅스타 아카테스": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "죄악의 안젤리카": {
+    "rank": 4,
+    "element": "어둠",
+    "zodiac": "금우궁",
+    "class": "정령사",
+    "engraving_focus": "효과저항"
+  },
+  "레퀴엠로어": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  },
+  "제2형 아이노스": {
+    "rank": 3,
+    "element": "어둠",
+    "zodiac": null,
+    "class": "정령사",
+    "engraving_focus": null
+  }
+}

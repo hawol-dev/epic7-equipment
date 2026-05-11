@@ -1,0 +1,93 @@
+name: Sync Hero Data
+
+# 매주 월요일 03:00 UTC (한국 12:00) 실행 + 수동 트리거 가능
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Python deps
+        run: pip install --quiet requests
+
+      - name: Download latest Fribbels data
+        run: |
+          python <<'PY'
+          import urllib.request, pathlib
+          urls = {
+              "data/raw/fribbels_herodata.json":
+                  "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cache/herodata.json",
+              "data/raw/fribbels_ko.json":
+                  "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/locales/ko/translation.json",
+              "data/raw/fribbels_artifacts.json":
+                  "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cache/artifactdata.json",
+          }
+          for path, url in urls.items():
+              p = pathlib.Path(path)
+              p.parent.mkdir(parents=True, exist_ok=True)
+              urllib.request.urlretrieve(url, p)
+              print(f"  downloaded {path}")
+          PY
+
+      - name: Re-build unified DB
+        run: |
+          python scripts/build_unified_db.py
+          cp data/processed/heroes.json data/processed/enums.json data/processed/search_index.json web/src/data/
+
+      - name: Download new hero images
+        run: python scripts/download_images.py
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if [[ -n "$(git status --porcelain data/ web/src/data/ web/public/images/)" ]]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "📊 Changes detected:"
+            git status --short data/ web/src/data/ web/public/images/ | head -30
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "✓ No changes — skipping commit"
+          fi
+
+      - name: Commit changes
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "Hero Sync Bot"
+          git config user.email "actions@github.com"
+          git add data/ web/src/data/ web/public/images/
+          git commit -m "data: 영웅 데이터 자동 동기화 ($(date -u +%Y-%m-%d))
+
+          Fribbels herodata + 한글번역 + 아티팩트 최신 동기화."
+
+      - name: Push to origin
+        if: steps.diff.outputs.changed == 'true'
+        run: git push origin HEAD:${{ github.ref_name }}
+
+      - name: Mirror push to hawol-dev (Vercel deploy target)
+        if: steps.diff.outputs.changed == 'true' && env.HAWOL_DEV_PAT != ''
+        env:
+          HAWOL_DEV_PAT: ${{ secrets.HAWOL_DEV_PAT }}
+        run: |
+          git remote add hawol "https://x-access-token:${HAWOL_DEV_PAT}@github.com/hawol-dev/epic7-equipment.git"
+          git push hawol HEAD:${{ github.ref_name }}

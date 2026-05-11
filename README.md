@@ -16,19 +16,35 @@
 
 ## 데이터 빌드
 
+xlsx 파일이 업데이트됐을 때 (수동, 로컬에서):
+
 ```bash
 # 파일1 (영웅별 유효옵.xlsx) → 정규화 JSON
 python scripts/convert_file1.py
 
-# + 파일2 (장비시뮬.xlsx) 메타 머지
-python scripts/merge_metadata.py
+# 파일2 (장비시뮬.xlsx) → 작은 JSON으로 추출 (CI는 xlsx 못 올림)
+python scripts/extract_file2_data.py
 
-# 통합 빌드 (heroes.json / enums.json / search_index.json)
+# 메타 머지
+python scripts/merge_metadata.py
+```
+
+이후 단계는 GitHub Actions 가 매주 자동 실행 (수동도 가능):
+
+```bash
+# 통합 빌드
 python scripts/build_unified_db.py
 
 # web/src/data/ 로 복사
 cp data/processed/{heroes,enums,search_index}.json web/src/data/
+
+# 신규 영웅 이미지 다운로드
+python scripts/download_images.py
 ```
+
+자동 동기화는 `.github/workflows/sync-heroes.yml` — 매주 월요일 12:00 KST 에
+Fribbels 최신 데이터 받아 자동 commit & push. hawol-dev 미러 push는
+저장소 시크릿 `HAWOL_DEV_PAT` 필요.
 
 ## 웹 개발
 
@@ -47,6 +63,18 @@ npm run dev   # http://localhost:3000
 ---
 
 ## 변경 이력
+
+### 2026-05-04
+
+**모바일 헤더 + 자동 동기화**
+
+- 모바일 헤더 햄버거 메뉴 (좁은 화면에서 nav 깔끔하게 접힘)
+- 파일2 xlsx → 작은 JSON 캐시로 추출 (`extract_file2_data.py`)
+- 빌드 파이프라인 xlsx 의존성 제거 (CI 환경에서 동작 가능)
+- GitHub Actions 매주 월요일 자동 동기화 (`.github/workflows/sync-heroes.yml`)
+  - Fribbels 최신 herodata · 한글번역 · 아티팩트 다운로드
+  - 신규 영웅/이미지 자동 추가 후 commit & push
+  - origin (Jung-sunghoon) + hawol-dev 미러 둘 다 푸시
 
 ### 2026-05-03
 

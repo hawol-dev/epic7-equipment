@@ -26,7 +26,6 @@ import json
 import sys
 import io
 import re
-import openpyxl
 from pathlib import Path
 from collections import Counter
 
@@ -47,7 +46,8 @@ ROOT = Path(r"E:\jsh02\Dev\EpicSevenEquipment")
 SRC_MERGED = ROOT / "data/processed/heroes_merged.json"
 SRC_FRIBBELS = ROOT / "data/raw/fribbels_herodata.json"
 SRC_FRIBBELS_KO = ROOT / "data/raw/fribbels_ko.json"
-SRC_FILE2 = Path(r"C:\Users\jsh02\Downloads\에픽세븐장비시뮬_26_04_14의 사본.xlsx")
+SRC_FILE2_ARTIFACTS = ROOT / "data/raw/file2_artifacts.json"
+SRC_FILE2_ENGRAVING = ROOT / "data/raw/file2_engraving_grades.json"
 
 DST_HEROES = ROOT / "data/processed/heroes.json"
 DST_ENUMS = ROOT / "data/processed/enums.json"
@@ -139,64 +139,14 @@ VARIANT_SLUG = {
 
 
 def load_recommended_artifacts() -> dict[str, list[str]]:
-    """
-    파일2 '추천 세팅' 시트 → {hero_ko_name: [artifact1, artifact2, artifact3]}
-    빈 칸은 제외, 한 개도 없으면 영웅 자체를 dict에서 제외.
-    """
-    wb = openpyxl.load_workbook(SRC_FILE2, data_only=True, read_only=True)
-    ws = wb["추천 세팅"]
-    out = {}
-    for i, row in enumerate(ws.iter_rows(values_only=True)):
-        if i < 2:  # 0=헤더, 1=영웅 선택 placeholder
-            continue
-        name = row[0]
-        if not name:
-            continue
-        name = str(name).strip()
-        if name == "영웅 선택":
-            continue
-        artifacts = [row[2], row[3], row[4]]
-        artifacts = [str(a).strip() for a in artifacts if a]
-        if artifacts:
-            out[name] = artifacts
-    wb.close()
-    return out
+    """파일2 '추천 세팅' 시트 (사전 추출된 JSON에서)"""
+    return json.loads(SRC_FILE2_ARTIFACTS.read_text(encoding="utf-8"))
 
 
-def load_engraving_grades() -> dict[str, dict[int, dict[str, str | None]]]:
-    """
-    파일2 '계산요소' 시트 → 각인집중 등급별 효과 표
-    {stat_id: {level(3/4/5): {grade(D~SSS): "21%" or None}}}
-    stat_id는 ENGRAVING_KO_TO_ID로 변환된 값 사용
-    """
-    GRADES = ["D", "C", "B", "A", "S", "SS", "SSS"]
-    wb = openpyxl.load_workbook(SRC_FILE2, data_only=True, read_only=True)
-    ws = wb["계산요소"]
-    out: dict = {}
-    for i, row in enumerate(ws.iter_rows(values_only=True)):
-        if i < 2:
-            continue
-        ko_stat = row[0]
-        level = row[1]
-        if not ko_stat or level is None:
-            continue
-        ko_stat = str(ko_stat).strip()
-        try:
-            level_int = int(level)
-        except (TypeError, ValueError):
-            continue
-        # ENGRAVING_KO_TO_ID는 "공격력(%)" 같은 표기 사용
-        sid = ENGRAVING_KO_TO_ID.get(ko_stat)
-        if not sid:
-            continue
-        # cols 3..9 = D..SSS
-        grade_values = {}
-        for gi, grade in enumerate(GRADES):
-            v = row[2 + gi]
-            grade_values[grade] = str(v).strip() if v is not None else None
-        out.setdefault(sid, {})[level_int] = grade_values
-    wb.close()
-    return out
+def load_engraving_grades() -> dict[str, dict[str, dict[str, str | None]]]:
+    """파일2 '계산요소' 시트 (사전 추출된 JSON에서)
+    {stat_id: {level: {grade: val}}}, level/grade는 string."""
+    return json.loads(SRC_FILE2_ENGRAVING.read_text(encoding="utf-8"))
 
 
 # Fribbels CDN URL → 로컬 이미지 경로 (web/public 기준)

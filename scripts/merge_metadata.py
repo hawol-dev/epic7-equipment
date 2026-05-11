@@ -4,8 +4,9 @@
 매칭 전략:
 1. base_name (괄호 제거된 이름) 으로 파일2와 매칭
 2. 같은 base_name이 file1에 여러 variant로 있으면 모두 같은 메타 받음
+
+데이터 소스: data/raw/file2_meta.json (extract_file2_data.py로 사전 추출)
 """
-import openpyxl
 import json
 import sys
 import io
@@ -13,36 +14,14 @@ from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-FILE2 = Path(r"C:\Users\jsh02\Downloads\에픽세븐장비시뮬_26_04_14의 사본.xlsx")
-SRC_HEROES = Path(r"E:\jsh02\Dev\EpicSevenEquipment\data\raw\heroes_valid_options.json")
-DST_MERGED = Path(r"E:\jsh02\Dev\EpicSevenEquipment\data\processed\heroes_merged.json")
-DST_UNMATCHED = Path(r"E:\jsh02\Dev\EpicSevenEquipment\data\processed\unmatched_report.txt")
+ROOT = Path(r"E:\jsh02\Dev\EpicSevenEquipment")
+SRC_FILE2_META = ROOT / "data/raw/file2_meta.json"
+SRC_HEROES = ROOT / "data/raw/heroes_valid_options.json"
+DST_MERGED = ROOT / "data/processed/heroes_merged.json"
+DST_UNMATCHED = ROOT / "data/processed/unmatched_report.txt"
 
-print("Loading file2 (32MB)...")
-wb = openpyxl.load_workbook(FILE2, data_only=True, read_only=True)
-ws = wb["캐릭터 정보"]
-
-# 캐릭터 정보 메타 dict 만들기
-file2_meta = {}
-for i, row in enumerate(ws.iter_rows(values_only=True)):
-    if i == 0:
-        continue
-    name = row[0]
-    if not name or str(name).strip() == "영웅 선택":
-        continue
-    name = str(name).strip()
-    rank = row[2]
-    element = row[3]
-    zodiac = row[4]
-    char_class = row[5]
-    engraving = row[6]
-    file2_meta[name] = {
-        "rank": int(rank) if rank else None,
-        "element": str(element).strip() if element else None,
-        "zodiac": str(zodiac).strip() if zodiac else None,
-        "class": str(char_class).strip() if char_class else None,
-        "engraving_focus": str(engraving).strip() if engraving else None,
-    }
+print("Loading file2 meta JSON...")
+file2_meta = json.loads(SRC_FILE2_META.read_text(encoding="utf-8"))
 
 print(f"파일2 영웅: {len(file2_meta)}")
 

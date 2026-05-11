@@ -28,8 +28,9 @@ class TestClassifyContent(unittest.TestCase):
     def test_hall(self):
         self.assertEqual(classify_content("전당"), "pve")
 
-    def test_versus_specific_boss(self):
-        self.assertEqual(classify_content("대 스트라제스용"), "pve")
+    def test_versus_pvp_hero_is_pvp(self):
+        # "대 X용" 은 PvP 영웅 카운터 빌드 (스트라제스 = PvP 영웅)
+        self.assertEqual(classify_content("대 스트라제스용"), "pvp")
 
     def test_mixed_pve_text(self):
         self.assertEqual(classify_content("원정대 리치 전열"), "pve")

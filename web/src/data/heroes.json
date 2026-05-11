@@ -19553,7 +19553,18 @@
       "ignore_2set": false,
       "notes": "생활효저 추천",
       "notes_en": "Recommended: HP + Effect Resistance",
-      "main_options": null
+      "main_options": {
+        "necklace": [
+          "hp_p"
+        ],
+        "ring": [
+          "hp_p"
+        ],
+        "boots": [
+          "spd",
+          "hp_p"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -20087,7 +20098,19 @@
       "ignore_2set": false,
       "notes": "고점 응면셋 스탠다드파면셋",
       "notes_en": "High-roll Riposte+Immunity, standard Destruction+Immunity",
-      "main_options": null
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "atk_p",
+          "hp_p"
+        ],
+        "boots": [
+          "atk_p",
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -21228,7 +21251,19 @@
       "ignore_2set": false,
       "notes": null,
       "notes_en": null,
-      "main_options": null
+      "main_options": {
+        "necklace": [
+          "atk_p",
+          "chc"
+        ],
+        "ring": [
+          "eff",
+          "atk_p"
+        ],
+        "boots": [
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -29214,7 +29249,19 @@
       "ignore_2set": false,
       "notes": null,
       "notes_en": null,
-      "main_options": null
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "atk_p",
+          "effres"
+        ],
+        "boots": [
+          "atk_p",
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [
@@ -29332,7 +29379,19 @@
       "ignore_2set": false,
       "notes": null,
       "notes_en": null,
-      "main_options": null
+      "main_options": {
+        "necklace": [
+          "chd"
+        ],
+        "ring": [
+          "atk_p",
+          "effres"
+        ],
+        "boots": [
+          "atk_p",
+          "spd"
+        ]
+      }
     },
     "has_data": true,
     "source": [

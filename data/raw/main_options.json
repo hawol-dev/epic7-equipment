@@ -401,9 +401,16 @@
     "_note": null
   },
   "율하": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "hp_p"
+    ],
+    "ring": [
+      "hp_p"
+    ],
+    "boots": [
+      "spd",
+      "hp_p"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=1900169",
     "_note": null
   },
@@ -422,18 +429,34 @@
     "_note": null
   },
   "일편고월 벨로나": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chd"
+    ],
+    "ring": [
+      "atk_p",
+      "hp_p"
+    ],
+    "boots": [
+      "atk_p",
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2547365",
-    "_note": null
+    "_note": "신발 공퍼/속도는 세팅 취향"
   },
   "전술형 콜리": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "atk_p",
+      "chc"
+    ],
+    "ring": [
+      "eff",
+      "atk_p"
+    ],
+    "boots": [
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2558669",
-    "_note": null
+    "_note": "치확목은 사파벨 연계용, 보통 공퍼목 사용"
   },
   "전승의 아미키": {
     "necklace": [
@@ -652,9 +675,17 @@
     "_note": null
   },
   "혈검 카린": {
-    "necklace": [],
-    "ring": [],
-    "boots": [],
+    "necklace": [
+      "chd"
+    ],
+    "ring": [
+      "atk_p",
+      "effres"
+    ],
+    "boots": [
+      "atk_p",
+      "spd"
+    ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2194291",
     "_note": null
   },

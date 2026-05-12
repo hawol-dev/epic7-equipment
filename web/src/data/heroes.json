@@ -13658,7 +13658,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2553.0,
+      "def": 1001.3,
+      "hp": 25267.7,
+      "spd": 143.3,
+      "chc": 100.3,
+      "chd": 263.0,
+      "eff": 4.9,
+      "efr": 6.1,
+      "gs": 439.6,
+      "n": 3000
+    }
   },
   {
     "id": "cerise__exp",
@@ -13769,7 +13780,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2466.8,
+      "def": 1151.9,
+      "hp": 11730.0,
+      "spd": 248.4,
+      "chc": 95.7,
+      "chd": 224.5,
+      "eff": 102.1,
+      "efr": 10.2,
+      "gs": 416.6,
+      "n": 3000
+    }
   },
   {
     "id": "cecilia",
@@ -13865,7 +13887,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1698.0,
+      "def": 1434.3,
+      "hp": 23359.3,
+      "spd": 217.0,
+      "chc": 47.5,
+      "chd": 184.3,
+      "eff": 104.7,
+      "efr": 32.0,
+      "gs": 415.2,
+      "n": 3000
+    }
   },
   {
     "id": "sez",
@@ -13976,7 +14009,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4230.3,
+      "def": 852.3,
+      "hp": 11476.7,
+      "spd": 208.1,
+      "chc": 101.3,
+      "chd": 312.6,
+      "eff": 3.2,
+      "efr": 2.9,
+      "gs": 426.1,
+      "n": 3000
+    }
   },
   {
     "id": "sigret__wyvern",
@@ -14078,7 +14122,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4325.6,
+      "def": 984.6,
+      "hp": 11689.5,
+      "spd": 166.4,
+      "chc": 95.1,
+      "chd": 332.3,
+      "eff": 18.5,
+      "efr": 7.4,
+      "gs": 420.5,
+      "n": 3000
+    }
   },
   {
     "id": "celine",
@@ -14185,7 +14240,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4199.0,
+      "def": 855.9,
+      "hp": 12657.1,
+      "spd": 199.7,
+      "chc": 101.8,
+      "chd": 334.6,
+      "eff": 1.5,
+      "efr": 1.7,
+      "gs": 440.2,
+      "n": 3000
+    }
   },
   {
     "id": "senya",
@@ -14294,7 +14360,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4900.6,
+      "def": 1412.5,
+      "hp": 18269.3,
+      "spd": 198.2,
+      "chc": 27.2,
+      "chd": 160.2,
+      "eff": 51.3,
+      "efr": 59.0,
+      "gs": 427.4,
+      "n": 3000
+    }
   },
   {
     "id": "hellion-lua",
@@ -14414,7 +14491,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1987.4,
+      "def": 1375.5,
+      "hp": 17311.7,
+      "spd": 273.4,
+      "chc": 25.8,
+      "chd": 161.4,
+      "eff": 123.0,
+      "efr": 25.7,
+      "gs": 415.7,
+      "n": 3000
+    }
   },
   {
     "id": "sol__golem-1p",
@@ -14513,7 +14601,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4014.5,
+      "def": 1047.1,
+      "hp": 11557.9,
+      "spd": 175.1,
+      "chc": 95.3,
+      "chd": 300.8,
+      "eff": 16.1,
+      "efr": 11.1,
+      "gs": 394.5,
+      "n": 3000
+    }
   },
   {
     "id": "angelic-montmorancy__ext",
@@ -14607,7 +14706,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1264.8,
+      "def": 1661.1,
+      "hp": 20024.6,
+      "spd": 193.5,
+      "chc": 26.4,
+      "chd": 161.3,
+      "eff": 36.8,
+      "efr": 190.8,
+      "gs": 406.0,
+      "n": 2976
+    }
   },
   {
     "id": "sylvan-sage-vivian",

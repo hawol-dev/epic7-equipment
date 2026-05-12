@@ -19093,7 +19093,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1838.7,
+      "def": 1564.3,
+      "hp": 32419.2,
+      "spd": 162.9,
+      "chc": 25.8,
+      "chd": 162.5,
+      "eff": 37.1,
+      "efr": 83.6,
+      "gs": 411.6,
+      "n": 3000
+    }
   },
   {
     "id": "young-senya",
@@ -19219,7 +19230,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1338.0,
+      "def": 1870.1,
+      "hp": 23959.1,
+      "spd": 178.7,
+      "chc": 24.0,
+      "chd": 157.4,
+      "eff": 36.0,
+      "efr": 106.0,
+      "gs": 416.6,
+      "n": 3000
+    }
   },
   {
     "id": "little-queen-charlotte",
@@ -19340,7 +19362,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3698.2,
+      "def": 1192.0,
+      "hp": 14821.2,
+      "spd": 174.0,
+      "chc": 92.9,
+      "chd": 313.3,
+      "eff": 1.0,
+      "efr": 3.0,
+      "gs": 438.1,
+      "n": 2902
+    }
   },
   {
     "id": "eda",
@@ -19444,7 +19477,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3544.4,
+      "def": 1086.3,
+      "hp": 9874.2,
+      "spd": 231.0,
+      "chc": 100.9,
+      "chd": 281.8,
+      "eff": 51.2,
+      "efr": 5.3,
+      "gs": 431.0,
+      "n": 3000
+    }
   },
   {
     "id": "edward-elric",
@@ -19554,7 +19598,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2018.6,
+      "def": 1295.1,
+      "hp": 20599.9,
+      "spd": 203.0,
+      "chc": 98.4,
+      "chd": 275.3,
+      "eff": 3.1,
+      "efr": 1.0,
+      "gs": 435.0,
+      "n": 3000
+    }
   },
   {
     "id": "ervalen__ext",
@@ -19649,7 +19704,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3985.2,
+      "def": 916.0,
+      "hp": 13078.0,
+      "spd": 170.1,
+      "chc": 95.4,
+      "chd": 314.7,
+      "eff": 8.7,
+      "efr": 8.7,
+      "gs": 406.1,
+      "n": 3000
+    }
   },
   {
     "id": "emilia",
@@ -19760,7 +19826,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1462.9,
+      "def": 1564.6,
+      "hp": 17596.8,
+      "spd": 223.1,
+      "chc": 33.4,
+      "chd": 170.3,
+      "eff": 29.7,
+      "efr": 141.4,
+      "gs": 414.5,
+      "n": 3000
+    }
   },
   {
     "id": "elena",
@@ -19867,7 +19944,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1396.4,
+      "def": 1552.4,
+      "hp": 16710.3,
+      "spd": 223.3,
+      "chc": 27.4,
+      "chd": 161.8,
+      "eff": 31.7,
+      "efr": 210.8,
+      "gs": 420.7,
+      "n": 3000
+    }
   },
   {
     "id": "eligos",
@@ -19976,7 +20064,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3895.2,
+      "def": 908.0,
+      "hp": 9795.7,
+      "spd": 267.0,
+      "chc": 100.9,
+      "chd": 324.3,
+      "eff": 8.2,
+      "efr": 2.8,
+      "gs": 434.9,
+      "n": 3000
+    }
   },
   {
     "id": "elvira",
@@ -20086,7 +20185,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1980.9,
+      "def": 1219.7,
+      "hp": 17000.8,
+      "spd": 208.2,
+      "chc": 24.4,
+      "chd": 160.5,
+      "eff": 90.7,
+      "efr": 256.9,
+      "gs": 425.1,
+      "n": 3000
+    }
   },
   {
     "id": "elphelt__pve",

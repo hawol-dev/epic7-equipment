@@ -11016,7 +11016,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3668.3,
+      "def": 1184.3,
+      "hp": 14858.7,
+      "spd": 175.1,
+      "chc": 94.9,
+      "chd": 296.3,
+      "eff": 3.6,
+      "efr": 3.9,
+      "gs": 438.0,
+      "n": 3000
+    }
   },
   {
     "id": "immortal-wukong__vs-strazes",
@@ -11122,7 +11133,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3668.3,
+      "def": 1184.3,
+      "hp": 14858.7,
+      "spd": 175.1,
+      "chc": 94.9,
+      "chd": 296.3,
+      "eff": 3.6,
+      "efr": 3.9,
+      "gs": 438.0,
+      "n": 3000
+    }
   },
   {
     "id": "faithless-lidica",
@@ -11234,7 +11256,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2897.0,
+      "def": 1082.5,
+      "hp": 11192.6,
+      "spd": 255.9,
+      "chc": 101.8,
+      "chd": 210.9,
+      "eff": 84.1,
+      "efr": 13.7,
+      "gs": 417.5,
+      "n": 3000
+    }
   },
   {
     "id": "brieg__pve",
@@ -11353,7 +11386,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1715.2,
+      "def": 1295.9,
+      "hp": 23003.8,
+      "spd": 192.1,
+      "chc": 85.5,
+      "chd": 248.7,
+      "eff": 59.2,
+      "efr": 8.0,
+      "gs": 432.7,
+      "n": 3000
+    }
   },
   {
     "id": "birgitta",
@@ -11459,7 +11503,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1669.3,
+      "def": 1430.1,
+      "hp": 15128.9,
+      "spd": 247.9,
+      "chc": 30.3,
+      "chd": 170.0,
+      "eff": 115.0,
+      "efr": 51.1,
+      "gs": 391.0,
+      "n": 1673
+    }
   },
   {
     "id": "byblis",
@@ -11567,7 +11622,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2164.4,
+      "def": 1383.7,
+      "hp": 18309.3,
+      "spd": 234.2,
+      "chc": 37.7,
+      "chd": 172.6,
+      "eff": 126.5,
+      "efr": 30.9,
+      "gs": 419.0,
+      "n": 3000
+    }
   },
   {
     "id": "violet",
@@ -11663,7 +11729,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3974.8,
+      "def": 951.4,
+      "hp": 15213.5,
+      "spd": 172.7,
+      "chc": 92.5,
+      "chd": 263.9,
+      "eff": 10.5,
+      "efr": 3.5,
+      "gs": 433.0,
+      "n": 3000
+    }
   },
   {
     "id": "wretched-rose",
@@ -11860,7 +11937,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4420.4,
+      "def": 1496.5,
+      "hp": 14553.6,
+      "spd": 243.7,
+      "chc": 26.3,
+      "chd": 162.8,
+      "eff": 150.4,
+      "efr": 11.1,
+      "gs": 420.0,
+      "n": 3000
+    }
   },
   {
     "id": "vildred",
@@ -11971,7 +12059,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4341.5,
+      "def": 913.5,
+      "hp": 9515.1,
+      "spd": 238.1,
+      "chc": 101.1,
+      "chd": 294.3,
+      "eff": 3.2,
+      "efr": 2.8,
+      "gs": 433.2,
+      "n": 3000
+    }
   },
   {
     "id": "ruele-of-light",
@@ -12099,7 +12198,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1343.4,
+      "def": 1971.8,
+      "hp": 22183.2,
+      "spd": 207.9,
+      "chc": 19.2,
+      "chd": 154.0,
+      "eff": 20.0,
+      "efr": 128.8,
+      "gs": 423.8,
+      "n": 3000
+    }
   },
   {
     "id": "angel-of-light-angelica",
@@ -12211,7 +12321,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1837.2,
+      "def": 1479.5,
+      "hp": 16561.2,
+      "spd": 228.5,
+      "chc": 22.1,
+      "chd": 157.9,
+      "eff": 172.4,
+      "efr": 86.4,
+      "gs": 423.0,
+      "n": 2919
+    }
   },
   {
     "id": "commander-pavel",

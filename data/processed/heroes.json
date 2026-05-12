@@ -12435,7 +12435,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 5098.4,
+      "def": 1007.0,
+      "hp": 9701.6,
+      "spd": 151.7,
+      "chc": 102.8,
+      "chd": 332.1,
+      "eff": 4.3,
+      "efr": 4.5,
+      "gs": 423.1,
+      "n": 3000
+    }
   },
   {
     "id": "saria",
@@ -12546,7 +12557,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4255.1,
+      "def": 983.8,
+      "hp": 9307.9,
+      "spd": 208.1,
+      "chc": 101.1,
+      "chd": 318.5,
+      "eff": 2.7,
+      "efr": 2.4,
+      "gs": 428.9,
+      "n": 3000
+    }
   },
   {
     "id": "desert-jewel-basar",
@@ -12655,7 +12677,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1498.3,
+      "def": 1427.1,
+      "hp": 14978.9,
+      "spd": 255.3,
+      "chc": 20.9,
+      "chd": 156.3,
+      "eff": 33.9,
+      "efr": 204.1,
+      "gs": 414.5,
+      "n": 3000
+    }
   },
   {
     "id": "lionheart-cermia",
@@ -12785,7 +12818,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1851.4,
+      "def": 2088.4,
+      "hp": 15244.8,
+      "spd": 184.4,
+      "chc": 101.5,
+      "chd": 315.8,
+      "eff": 0.9,
+      "efr": 20.3,
+      "gs": 440.2,
+      "n": 3000
+    }
   },
   {
     "id": "sharun",
@@ -12888,7 +12932,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1462.0,
+      "def": 1651.3,
+      "hp": 17594.3,
+      "spd": 202.2,
+      "chc": 32.2,
+      "chd": 170.3,
+      "eff": 133.8,
+      "efr": 70.4,
+      "gs": 423.8,
+      "n": 3000
+    }
   },
   {
     "id": "shalltear",
@@ -12999,7 +13054,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3577.9,
+      "def": 949.2,
+      "hp": 11093.4,
+      "spd": 244.9,
+      "chc": 101.3,
+      "chd": 290.1,
+      "eff": 3.8,
+      "efr": 4.2,
+      "gs": 436.0,
+      "n": 3000
+    }
   },
   {
     "id": "charlotte",
@@ -13104,7 +13170,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3565.9,
+      "def": 1378.5,
+      "hp": 14981.1,
+      "spd": 167.6,
+      "chc": 48.7,
+      "chd": 302.1,
+      "eff": 7.3,
+      "efr": 18.0,
+      "gs": 417.9,
+      "n": 3000
+    }
   },
   {
     "id": "westwind-executioner-schuri",
@@ -13206,7 +13283,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3476.8,
+      "def": 1110.8,
+      "hp": 11149.2,
+      "spd": 249.5,
+      "chc": 27.3,
+      "chd": 164.3,
+      "eff": 181.6,
+      "efr": 12.0,
+      "gs": 408.3,
+      "n": 2860
+    }
   },
   {
     "id": "architect-laika",
@@ -13309,7 +13397,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3842.4,
+      "def": 1065.5,
+      "hp": 8543.4,
+      "spd": 258.7,
+      "chc": 100.0,
+      "chd": 283.2,
+      "eff": 5.8,
+      "efr": 4.0,
+      "gs": 430.9,
+      "n": 3000
+    }
   },
   {
     "id": "solitaria-of-the-snow",
@@ -13416,7 +13515,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2044.3,
+      "def": 1482.4,
+      "hp": 17081.8,
+      "spd": 240.8,
+      "chc": 30.5,
+      "chd": 164.7,
+      "eff": 137.0,
+      "efr": 72.4,
+      "gs": 425.6,
+      "n": 2952
+    }
   },
   {
     "id": "setsuka",

@@ -9487,7 +9487,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3187.4,
+      "def": 1307.2,
+      "hp": 11241.8,
+      "spd": 234.6,
+      "chc": 34.8,
+      "chd": 171.0,
+      "eff": 211.6,
+      "efr": 10.9,
+      "gs": 422.8,
+      "n": 2945
+    }
   },
   {
     "id": "benimaru",
@@ -9600,7 +9611,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3718.0,
+      "def": 1016.4,
+      "hp": 12843.9,
+      "spd": 209.2,
+      "chc": 101.9,
+      "chd": 306.2,
+      "eff": 2.8,
+      "efr": 2.3,
+      "gs": 435.7,
+      "n": 3000
+    }
   },
   {
     "id": "veronica",
@@ -9721,7 +9743,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2779.3,
+      "def": 1017.6,
+      "hp": 11593.3,
+      "spd": 250.2,
+      "chc": 118.0,
+      "chd": 200.2,
+      "eff": 98.7,
+      "efr": 11.2,
+      "gs": 427.8,
+      "n": 3000
+    }
   },
   {
     "id": "bellona__pve",
@@ -9831,7 +9864,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3012.6,
+      "def": 1046.9,
+      "hp": 11370.2,
+      "spd": 212.2,
+      "chc": 95.7,
+      "chd": 276.6,
+      "eff": 100.0,
+      "efr": 6.4,
+      "gs": 425.1,
+      "n": 3000
+    }
   },
   {
     "id": "belian",
@@ -9964,7 +10008,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1658.5,
+      "def": 1407.6,
+      "hp": 25747.1,
+      "spd": 192.7,
+      "chc": 65.6,
+      "chd": 211.5,
+      "eff": 51.1,
+      "efr": 22.5,
+      "gs": 431.6,
+      "n": 3000
+    }
   },
   {
     "id": "belian__spd-deck",
@@ -10089,7 +10144,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1658.5,
+      "def": 1407.6,
+      "hp": 25747.1,
+      "spd": 192.7,
+      "chc": 65.6,
+      "chd": 211.5,
+      "eff": 51.1,
+      "efr": 22.5,
+      "gs": 431.6,
+      "n": 3000
+    }
   },
   {
     "id": "belian__crit",
@@ -10218,7 +10284,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1658.5,
+      "def": 1407.6,
+      "hp": 25747.1,
+      "spd": 192.7,
+      "chc": 65.6,
+      "chd": 211.5,
+      "eff": 51.1,
+      "efr": 22.5,
+      "gs": 431.6,
+      "n": 3000
+    }
   },
   {
     "id": "astromancer-elena",
@@ -10329,7 +10406,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3419.4,
+      "def": 1002.9,
+      "hp": 11158.0,
+      "spd": 223.1,
+      "chc": 100.7,
+      "chd": 305.5,
+      "eff": 9.8,
+      "efr": 4.3,
+      "gs": 423.2,
+      "n": 3000
+    }
   },
   {
     "id": "school-nurse-yulha",
@@ -10452,7 +10540,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1968.3,
+      "def": 1214.0,
+      "hp": 23936.8,
+      "spd": 269.2,
+      "chc": 22.9,
+      "chd": 158.4,
+      "eff": 54.2,
+      "efr": 34.7,
+      "gs": 421.0,
+      "n": 2988
+    }
   },
   {
     "id": "monarch-of-the-sword-iseria",
@@ -10573,7 +10672,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4204.1,
+      "def": 1527.2,
+      "hp": 19959.9,
+      "spd": 122.9,
+      "chc": 24.5,
+      "chd": 161.0,
+      "eff": 4.5,
+      "efr": 88.9,
+      "gs": 416.5,
+      "n": 2843
+    }
   },
   {
     "id": "auxiliary-lots",
@@ -10667,7 +10777,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2311.0,
+      "def": 1360.1,
+      "hp": 15058.2,
+      "spd": 263.2,
+      "chc": 51.6,
+      "chd": 183.9,
+      "eff": 32.9,
+      "efr": 27.5,
+      "gs": 398.2,
+      "n": 3000
+    }
   },
   {
     "id": "sealed-eye-surin",
@@ -10767,7 +10888,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4114.9,
+      "def": 1238.0,
+      "hp": 10857.3,
+      "spd": 223.0,
+      "chc": 48.9,
+      "chd": 203.2,
+      "eff": 70.3,
+      "efr": 9.4,
+      "gs": 400.2,
+      "n": 266
+    }
   },
   {
     "id": "immortal-wukong",

@@ -20293,7 +20293,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2762.1,
+      "def": 1096.2,
+      "hp": 11915.7,
+      "spd": 216.0,
+      "chc": 81.1,
+      "chd": 242.4,
+      "eff": 99.3,
+      "efr": 13.2,
+      "gs": 386.3,
+      "n": 3000
+    }
   },
   {
     "id": "summer-break-charlotte",
@@ -20405,7 +20416,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3296.6,
+      "def": 1212.8,
+      "hp": 13601.8,
+      "spd": 179.2,
+      "chc": 106.7,
+      "chd": 296.7,
+      "eff": 18.8,
+      "efr": 6.9,
+      "gs": 421.8,
+      "n": 2929
+    }
   },
   {
     "id": "free-spirit-tieria__pve",
@@ -20502,7 +20524,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3176.4,
+      "def": 1054.0,
+      "hp": 10694.6,
+      "spd": 200.3,
+      "chc": 107.0,
+      "chd": 309.3,
+      "eff": 32.8,
+      "efr": 8.4,
+      "gs": 416.5,
+      "n": 2993
+    }
   },
   {
     "id": "researcher-carrot",
@@ -20597,7 +20630,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3932.9,
+      "def": 1377.6,
+      "hp": 12815.5,
+      "spd": 207.8,
+      "chc": 59.7,
+      "chd": 185.9,
+      "eff": 87.2,
+      "efr": 17.4,
+      "gs": 430.9,
+      "n": 2977
+    }
   },
   {
     "id": "eternal-wanderer-ludwig",
@@ -20700,7 +20744,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4202.2,
+      "def": 1047.1,
+      "hp": 8043.2,
+      "spd": 246.5,
+      "chc": 101.5,
+      "chd": 299.4,
+      "eff": 1.9,
+      "efr": 1.8,
+      "gs": 442.9,
+      "n": 2926
+    }
   },
   {
     "id": "spirit-eye-celine",
@@ -20825,7 +20880,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3603.1,
+      "def": 907.5,
+      "hp": 9357.5,
+      "spd": 268.4,
+      "chc": 102.2,
+      "chd": 294.1,
+      "eff": 1.8,
+      "efr": 11.4,
+      "gs": 443.4,
+      "n": 3000
+    }
   },
   {
     "id": "spirit-eye-celine__effres-only",
@@ -20951,7 +21017,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3603.1,
+      "def": 907.5,
+      "hp": 9357.5,
+      "spd": 268.4,
+      "chc": 102.2,
+      "chd": 294.1,
+      "eff": 1.8,
+      "efr": 11.4,
+      "gs": 443.4,
+      "n": 3000
+    }
   },
   {
     "id": "operator-sigret",
@@ -21054,7 +21131,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3471.0,
+      "def": 974.3,
+      "hp": 10269.7,
+      "spd": 245.7,
+      "chc": 100.2,
+      "chd": 297.1,
+      "eff": 6.4,
+      "efr": 4.7,
+      "gs": 422.1,
+      "n": 3000
+    }
   },
   {
     "id": "dragon-king-sharun",
@@ -21161,7 +21249,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1534.7,
+      "def": 1486.7,
+      "hp": 17449.9,
+      "spd": 239.4,
+      "chc": 20.4,
+      "chd": 155.0,
+      "eff": 185.8,
+      "efr": 36.2,
+      "gs": 424.5,
+      "n": 3000
+    }
   },
   {
     "id": "dragon-bride-senya",
@@ -21271,7 +21370,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1674.0,
+      "def": 1608.2,
+      "hp": 32826.6,
+      "spd": 210.8,
+      "chc": 23.8,
+      "chd": 157.3,
+      "eff": 26.6,
+      "efr": 60.5,
+      "gs": 418.0,
+      "n": 2997
+    }
   },
   {
     "id": "yuna",
@@ -21369,7 +21479,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3539.1,
+      "def": 1047.1,
+      "hp": 13166.3,
+      "spd": 214.7,
+      "chc": 89.3,
+      "chd": 275.7,
+      "eff": 10.7,
+      "efr": 11.4,
+      "gs": 399.6,
+      "n": 3000
+    }
   },
   {
     "id": "yufine",

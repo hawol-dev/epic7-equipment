@@ -16290,7 +16290,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3741.1,
+      "def": 939.6,
+      "hp": 14546.2,
+      "spd": 200.9,
+      "chc": 100.1,
+      "chd": 295.0,
+      "eff": 11.3,
+      "efr": 2.4,
+      "gs": 434.9,
+      "n": 3000
+    }
   },
   {
     "id": "abyssal-yufine",
@@ -16421,7 +16432,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1873.7,
+      "def": 2151.0,
+      "hp": 17812.6,
+      "spd": 171.6,
+      "chc": 99.5,
+      "chd": 270.5,
+      "eff": 1.1,
+      "efr": 2.3,
+      "gs": 443.4,
+      "n": 3000
+    }
   },
   {
     "id": "judge-kise",
@@ -16528,7 +16550,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3366.5,
+      "def": 1030.6,
+      "hp": 10205.8,
+      "spd": 231.3,
+      "chc": 100.2,
+      "chd": 290.5,
+      "eff": 32.3,
+      "efr": 5.6,
+      "gs": 418.7,
+      "n": 3000
+    }
   },
   {
     "id": "aramintha",
@@ -16634,7 +16667,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3671.0,
+      "def": 1351.2,
+      "hp": 11540.2,
+      "spd": 225.4,
+      "chc": 46.8,
+      "chd": 180.2,
+      "eff": 126.1,
+      "efr": 13.2,
+      "gs": 404.2,
+      "n": 3000
+    }
   },
   {
     "id": "aram",
@@ -16769,7 +16813,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1514.0,
+      "def": 1518.9,
+      "hp": 19920.2,
+      "spd": 221.9,
+      "chc": 22.1,
+      "chd": 157.0,
+      "eff": 83.8,
+      "efr": 87.7,
+      "gs": 421.5,
+      "n": 3000
+    }
   },
   {
     "id": "arunka",
@@ -16875,7 +16930,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 6328.7,
+      "def": 1264.3,
+      "hp": 14707.7,
+      "spd": 201.3,
+      "chc": 39.7,
+      "chd": 178.4,
+      "eff": 17.6,
+      "efr": 15.2,
+      "gs": 398.8,
+      "n": 3000
+    }
   },
   {
     "id": "aria",
@@ -16990,7 +17056,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1935.4,
+      "def": 2046.0,
+      "hp": 14544.3,
+      "spd": 164.3,
+      "chc": 99.7,
+      "chd": 252.8,
+      "eff": 24.0,
+      "efr": 125.0,
+      "gs": 435.4,
+      "n": 3000
+    }
   },
   {
     "id": "amid",
@@ -17092,7 +17169,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1641.6,
+      "def": 1386.8,
+      "hp": 13397.3,
+      "spd": 303.3,
+      "chc": 37.6,
+      "chd": 179.0,
+      "eff": 33.4,
+      "efr": 87.1,
+      "gs": 428.4,
+      "n": 3000
+    }
   },
   {
     "id": "armin",
@@ -17203,7 +17291,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1556.2,
+      "def": 2475.7,
+      "hp": 18380.2,
+      "spd": 129.7,
+      "chc": 79.3,
+      "chd": 237.5,
+      "eff": 21.3,
+      "efr": 54.1,
+      "gs": 408.1,
+      "n": 3000
+    }
   },
   {
     "id": "abigail",
@@ -17318,7 +17417,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1897.4,
+      "def": 1369.4,
+      "hp": 22603.7,
+      "spd": 214.0,
+      "chc": 84.5,
+      "chd": 219.4,
+      "eff": 45.8,
+      "efr": 16.6,
+      "gs": 428.9,
+      "n": 3000
+    }
   },
   {
     "id": "ainz-ooal-gown",

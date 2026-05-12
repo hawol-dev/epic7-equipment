@@ -8063,7 +8063,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3991.1,
+      "def": 1164.9,
+      "hp": 11227.3,
+      "spd": 212.8,
+      "chc": 100.6,
+      "chd": 290.1,
+      "eff": 2.4,
+      "efr": 2.7,
+      "gs": 430.2,
+      "n": 3000
+    }
   },
   {
     "id": "ocean-breeze-luluca",
@@ -8174,7 +8185,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1339.0,
+      "def": 1535.1,
+      "hp": 16547.7,
+      "spd": 226.2,
+      "chc": 19.5,
+      "chd": 154.8,
+      "eff": 74.8,
+      "efr": 212.5,
+      "gs": 429.3,
+      "n": 2991
+    }
   },
   {
     "id": "sea-phantom-politis",
@@ -8277,7 +8299,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1990.7,
+      "def": 1293.2,
+      "hp": 16199.9,
+      "spd": 289.7,
+      "chc": 32.9,
+      "chd": 171.9,
+      "eff": 93.5,
+      "efr": 36.4,
+      "gs": 429.2,
+      "n": 2942
+    }
   },
   {
     "id": "basar",
@@ -8367,7 +8400,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2712.6,
+      "def": 1514.2,
+      "hp": 13356.6,
+      "spd": 228.3,
+      "chc": 47.7,
+      "chd": 184.0,
+      "eff": 88.8,
+      "efr": 28.6,
+      "gs": 380.5,
+      "n": 1914
+    }
   },
   {
     "id": "baal-sezan__exp",
@@ -8481,7 +8525,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3376.0,
+      "def": 1187.8,
+      "hp": 10103.2,
+      "spd": 212.0,
+      "chc": 91.0,
+      "chd": 260.3,
+      "eff": 103.3,
+      "efr": 7.2,
+      "gs": 416.2,
+      "n": 3000
+    }
   },
   {
     "id": "baiken__banshee-1p",
@@ -8576,7 +8631,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4292.3,
+      "def": 904.4,
+      "hp": 11661.2,
+      "spd": 143.8,
+      "chc": 95.0,
+      "chd": 316.3,
+      "eff": 28.6,
+      "efr": 7.9,
+      "gs": 394.7,
+      "n": 3000
+    }
   },
   {
     "id": "holiday-yufine",
@@ -8683,7 +8749,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3398.9,
+      "def": 1303.2,
+      "hp": 15234.3,
+      "spd": 237.5,
+      "chc": 42.8,
+      "chd": 179.1,
+      "eff": 80.3,
+      "efr": 13.5,
+      "gs": 420.6,
+      "n": 3000
+    }
   },
   {
     "id": "holiday-yufine__ext",
@@ -8791,7 +8868,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3398.9,
+      "def": 1303.2,
+      "hp": 15234.3,
+      "spd": 237.5,
+      "chc": 42.8,
+      "chd": 179.1,
+      "eff": 80.3,
+      "efr": 13.5,
+      "gs": 420.6,
+      "n": 3000
+    }
   },
   {
     "id": "midnight-gala-lilias",
@@ -8902,7 +8990,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4042.5,
+      "def": 939.1,
+      "hp": 8538.4,
+      "spd": 256.9,
+      "chc": 44.5,
+      "chd": 316.5,
+      "eff": 5.5,
+      "efr": 23.3,
+      "gs": 428.7,
+      "n": 2973
+    }
   },
   {
     "id": "midnight-gala-lilias__effres",
@@ -9011,7 +9110,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4042.5,
+      "def": 939.1,
+      "hp": 8538.4,
+      "spd": 256.9,
+      "chc": 44.5,
+      "chd": 316.5,
+      "eff": 5.5,
+      "efr": 23.3,
+      "gs": 428.7,
+      "n": 2973
+    }
   },
   {
     "id": "bystander-hwayoung",
@@ -9141,7 +9251,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4235.4,
+      "def": 986.7,
+      "hp": 16976.7,
+      "spd": 143.9,
+      "chc": 100.5,
+      "chd": 299.6,
+      "eff": 0.2,
+      "efr": 0.3,
+      "gs": 450.6,
+      "n": 2972
+    }
   },
   {
     "id": "wanderer-silk",
@@ -9251,7 +9372,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2249.6,
+      "def": 1201.3,
+      "hp": 12447.4,
+      "spd": 266.7,
+      "chc": 60.9,
+      "chd": 189.7,
+      "eff": 136.5,
+      "efr": 21.6,
+      "gs": 410.7,
+      "n": 3000
+    }
   },
   {
     "id": "silver-blade-aramintha",

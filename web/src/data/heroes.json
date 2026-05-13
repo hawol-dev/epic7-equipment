@@ -26329,7 +26329,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3431.4,
+      "def": 1104.6,
+      "hp": 14279.5,
+      "spd": 164.6,
+      "chc": 98.8,
+      "chd": 336.4,
+      "eff": 3.9,
+      "efr": 6.2,
+      "gs": 429.5,
+      "n": 3000
+    }
   },
   {
     "id": "empyrean-ilynav__dps",
@@ -26456,7 +26467,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1562.5,
+      "def": 1641.0,
+      "hp": 28152.2,
+      "spd": 150.6,
+      "chc": 89.6,
+      "chd": 264.6,
+      "eff": 7.7,
+      "efr": 24.6,
+      "gs": 436.0,
+      "n": 3000
+    }
   },
   {
     "id": "empyrean-ilynav__tank",
@@ -26582,7 +26604,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1562.5,
+      "def": 1641.0,
+      "hp": 28152.2,
+      "spd": 150.6,
+      "chc": 89.6,
+      "chd": 264.6,
+      "eff": 7.7,
+      "efr": 24.6,
+      "gs": 436.0,
+      "n": 3000
+    }
   },
   {
     "id": "lady-of-the-scales",
@@ -26710,7 +26743,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1384.4,
+      "def": 1439.7,
+      "hp": 16748.2,
+      "spd": 259.4,
+      "chc": 18.6,
+      "chd": 153.5,
+      "eff": 53.1,
+      "efr": 180.2,
+      "gs": 431.4,
+      "n": 3000
+    }
   },
   {
     "id": "cermia__pve",
@@ -26812,7 +26856,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4628.1,
+      "def": 1015.0,
+      "hp": 11593.5,
+      "spd": 174.0,
+      "chc": 98.8,
+      "chd": 324.8,
+      "eff": 5.9,
+      "efr": 5.4,
+      "gs": 424.5,
+      "n": 3000
+    }
   },
   {
     "id": "top-model-luluca",
@@ -26921,7 +26976,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3532.0,
+      "def": 1055.6,
+      "hp": 8801.4,
+      "spd": 276.0,
+      "chc": 99.9,
+      "chd": 279.0,
+      "eff": 3.8,
+      "efr": 2.8,
+      "gs": 431.4,
+      "n": 3000
+    }
   },
   {
     "id": "festive-eda",
@@ -27053,7 +27119,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2050.7,
+      "def": 1356.1,
+      "hp": 21607.4,
+      "spd": 242.9,
+      "chc": 27.9,
+      "chd": 163.8,
+      "eff": 101.6,
+      "efr": 29.7,
+      "gs": 420.1,
+      "n": 3000
+    }
   },
   {
     "id": "karin__pve",
@@ -27152,7 +27229,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3846.3,
+      "def": 936.5,
+      "hp": 9913.3,
+      "spd": 171.2,
+      "chc": 102.6,
+      "chd": 304.7,
+      "eff": 65.7,
+      "efr": 8.3,
+      "gs": 404.9,
+      "n": 3000
+    }
   },
   {
     "id": "camilla__pve",
@@ -27251,7 +27339,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2475.1,
+      "def": 1056.3,
+      "hp": 11252.1,
+      "spd": 217.4,
+      "chc": 103.6,
+      "chd": 261.1,
+      "eff": 78.8,
+      "efr": 17.6,
+      "gs": 427.4,
+      "n": 3000
+    }
   },
   {
     "id": "kawerik",
@@ -27358,7 +27457,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3792.5,
+      "def": 1152.4,
+      "hp": 9248.1,
+      "spd": 241.2,
+      "chc": 99.6,
+      "chd": 281.0,
+      "eff": 11.3,
+      "efr": 8.5,
+      "gs": 413.6,
+      "n": 3000
+    }
   },
   {
     "id": "kayron",
@@ -27467,7 +27577,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3782.4,
+      "def": 936.2,
+      "hp": 10764.8,
+      "spd": 160.3,
+      "chc": 103.1,
+      "chd": 293.6,
+      "eff": 6.5,
+      "efr": 74.6,
+      "gs": 422.1,
+      "n": 3000
+    }
   },
   {
     "id": "kane__exp-lich",
@@ -27564,7 +27685,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4329.3,
+      "def": 1070.1,
+      "hp": 11447.1,
+      "spd": 167.0,
+      "chc": 94.9,
+      "chd": 314.6,
+      "eff": 10.7,
+      "efr": 8.1,
+      "gs": 408.2,
+      "n": 3000
+    }
   },
   {
     "id": "ken__pve",
@@ -27667,7 +27799,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2356.9,
+      "def": 1264.9,
+      "hp": 19767.1,
+      "spd": 183.6,
+      "chc": 90.0,
+      "chd": 261.6,
+      "eff": 29.8,
+      "efr": 34.0,
+      "gs": 421.1,
+      "n": 3000
+    }
   },
   {
     "id": "swift-flagbearer-sigret",

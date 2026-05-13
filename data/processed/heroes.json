@@ -29621,7 +29621,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2394.2,
+      "def": 1092.0,
+      "hp": 13919.6,
+      "spd": 280.9,
+      "chc": 54.0,
+      "chd": 189.8,
+      "eff": 97.9,
+      "efr": 26.7,
+      "gs": 422.5,
+      "n": 3000
+    }
   },
   {
     "id": "fenris__exp",
@@ -29730,7 +29741,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4440.3,
+      "def": 992.9,
+      "hp": 10573.7,
+      "spd": 177.1,
+      "chc": 98.6,
+      "chd": 324.8,
+      "eff": 4.8,
+      "efr": 4.6,
+      "gs": 419.2,
+      "n": 3000
+    }
   },
   {
     "id": "bomb-model-kanna__pve",
@@ -29824,7 +29846,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3670.3,
+      "def": 1012.1,
+      "hp": 10781.7,
+      "spd": 215.7,
+      "chc": 94.7,
+      "chd": 291.8,
+      "eff": 47.1,
+      "efr": 5.2,
+      "gs": 415.1,
+      "n": 3000
+    }
   },
   {
     "id": "politis__dps",
@@ -29931,7 +29964,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3242.9,
+      "def": 1188.3,
+      "hp": 10571.3,
+      "spd": 218.5,
+      "chc": 89.6,
+      "chd": 267.1,
+      "eff": 76.2,
+      "efr": 18.2,
+      "gs": 434.7,
+      "n": 3000
+    }
   },
   {
     "id": "politis__v1",
@@ -30039,7 +30083,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3242.9,
+      "def": 1188.3,
+      "hp": 10571.3,
+      "spd": 218.5,
+      "chc": 89.6,
+      "chd": 267.1,
+      "eff": 76.2,
+      "efr": 18.2,
+      "gs": 434.7,
+      "n": 3000
+    }
   },
   {
     "id": "disciplinary-prefect-aria",
@@ -30168,7 +30223,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1869.3,
+      "def": 1438.6,
+      "hp": 28728.1,
+      "spd": 188.7,
+      "chc": 25.9,
+      "chd": 295.2,
+      "eff": 3.0,
+      "efr": 28.5,
+      "gs": 424.2,
+      "n": 2867
+    }
   },
   {
     "id": "tempest-surin",
@@ -30277,7 +30343,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3313.6,
+      "def": 961.5,
+      "hp": 10165.6,
+      "spd": 211.8,
+      "chc": 102.8,
+      "chd": 278.0,
+      "eff": 30.8,
+      "efr": 9.5,
+      "gs": 418.3,
+      "n": 3000
+    }
   },
   {
     "id": "furious__pve",
@@ -30373,7 +30450,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2928.5,
+      "def": 1062.7,
+      "hp": 13817.7,
+      "spd": 216.0,
+      "chc": 67.8,
+      "chd": 213.5,
+      "eff": 117.8,
+      "efr": 18.0,
+      "gs": 408.8,
+      "n": 3000
+    }
   },
   {
     "id": "frida",
@@ -30476,7 +30564,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1536.2,
+      "def": 1390.2,
+      "hp": 14362.5,
+      "spd": 270.9,
+      "chc": 31.9,
+      "chd": 169.8,
+      "eff": 32.0,
+      "efr": 146.2,
+      "gs": 420.4,
+      "n": 3000
+    }
   },
   {
     "id": "frieren",
@@ -30606,7 +30705,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4380.2,
+      "def": 1018.4,
+      "hp": 8311.2,
+      "spd": 243.0,
+      "chc": 101.3,
+      "chd": 304.9,
+      "eff": 1.8,
+      "efr": 1.2,
+      "gs": 447.4,
+      "n": 3000
+    }
   },
   {
     "id": "flan",
@@ -30713,7 +30823,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2141.0,
+      "def": 1259.6,
+      "hp": 14414.0,
+      "spd": 253.9,
+      "chc": 41.5,
+      "chd": 180.3,
+      "eff": 161.5,
+      "efr": 25.3,
+      "gs": 402.9,
+      "n": 3000
+    }
   },
   {
     "id": "harsetti__debuffer",
@@ -30835,7 +30956,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1940.4,
+      "def": 1388.6,
+      "hp": 24460.3,
+      "spd": 154.6,
+      "chc": 93.0,
+      "chd": 260.0,
+      "eff": 41.8,
+      "efr": 7.3,
+      "gs": 438.4,
+      "n": 3000
+    }
   },
   {
     "id": "harsetti__dps",
@@ -30967,7 +31099,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1940.4,
+      "def": 1388.6,
+      "hp": 24460.3,
+      "spd": 154.6,
+      "chc": 93.0,
+      "chd": 260.0,
+      "eff": 41.8,
+      "efr": 7.3,
+      "gs": 438.4,
+      "n": 3000
+    }
   },
   {
     "id": "harsetti__spd",
@@ -31092,7 +31235,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1940.4,
+      "def": 1388.6,
+      "hp": 24460.3,
+      "spd": 154.6,
+      "chc": 93.0,
+      "chd": 260.0,
+      "eff": 41.8,
+      "efr": 7.3,
+      "gs": 438.4,
+      "n": 3000
+    }
   },
   {
     "id": "hasol",
@@ -31192,7 +31346,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1553.0,
+      "def": 1631.6,
+      "hp": 23422.0,
+      "spd": 153.6,
+      "chc": 29.6,
+      "chd": 164.8,
+      "eff": 27.4,
+      "efr": 107.3,
+      "gs": 395.8,
+      "n": 3000
+    }
   },
   {
     "id": "afternoon-soak-flan",
@@ -31321,7 +31486,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4309.8,
+      "def": 1097.8,
+      "hp": 12928.5,
+      "spd": 190.5,
+      "chc": 35.6,
+      "chd": 321.7,
+      "eff": 25.1,
+      "efr": 4.4,
+      "gs": 435.3,
+      "n": 2956
+    }
   },
   {
     "id": "afternoon-soak-flan__spd-deck",
@@ -31445,7 +31621,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4309.8,
+      "def": 1097.8,
+      "hp": 12928.5,
+      "spd": 190.5,
+      "chc": 35.6,
+      "chd": 321.7,
+      "eff": 25.1,
+      "efr": 4.4,
+      "gs": 435.3,
+      "n": 2956
+    }
   },
   {
     "id": "navy-captain-landy",

@@ -28276,7 +28276,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2177.1,
+      "def": 1187.7,
+      "hp": 14585.6,
+      "spd": 209.2,
+      "chc": 50.4,
+      "chd": 185.1,
+      "eff": 138.1,
+      "efr": 22.6,
+      "gs": 386.1,
+      "n": 3000
+    }
   },
   {
     "id": "kise",
@@ -28387,7 +28398,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4148.9,
+      "def": 921.5,
+      "hp": 9761.2,
+      "spd": 236.8,
+      "chc": 99.6,
+      "chd": 292.7,
+      "eff": 6.4,
+      "efr": 3.8,
+      "gs": 421.6,
+      "n": 3000
+    }
   },
   {
     "id": "taranor-guard__pve",
@@ -28491,7 +28513,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3058.1,
+      "def": 1077.5,
+      "hp": 11806.6,
+      "spd": 169.6,
+      "chc": 96.8,
+      "chd": 293.3,
+      "eff": 40.1,
+      "efr": 12.3,
+      "gs": 422.3,
+      "n": 3000
+    }
   },
   {
     "id": "tamarinne__pve",
@@ -28618,7 +28651,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1698.6,
+      "def": 1412.1,
+      "hp": 16369.1,
+      "spd": 224.5,
+      "chc": 24.2,
+      "chd": 160.6,
+      "eff": 90.1,
+      "efr": 126.1,
+      "gs": 424.0,
+      "n": 3000
+    }
   },
   {
     "id": "tywin__ext",
@@ -28714,7 +28758,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1620.5,
+      "def": 1528.1,
+      "hp": 26523.0,
+      "spd": 198.3,
+      "chc": 28.3,
+      "chd": 163.7,
+      "eff": 99.1,
+      "efr": 44.7,
+      "gs": 401.4,
+      "n": 3000
+    }
   },
   {
     "id": "taeyou",
@@ -28812,7 +28867,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3339.0,
+      "def": 1066.1,
+      "hp": 11170.6,
+      "spd": 236.7,
+      "chc": 99.6,
+      "chd": 281.7,
+      "eff": 22.8,
+      "efr": 3.3,
+      "gs": 423.3,
+      "n": 3000
+    }
   },
   {
     "id": "tenebria__exp",
@@ -28926,7 +28992,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3535.8,
+      "def": 1169.0,
+      "hp": 10672.9,
+      "spd": 218.7,
+      "chc": 91.6,
+      "chd": 258.3,
+      "eff": 92.9,
+      "efr": 7.9,
+      "gs": 418.1,
+      "n": 3000
+    }
   },
   {
     "id": "tori",
@@ -29055,7 +29132,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4129.9,
+      "def": 944.8,
+      "hp": 9201.6,
+      "spd": 205.2,
+      "chc": 100.9,
+      "chd": 302.5,
+      "eff": 2.0,
+      "efr": 2.9,
+      "gs": 435.8,
+      "n": 3000
+    }
   },
   {
     "id": "pavel",
@@ -29168,7 +29256,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3931.1,
+      "def": 969.6,
+      "hp": 10106.1,
+      "spd": 232.4,
+      "chc": 95.6,
+      "chd": 288.5,
+      "eff": 10.6,
+      "efr": 9.1,
+      "gs": 414.3,
+      "n": 3000
+    }
   },
   {
     "id": "fenne",
@@ -29278,7 +29377,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1841.5,
+      "def": 1353.9,
+      "hp": 19746.1,
+      "spd": 172.5,
+      "chc": 101.4,
+      "chd": 335.9,
+      "eff": 3.0,
+      "efr": 4.2,
+      "gs": 435.7,
+      "n": 3000
+    }
   },
   {
     "id": "fern",
@@ -29395,7 +29505,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3960.4,
+      "def": 1109.6,
+      "hp": 10669.5,
+      "spd": 191.5,
+      "chc": 100.7,
+      "chd": 301.0,
+      "eff": 3.0,
+      "efr": 3.4,
+      "gs": 437.7,
+      "n": 3000
+    }
   },
   {
     "id": "peira",

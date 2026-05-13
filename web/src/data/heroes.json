@@ -31738,7 +31738,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3564.2,
+      "def": 1411.1,
+      "hp": 16616.7,
+      "spd": 131.9,
+      "chc": 100.2,
+      "chd": 277.8,
+      "eff": 1.6,
+      "efr": 2.6,
+      "gs": 442.8,
+      "n": 2997
+    }
   },
   {
     "id": "seaside-bellona",
@@ -31865,7 +31876,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4023.0,
+      "def": 1127.0,
+      "hp": 13119.3,
+      "spd": 160.3,
+      "chc": 97.0,
+      "chd": 278.6,
+      "eff": 50.4,
+      "efr": 4.3,
+      "gs": 435.2,
+      "n": 3000
+    }
   },
   {
     "id": "pirate-captain-flan",
@@ -31965,7 +31987,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3253.8,
+      "def": 1290.6,
+      "hp": 14881.1,
+      "spd": 241.8,
+      "chc": 21.3,
+      "chd": 156.6,
+      "eff": 210.8,
+      "efr": 10.8,
+      "gs": 423.4,
+      "n": 2994
+    }
   },
   {
     "id": "haste__pve",
@@ -32059,7 +32092,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3042.9,
+      "def": 988.5,
+      "hp": 11714.4,
+      "spd": 224.5,
+      "chc": 101.2,
+      "chd": 274.5,
+      "eff": 85.1,
+      "efr": 10.8,
+      "gs": 432.4,
+      "n": 3000
+    }
   },
   {
     "id": "hecate",
@@ -32185,7 +32229,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3529.7,
+      "def": 1383.7,
+      "hp": 19624.7,
+      "spd": 201.0,
+      "chc": 30.2,
+      "chd": 168.8,
+      "eff": 15.8,
+      "efr": 32.5,
+      "gs": 420.2,
+      "n": 3000
+    }
   },
   {
     "id": "sage-baal-sezan",
@@ -32293,7 +32348,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1860.5,
+      "def": 1419.6,
+      "hp": 18621.8,
+      "spd": 244.8,
+      "chc": 20.9,
+      "chd": 155.8,
+      "eff": 96.7,
+      "efr": 120.8,
+      "gs": 415.8,
+      "n": 3000
+    }
   },
   {
     "id": "blood-blade-karin",
@@ -32421,7 +32487,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4012.8,
+      "def": 878.2,
+      "hp": 11088.8,
+      "spd": 182.7,
+      "chc": 101.7,
+      "chd": 317.6,
+      "eff": 1.8,
+      "efr": 33.9,
+      "gs": 437.9,
+      "n": 3000
+    }
   },
   {
     "id": "blood-blade-karin__res",
@@ -32552,7 +32629,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4012.8,
+      "def": 878.2,
+      "hp": 11088.8,
+      "spd": 182.7,
+      "chc": 101.7,
+      "chd": 317.6,
+      "eff": 1.8,
+      "efr": 33.9,
+      "gs": 437.9,
+      "n": 3000
+    }
   },
   {
     "id": "witch-of-the-mere-tenebria",
@@ -32676,7 +32764,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2040.2,
+      "def": 1339.7,
+      "hp": 17375.6,
+      "spd": 270.3,
+      "chc": 21.7,
+      "chd": 157.1,
+      "eff": 171.4,
+      "efr": 19.1,
+      "gs": 426.5,
+      "n": 2877
+    }
   },
   {
     "id": "witch-of-the-mere-tenebria__res",
@@ -32802,7 +32901,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2040.2,
+      "def": 1339.7,
+      "hp": 17375.6,
+      "spd": 270.3,
+      "chc": 21.7,
+      "chd": 157.1,
+      "eff": 171.4,
+      "efr": 19.1,
+      "gs": 426.5,
+      "n": 2877
+    }
   },
   {
     "id": "guard-captain-krau",
@@ -32918,7 +33028,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1875.1,
+      "def": 2570.0,
+      "hp": 15591.4,
+      "spd": 235.4,
+      "chc": 28.5,
+      "chd": 165.5,
+      "eff": 21.5,
+      "efr": 45.9,
+      "gs": 416.9,
+      "n": 2997
+    }
   },
   {
     "id": "crimson-armin",
@@ -33030,7 +33151,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1542.6,
+      "def": 1821.4,
+      "hp": 25558.7,
+      "spd": 154.8,
+      "chc": 24.3,
+      "chd": 157.8,
+      "eff": 46.1,
+      "efr": 103.4,
+      "gs": 414.0,
+      "n": 3000
+    }
   },
   {
     "id": "apocalypse-ravi",
@@ -33162,7 +33294,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1920.0,
+      "def": 1341.5,
+      "hp": 25265.3,
+      "spd": 180.7,
+      "chc": 101.1,
+      "chd": 283.6,
+      "eff": 1.8,
+      "efr": 14.3,
+      "gs": 436.7,
+      "n": 3000
+    }
   },
   {
     "id": "hwayoung",
@@ -33263,7 +33406,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4372.6,
+      "def": 1307.3,
+      "hp": 14041.9,
+      "spd": 220.4,
+      "chc": 40.5,
+      "chd": 184.5,
+      "eff": 13.7,
+      "efr": 19.6,
+      "gs": 408.1,
+      "n": 3000
+    }
   },
   {
     "id": "blooming-lidica",

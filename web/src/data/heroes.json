@@ -23021,7 +23021,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3906.0,
+      "def": 934.2,
+      "hp": 10898.2,
+      "spd": 225.1,
+      "chc": 100.6,
+      "chd": 307.9,
+      "eff": 3.9,
+      "efr": 1.9,
+      "gs": 430.4,
+      "n": 3000
+    }
   },
   {
     "id": "briar-witch-iseria__dps",
@@ -23129,7 +23140,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3464.0,
+      "def": 989.1,
+      "hp": 10208.3,
+      "spd": 260.1,
+      "chc": 93.0,
+      "chd": 260.4,
+      "eff": 54.1,
+      "efr": 8.6,
+      "gs": 439.3,
+      "n": 3000
+    }
   },
   {
     "id": "briar-witch-iseria__first-turn",
@@ -23231,7 +23253,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3464.0,
+      "def": 989.1,
+      "hp": 10208.3,
+      "spd": 260.1,
+      "chc": 93.0,
+      "chd": 260.4,
+      "eff": 54.1,
+      "efr": 8.6,
+      "gs": 439.3,
+      "n": 3000
+    }
   },
   {
     "id": "blood-moon-haste",
@@ -23340,7 +23373,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1336.5,
+      "def": 1898.7,
+      "hp": 23203.0,
+      "spd": 175.9,
+      "chc": 21.3,
+      "chd": 154.8,
+      "eff": 52.3,
+      "efr": 95.1,
+      "gs": 420.0,
+      "n": 3000
+    }
   },
   {
     "id": "zealot-carmainerose__pve",
@@ -23437,7 +23481,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3412.1,
+      "def": 1270.2,
+      "hp": 9463.3,
+      "spd": 199.0,
+      "chc": 97.8,
+      "chd": 303.7,
+      "eff": 48.4,
+      "efr": 3.9,
+      "gs": 427.0,
+      "n": 2983
+    }
   },
   {
     "id": "tactical-archetype-coli",
@@ -23560,7 +23615,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3479.3,
+      "def": 1054.1,
+      "hp": 11449.8,
+      "spd": 263.2,
+      "chc": 27.6,
+      "chd": 165.5,
+      "eff": 170.3,
+      "efr": 9.0,
+      "gs": 402.2,
+      "n": 2843
+    }
   },
   {
     "id": "inheritor-amiki",
@@ -23671,7 +23737,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4838.6,
+      "def": 1139.9,
+      "hp": 12124.9,
+      "spd": 133.6,
+      "chc": 36.8,
+      "chd": 178.1,
+      "eff": 27.2,
+      "efr": 141.3,
+      "gs": 412.6,
+      "n": 3000
+    }
   },
   {
     "id": "fighter-maya",
@@ -23769,7 +23846,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1682.9,
+      "def": 2440.4,
+      "hp": 17494.6,
+      "spd": 139.9,
+      "chc": 70.9,
+      "chd": 219.2,
+      "eff": 18.9,
+      "efr": 36.3,
+      "gs": 394.4,
+      "n": 3000
+    }
   },
   {
     "id": "new-kid-adin",
@@ -23880,7 +23968,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3946.8,
+      "def": 962.6,
+      "hp": 12435.0,
+      "spd": 165.1,
+      "chc": 101.7,
+      "chd": 333.8,
+      "eff": 1.4,
+      "efr": 1.9,
+      "gs": 439.4,
+      "n": 3000
+    }
   },
   {
     "id": "zeno",
@@ -23978,7 +24077,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2026.7,
+      "def": 1950.6,
+      "hp": 14892.9,
+      "spd": 208.1,
+      "chc": 74.1,
+      "chd": 219.9,
+      "eff": 52.0,
+      "efr": 38.3,
+      "gs": 406.0,
+      "n": 2522
+    }
   },
   {
     "id": "jenua",
@@ -24091,7 +24201,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3940.7,
+      "def": 866.6,
+      "hp": 10464.3,
+      "spd": 226.8,
+      "chc": 101.3,
+      "chd": 304.7,
+      "eff": 2.1,
+      "efr": 10.1,
+      "gs": 439.7,
+      "n": 3000
+    }
   },
   {
     "id": "mediator-kawerik",
@@ -24202,7 +24323,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1888.3,
+      "def": 1454.4,
+      "hp": 26030.1,
+      "spd": 210.6,
+      "chc": 60.9,
+      "chd": 202.9,
+      "eff": 29.8,
+      "efr": 39.7,
+      "gs": 425.8,
+      "n": 3000
+    }
   },
   {
     "id": "boss-arunka__dpstank",
@@ -24329,7 +24461,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1532.5,
+      "def": 2665.3,
+      "hp": 25131.4,
+      "spd": 124.0,
+      "chc": 22.4,
+      "chd": 156.2,
+      "eff": 46.2,
+      "efr": 114.3,
+      "gs": 422.2,
+      "n": 3000
+    }
   },
   {
     "id": "boss-arunka__tank",
@@ -24456,7 +24599,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1532.5,
+      "def": 2665.3,
+      "hp": 25131.4,
+      "spd": 124.0,
+      "chc": 22.4,
+      "chd": 156.2,
+      "eff": 46.2,
+      "efr": 114.3,
+      "gs": 422.2,
+      "n": 3000
+    }
   },
   {
     "id": "perfumer-byblis",

@@ -24731,7 +24731,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1212.0,
+      "def": 1695.1,
+      "hp": 21682.0,
+      "spd": 209.9,
+      "chc": 17.8,
+      "chd": 152.5,
+      "eff": 104.1,
+      "efr": 53.1,
+      "gs": 416.8,
+      "n": 3000
+    }
   },
   {
     "id": "closer-charles",
@@ -24842,7 +24853,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3627.1,
+      "def": 890.9,
+      "hp": 12377.5,
+      "spd": 238.2,
+      "chc": 95.3,
+      "chd": 284.6,
+      "eff": 4.2,
+      "efr": 3.6,
+      "gs": 418.3,
+      "n": 3000
+    }
   },
   {
     "id": "sinful-angelica__arena-atk",
@@ -24944,7 +24966,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1463.7,
+      "def": 1349.4,
+      "hp": 13487.0,
+      "spd": 237.0,
+      "chc": 27.9,
+      "chd": 165.4,
+      "eff": 49.5,
+      "efr": 240.0,
+      "gs": 422.3,
+      "n": 3000
+    }
   },
   {
     "id": "watcher-schuri",
@@ -25053,7 +25086,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3184.6,
+      "def": 991.7,
+      "hp": 10773.6,
+      "spd": 218.1,
+      "chc": 114.2,
+      "chd": 303.7,
+      "eff": 5.9,
+      "efr": 5.2,
+      "gs": 426.2,
+      "n": 3000
+    }
   },
   {
     "id": "death-dealer-ray",
@@ -25160,7 +25204,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1302.6,
+      "def": 1738.6,
+      "hp": 20274.0,
+      "spd": 223.9,
+      "chc": 17.2,
+      "chd": 151.7,
+      "eff": 124.0,
+      "efr": 89.5,
+      "gs": 432.4,
+      "n": 3000
+    }
   },
   {
     "id": "conqueror-lilias",
@@ -25269,7 +25324,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1897.5,
+      "def": 1338.8,
+      "hp": 17390.1,
+      "spd": 283.8,
+      "chc": 36.8,
+      "chd": 176.4,
+      "eff": 87.7,
+      "efr": 31.1,
+      "gs": 426.1,
+      "n": 2996
+    }
   },
   {
     "id": "zio",
@@ -25378,7 +25444,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3447.6,
+      "def": 1110.7,
+      "hp": 10931.7,
+      "spd": 250.5,
+      "chc": 62.9,
+      "chd": 275.6,
+      "eff": 79.3,
+      "efr": 4.1,
+      "gs": 437.4,
+      "n": 3000
+    }
   },
   {
     "id": "zio__eff-acc",
@@ -25488,7 +25565,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3447.6,
+      "def": 1110.7,
+      "hp": 10931.7,
+      "spd": 250.5,
+      "chc": 62.9,
+      "chd": 275.6,
+      "eff": 79.3,
+      "efr": 4.1,
+      "gs": 437.4,
+      "n": 3000
+    }
   },
   {
     "id": "commander-lorina",
@@ -25602,7 +25690,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4066.3,
+      "def": 963.5,
+      "hp": 10138.6,
+      "spd": 150.0,
+      "chc": 103.7,
+      "chd": 322.2,
+      "eff": 4.1,
+      "efr": 95.9,
+      "gs": 427.2,
+      "n": 3000
+    }
   },
   {
     "id": "command-model-laika",
@@ -25707,7 +25806,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2751.5,
+      "def": 1193.1,
+      "hp": 13069.1,
+      "spd": 255.1,
+      "chc": 60.8,
+      "chd": 206.1,
+      "eff": 91.3,
+      "efr": 20.5,
+      "gs": 408.8,
+      "n": 2962
+    }
   },
   {
     "id": "requiem-roana",
@@ -25819,7 +25929,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4544.2,
+      "def": 1411.0,
+      "hp": 12074.8,
+      "spd": 139.2,
+      "chc": 32.0,
+      "chd": 167.6,
+      "eff": 226.2,
+      "efr": 19.4,
+      "gs": 417.0,
+      "n": 3000
+    }
   },
   {
     "id": "arbiter-vildred",
@@ -25948,7 +26069,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4361.0,
+      "def": 959.7,
+      "hp": 9888.3,
+      "spd": 207.4,
+      "chc": 101.2,
+      "chd": 307.9,
+      "eff": 3.6,
+      "efr": 3.4,
+      "gs": 433.9,
+      "n": 3000
+    }
   },
   {
     "id": "arbiter-vildred__anti-cheese",
@@ -26076,7 +26208,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4361.0,
+      "def": 959.7,
+      "hp": 9888.3,
+      "spd": 207.4,
+      "chc": 101.2,
+      "chd": 307.9,
+      "eff": 3.6,
+      "efr": 3.4,
+      "gs": 433.9,
+      "n": 3000
+    }
   },
   {
     "id": "charles__ext",

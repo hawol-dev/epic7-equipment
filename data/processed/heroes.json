@@ -21586,7 +21586,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3769.8,
+      "def": 971.6,
+      "hp": 11514.6,
+      "spd": 213.6,
+      "chc": 99.2,
+      "chd": 306.0,
+      "eff": 20.9,
+      "efr": 12.7,
+      "gs": 426.2,
+      "n": 3000
+    }
   },
   {
     "id": "yulha",
@@ -21713,7 +21724,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1634.2,
+      "def": 1610.8,
+      "hp": 31766.9,
+      "spd": 161.2,
+      "chc": 23.9,
+      "chd": 158.5,
+      "eff": 50.5,
+      "efr": 85.3,
+      "gs": 415.9,
+      "n": 3000
+    }
   },
   {
     "id": "silvertide-christy",
@@ -21821,7 +21843,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1383.1,
+      "def": 1677.8,
+      "hp": 19125.5,
+      "spd": 159.5,
+      "chc": 22.5,
+      "chd": 158.6,
+      "eff": 83.0,
+      "efr": 257.8,
+      "gs": 419.1,
+      "n": 2992
+    }
   },
   {
     "id": "argent-waves-hwayoung",
@@ -21933,7 +21966,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4511.2,
+      "def": 967.8,
+      "hp": 9841.7,
+      "spd": 181.6,
+      "chc": 102.7,
+      "chd": 334.5,
+      "eff": 2.5,
+      "efr": 3.1,
+      "gs": 433.6,
+      "n": 2937
+    }
   },
   {
     "id": "iseria__pve",
@@ -22036,7 +22080,18 @@
     "tags": {
       "content": "pve"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2596.4,
+      "def": 1209.1,
+      "hp": 16165.9,
+      "spd": 231.6,
+      "chc": 61.2,
+      "chd": 186.4,
+      "eff": 117.4,
+      "efr": 22.0,
+      "gs": 420.8,
+      "n": 3000
+    }
   },
   {
     "id": "ilynav",
@@ -22135,7 +22190,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1909.4,
+      "def": 1327.8,
+      "hp": 20846.0,
+      "spd": 204.8,
+      "chc": 100.0,
+      "chd": 270.9,
+      "eff": 3.6,
+      "efr": 5.0,
+      "gs": 417.4,
+      "n": 3000
+    }
   },
   {
     "id": "lone-crescent-bellona",
@@ -22264,7 +22330,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3942.4,
+      "def": 1417.8,
+      "hp": 18023.5,
+      "spd": 167.8,
+      "chc": 24.8,
+      "chd": 319.4,
+      "eff": 1.4,
+      "efr": 6.9,
+      "gs": 433.8,
+      "n": 2932
+    }
   },
   {
     "id": "benevolent-romann",
@@ -22361,7 +22438,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2004.2,
+      "def": 1382.9,
+      "hp": 14507.2,
+      "spd": 236.0,
+      "chc": 34.1,
+      "chd": 169.9,
+      "eff": 178.5,
+      "efr": 45.8,
+      "gs": 398.9,
+      "n": 2998
+    }
   },
   {
     "id": "unbound-knight-arowell",
@@ -22467,7 +22555,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1470.0,
+      "def": 1579.0,
+      "hp": 27462.6,
+      "spd": 187.2,
+      "chc": 22.5,
+      "chd": 156.9,
+      "eff": 64.0,
+      "efr": 131.3,
+      "gs": 423.7,
+      "n": 2923
+    }
   },
   {
     "id": "mercenary-helga",
@@ -22564,7 +22663,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3288.6,
+      "def": 985.8,
+      "hp": 12311.2,
+      "spd": 219.8,
+      "chc": 88.6,
+      "chd": 277.8,
+      "eff": 70.9,
+      "efr": 8.9,
+      "gs": 413.1,
+      "n": 3000
+    }
   },
   {
     "id": "zahhak",
@@ -22667,7 +22777,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3821.7,
+      "def": 970.5,
+      "hp": 11578.4,
+      "spd": 244.8,
+      "chc": 81.0,
+      "chd": 294.1,
+      "eff": 5.4,
+      "efr": 6.5,
+      "gs": 433.9,
+      "n": 3000
+    }
   },
   {
     "id": "remnant-violet",
@@ -22780,7 +22901,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4011.3,
+      "def": 1010.2,
+      "hp": 11968.4,
+      "spd": 201.1,
+      "chc": 100.8,
+      "chd": 284.5,
+      "eff": 2.2,
+      "efr": 1.2,
+      "gs": 443.9,
+      "n": 3000
+    }
   },
   {
     "id": "jack-o",

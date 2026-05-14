@@ -33528,7 +33528,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2052.4,
+      "def": 1137.6,
+      "hp": 20761.0,
+      "spd": 246.9,
+      "chc": 24.5,
+      "chd": 160.4,
+      "eff": 156.8,
+      "efr": 25.3,
+      "gs": 417.7,
+      "n": 3000
+    }
   },
   {
     "id": "blooming-lidica__vs-harsetti",
@@ -33639,7 +33650,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2052.4,
+      "def": 1137.6,
+      "hp": 20761.0,
+      "spd": 246.9,
+      "chc": 24.5,
+      "chd": 160.4,
+      "eff": 156.8,
+      "efr": 25.3,
+      "gs": 417.7,
+      "n": 3000
+    }
   },
   {
     "id": "specter-tenebria",
@@ -33754,7 +33776,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3807.5,
+      "def": 1193.6,
+      "hp": 10847.0,
+      "spd": 202.8,
+      "chc": 99.1,
+      "chd": 294.1,
+      "eff": 34.6,
+      "efr": 3.3,
+      "gs": 445.1,
+      "n": 3000
+    }
   },
   {
     "id": "successor-taeyou",
@@ -33864,7 +33897,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4325.1,
+      "def": 1102.3,
+      "hp": 13137.3,
+      "spd": 173.8,
+      "chc": 45.1,
+      "chd": 339.5,
+      "eff": 16.7,
+      "efr": 7.9,
+      "gs": 422.7,
+      "n": 3000
+    }
   },
   {
     "id": "fumyr",
@@ -33970,7 +34014,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2071.4,
+      "def": 1412.3,
+      "hp": 15697.0,
+      "spd": 245.2,
+      "chc": 26.6,
+      "chd": 162.2,
+      "eff": 181.0,
+      "efr": 45.0,
+      "gs": 409.6,
+      "n": 3000
+    }
   },
   {
     "id": "shadow-knight-pyllis",
@@ -34077,7 +34132,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1452.6,
+      "def": 2260.8,
+      "hp": 20733.6,
+      "spd": 177.6,
+      "chc": 28.0,
+      "chd": 162.6,
+      "eff": 83.6,
+      "efr": 71.8,
+      "gs": 417.8,
+      "n": 2956
+    }
   },
   {
     "id": "ae-ningning",
@@ -34175,7 +34241,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1687.2,
+      "def": 1421.8,
+      "hp": 14791.8,
+      "spd": 243.4,
+      "chc": 35.8,
+      "chd": 172.0,
+      "eff": 99.7,
+      "efr": 47.4,
+      "gs": 379.3,
+      "n": 2098
+    }
   },
   {
     "id": "ae-winter",
@@ -34284,7 +34361,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 2294.1,
+      "def": 1121.1,
+      "hp": 13101.7,
+      "spd": 256.7,
+      "chc": 102.4,
+      "chd": 177.3,
+      "eff": 129.1,
+      "efr": 11.3,
+      "gs": 410.2,
+      "n": 3000
+    }
   },
   {
     "id": "ae-giselle",
@@ -34383,7 +34471,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 4253.9,
+      "def": 1138.1,
+      "hp": 9898.2,
+      "spd": 161.9,
+      "chc": 96.8,
+      "chd": 310.6,
+      "eff": 9.1,
+      "efr": 7.9,
+      "gs": 387.3,
+      "n": 3000
+    }
   },
   {
     "id": "ae-karina",
@@ -34497,7 +34596,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1618.5,
+      "def": 2607.4,
+      "hp": 17731.1,
+      "spd": 188.1,
+      "chc": 23.0,
+      "chd": 157.4,
+      "eff": 55.9,
+      "efr": 80.2,
+      "gs": 412.7,
+      "n": 3000
+    }
   },
   {
     "id": "salome",
@@ -34618,7 +34728,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1925.5,
+      "def": 1334.4,
+      "hp": 22602.1,
+      "spd": 277.8,
+      "chc": 26.0,
+      "chd": 165.6,
+      "eff": 33.4,
+      "efr": 23.9,
+      "gs": 405.3,
+      "n": 1108
+    }
   },
   {
     "id": "estelle",
@@ -34715,7 +34836,18 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 1678.7,
+      "def": 1603.9,
+      "hp": 29067.9,
+      "spd": 137.0,
+      "chc": 27.6,
+      "chd": 256.4,
+      "eff": 10.2,
+      "efr": 40.2,
+      "gs": 398.0,
+      "n": 975
+    }
   },
   {
     "id": "vivian",
@@ -34783,6 +34915,17 @@
     "tags": {
       "content": "pvp"
     },
-    "community_avg_stats": null
+    "community_avg_stats": {
+      "atk": 3645.8,
+      "def": 1141.3,
+      "hp": 10173.9,
+      "spd": 228.4,
+      "chc": 102.9,
+      "chd": 299.9,
+      "eff": 6.5,
+      "efr": 5.9,
+      "gs": 428.3,
+      "n": 3000
+    }
   }
 ]

@@ -7,7 +7,7 @@ import { HeroGrid } from "./HeroGrid";
 import { HeroAutocomplete } from "./HeroAutocomplete";
 import { SortSelect } from "./SortSelect";
 import { heroes, enums, sortHeroes, type HeroSortKey } from "@/lib/data";
-import type { ElementId, ClassId, HeroType } from "@/lib/types";
+import type { ElementId, ClassId, HeroType, ContentTag } from "@/lib/types";
 import { useT, useLang } from "@/i18n/LangProvider";
 import { enumLabel } from "@/i18n/display";
 import type { MessageKey } from "@/i18n/messages";
@@ -43,6 +43,12 @@ const RARITY_VAR: Record<number, string> = {
   3: "var(--rar-3)",
   4: "var(--rar-4)",
   5: "var(--rar-5)",
+};
+
+const CONTENT_ORDER: ContentTag[] = ["pve", "pvp"];
+const CONTENT_LABEL: Record<ContentTag, MessageKey> = {
+  pve: "content_pve",
+  pvp: "content_pvp",
 };
 
 // 사용자에게 보여줄 카테고리 필터 (heroes.json의 categories 배열과 매칭)
@@ -94,6 +100,7 @@ export function HeroesBrowser() {
     .map((s) => parseInt(s, 10))
     .filter((n) => allRarities.includes(n));
   const selectedTypeGroups = parseList(params.get("type"), allTypeGroups);
+  const selectedContents = parseList(params.get("ct"), CONTENT_ORDER);
   const query = (params.get("q") || "").trim();
   const sortKey: HeroSortKey =
     (SORT_OPTIONS.find((o) => o.value === params.get("sort"))?.value as HeroSortKey)
@@ -117,7 +124,8 @@ export function HeroesBrowser() {
     selectedElements.length +
       selectedClasses.length +
       selectedRarities.length +
-      selectedTypeGroups.length > 0 ||
+      selectedTypeGroups.length +
+      selectedContents.length > 0 ||
     query.length > 0;
 
   const filtered = useMemo(() => {
@@ -141,6 +149,7 @@ export function HeroesBrowser() {
           }
           if (!match) return false;
         }
+        if (selectedContents.length && !selectedContents.includes(h.tags.content)) return false;
         if (query) {
           const q = query.toLowerCase();
           const ko = h.names.ko.toLowerCase();
@@ -155,6 +164,7 @@ export function HeroesBrowser() {
     selectedClasses.join(","),
     selectedRarities.join(","),
     selectedTypeGroups.join(","),
+    selectedContents.join(","),
     query,
     sortKey,
   ]);
@@ -254,6 +264,20 @@ export function HeroesBrowser() {
                 />
               );
             })}
+          </div>
+        </Field>
+
+        <Field label={t("field_content")}>
+          <div className="flex flex-wrap gap-1.5">
+            {CONTENT_ORDER.map((id) => (
+              <Chip
+                key={id}
+                label={t(CONTENT_LABEL[id])}
+                selected={selectedContents.includes(id)}
+                onToggle={() => updateList("ct", toggleArr(selectedContents, id))}
+                size="sm"
+              />
+            ))}
           </div>
         </Field>
 

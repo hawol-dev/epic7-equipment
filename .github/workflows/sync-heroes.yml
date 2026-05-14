@@ -1,10 +1,9 @@
 name: Sync Hero Data
 
-# 매시간 실행 (Fribbels 평균 스펙 풀 채울 때까지 한시적).
-# 287명 채워지면 cron 을 "0 3 * * 1" (매주 월요일) 로 되돌릴 것.
+# 매주 월요일 03:00 UTC (한국 12:00) 실행 + 수동 트리거(workflow_dispatch) 가능
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 3 * * 1"
   workflow_dispatch:
 
 permissions:

@@ -241,7 +241,10 @@ export function GearSearch() {
           </div>
         </Field>
 
-        <details className="mt-2 group">
+        <details
+          className="mt-2 group"
+          open={selectedElements.length + selectedClasses.length + selectedRarities.length + selectedContents.length > 0}
+        >
           <summary className="flex items-center gap-1.5 text-xs text-[var(--text-secondary)] cursor-pointer select-none mb-2 hover:text-[var(--text-primary)]">
             <span className="inline-block w-3 transition-transform group-open:rotate-90">
               ›

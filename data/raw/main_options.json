@@ -511,17 +511,16 @@
   "집행관 빌트레드": {
     "necklace": [
       "chd",
-      "chc"
+      "atk_p"
     ],
     "ring": [
       "atk_p"
     ],
     "boots": [
-      "spd",
-      "atk_p"
+      "spd"
     ],
     "_source": "https://gall.dcinside.com/mgallery/board/view/?id=epicseven&no=2168799",
-    "_note": "반교집"
+    "_note": null
   },
   "천칭의 주인": {
     "necklace": [

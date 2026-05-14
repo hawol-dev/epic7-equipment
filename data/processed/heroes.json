@@ -26049,14 +26049,13 @@
       "main_options": {
         "necklace": [
           "chd",
-          "chc"
+          "atk_p"
         ],
         "ring": [
           "atk_p"
         ],
         "boots": [
-          "spd",
-          "atk_p"
+          "spd"
         ]
       }
     },
@@ -26188,14 +26187,13 @@
       "main_options": {
         "necklace": [
           "chd",
-          "chc"
+          "atk_p"
         ],
         "ring": [
           "atk_p"
         ],
         "boots": [
-          "spd",
-          "atk_p"
+          "spd"
         ]
       }
     },

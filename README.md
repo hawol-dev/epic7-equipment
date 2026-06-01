@@ -1,6 +1,6 @@
 # 에픽세븐 장비 가이드
 
-https://epic7-equipment.vercel.app
+<a href="https://epic7-equipment.vercel.app" target="_blank">에픽세븐 장비 가이드</a>
 
 에픽세븐(Epic Seven) 영웅별 유효 부옵션·세트·우선순위 검색 사이트.
 "이 장비 누구한테 줘야할지" 빠르게 찾는 도구.
